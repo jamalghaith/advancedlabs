@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/1.0 http://www.xrdml.com/XRDMeasurement/1.0/XRDMeasurement.xsd" status="Completed">
+	<sample type="To be analyzed">
+		<id></id>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed">
+		<comment>
+			<entry/>
+		</comment>
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">173.00</radius>
+			<xRayTube id="1010001" name="PW2273 or PW2773 Cu LFF">
+				<tension unit="kV">10</tension>
+				<current unit="mA">10</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+		</incidentBeamPath>
+		<diffractedBeamPath>
+			<radius unit="mm">173.00</radius>
+			<antiScatterSlit id="22060003" name="AS Fixed 1°" xsi:type="fixedAntiScatterSlitType">
+				<height unit="mm">0.43</height>
+			</antiScatterSlit>
+			<detector id="7010004" name="PW1711 (Proportional)" xsi:type="pointDetectorType">
+				<phd>
+					<lowerLevel unit="%">35.0</lowerLevel>
+					<upperLevel unit="%">80.0</upperLevel>
+				</phd>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="Omega" status="Completed">
+			<header>
+				<startTimeStamp>2024-04-23T14:40:04+02:00</startTimeStamp>
+				<endTimeStamp>2024-04-23T14:44:15+02:00</endTimeStamp>
+				<author>
+					<name>Core2Duo</name>
+				</author>
+				<source>
+					<applicationSoftware version="2.0e">X'Pert Data Collector</applicationSoftware>
+					<instrumentControlSoftware version="5.7 ">XPERT</instrumentControlSoftware>
+					<instrumentID>0022182100892012</instrumentID>
+				</source>
+			</header>
+			<scanAxisCenter>
+				<position axis="Omega" unit="deg">40.335</position>
+			</scanAxisCenter>
+			<reflection>
+				<hkl>
+					<h>0</h>
+					<k>0</k>
+					<l>0</l>
+				</hkl>
+			</reflection>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<commonPosition>80.670</commonPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<startPosition>37.845</startPosition>
+					<endPosition>42.825</endPosition>
+				</positions>
+				<commonCountingTime unit="seconds">0.50</commonCountingTime>
+				<intensities unit="counts">1 2 5 2 5 5 1 3 0 3 7 3 1 1 2 3 2 5 5 4 3 6 4 6 5 2 4 3 4 3 4 4 4 5 3 2 3 3 1 4 1 1 3 3 1 1 0 3 3 3 4 6 2 1 1 2 1 4 2 2 2 3 1 3 9 2 4 7 1 5 2 2 8 0 0 2 3 3 2 1 4 1 1 2 0 3 2 4 6 2 4 0 4 3 2 3 4 4 5 2 4 8 3 3 5 5 2 5 5 3 3 2 5 3 4 0 3 3 2 5 1 3 7 2 2 6 5 4 4 4 9 11 3 1 4 8 7 3 7 4 4 8 4 3 3 6 5 6 3 5 6 1 1 4 4 4 1 7 6 3 6 4 8 4 6 6 10 5 7 6 7 3 5 6 6 6 7 5 7 13 8 9 7 9 13 14 14 10 9 18 11 14 7 15 14 11 19 21 15 22 27 18 31 28 38 37 43 36 45 44 47 61 68 58 73 60 58 85 70 86 56 107 85 75 115 125 114 138 142 161 161 160 167 185 223 215 251 239 307 401 631 962 1563 2152 2780 3683 4387 5239 6677 8093 10110 13190 16896 21014 25160 28706 30251 31705 32022 31933 31468 30699 29927 28575 27585 26583 25173 23987 22901 22090 21685 20230 19146 18108 16695 15719 14779 13636 12616 11402 10336 9082 7859 6853 5827 5051 4457 3506 2808 2398 1970 1659 1460 1251 1026 893 795 670 589 447 381 246 179 156 111 75 59 53 29 32 28 30 28 31 25 23 20 12 10 12 17 16 16 10 18 20 16 5 18 14 11 17 10 15 13 12 8 14 8 10 6 10 13 3 10 10 10 11 9 6 12 11 5 10 13 10 4 10 11 14 8 8 8 14 3 6 7 10 12 5 6 7 3 7 8 4 4 12 11 7 2 9 9 5 4 2 6 4 5 12 6 5 7 3 6 3 7 4 9 7 9 7 3 4 6 3 8 4 2 2 4 7 5 6 6 6 5 3 6 4 7 5 4 5 5 2 3 4 6 4 4 3 7 3 1 4 0 2 6 3 7 5 4 3 4 4 3 3 3 4 8 3 2 3 2 1 4 4 5 0 2 4 6 2 2 2 3 4 2 2 1 3 1 4 5 2 5 1 5 2 3 3 4 2 3 6 2 2 1 4 1 7 4 2 2 3 3 1 2</intensities>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>

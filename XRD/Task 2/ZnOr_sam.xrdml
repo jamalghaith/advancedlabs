@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/1.0 http://www.xrdml.com/XRDMeasurement/1.0/XRDMeasurement.xsd" status="Completed">
+	<sample type="To be analyzed">
+		<id></id>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed">
+		<comment>
+			<entry/>
+		</comment>
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">173.00</radius>
+			<xRayTube id="1010001" name="PW2273 or PW2773 Cu LFF">
+				<tension unit="kV">10</tension>
+				<current unit="mA">10</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+		</incidentBeamPath>
+		<diffractedBeamPath>
+			<radius unit="mm">173.00</radius>
+			<antiScatterSlit id="22060003" name="AS Fixed 1°" xsi:type="fixedAntiScatterSlitType">
+				<height unit="mm">0.43</height>
+			</antiScatterSlit>
+			<detector id="7010004" name="PW1711 (Proportional)" xsi:type="pointDetectorType">
+				<phd>
+					<lowerLevel unit="%">35.0</lowerLevel>
+					<upperLevel unit="%">80.0</upperLevel>
+				</phd>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="Omega" status="Completed">
+			<header>
+				<startTimeStamp>2024-04-23T15:02:01+02:00</startTimeStamp>
+				<endTimeStamp>2024-04-23T15:06:11+02:00</endTimeStamp>
+				<author>
+					<name>Core2Duo</name>
+				</author>
+				<source>
+					<applicationSoftware version="2.0e">X'Pert Data Collector</applicationSoftware>
+					<instrumentControlSoftware version="5.7 ">XPERT</instrumentControlSoftware>
+					<instrumentID>0022182100892012</instrumentID>
+				</source>
+			</header>
+			<scanAxisCenter>
+				<position axis="Omega" unit="deg">41.625</position>
+			</scanAxisCenter>
+			<reflection>
+				<hkl>
+					<h>0</h>
+					<k>0</k>
+					<l>0</l>
+				</hkl>
+			</reflection>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<commonPosition>83.250</commonPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<startPosition>39.135</startPosition>
+					<endPosition>44.115</endPosition>
+				</positions>
+				<commonCountingTime unit="seconds">0.50</commonCountingTime>
+				<intensities unit="counts">6 0 3 1 4 0 2 0 2 1 0 0 1 4 2 1 3 1 4 1 1 3 3 2 1 0 1 1 1 1 1 2 2 1 0 0 0 0 0 0 2 0 1 0 1 1 2 3 2 1 0 1 1 1 0 1 2 1 1 2 2 2 2 2 1 2 2 3 1 2 2 1 1 2 1 3 0 1 0 0 1 4 2 2 1 0 3 3 1 1 0 4 2 0 0 1 1 0 2 0 1 1 1 0 0 3 2 1 2 5 2 2 1 4 2 0 1 3 3 1 1 0 1 2 1 1 2 1 1 3 5 1 2 1 2 1 0 3 2 5 2 2 2 2 0 1 2 2 3 1 0 2 2 4 1 1 2 5 5 7 0 5 2 6 5 6 2 4 3 4 5 3 9 4 6 7 5 6 11 1 9 6 3 5 5 5 12 8 5 10 4 8 7 12 4 12 9 9 19 11 28 21 21 22 17 30 27 22 24 44 31 39 37 43 42 44 53 50 54 67 65 77 125 138 186 234 307 368 540 690 1059 1624 2603 4089 5790 7601 9277 10966 12641 14489 15811 17020 17872 18771 19171 19159 19063 18953 18517 18299 18252 17424 16924 16344 15995 15048 14191 13131 12419 11882 11149 10329 9171 8347 7334 6320 5482 4744 4075 3530 2981 2600 2138 1900 1558 1359 1222 934 667 434 288 170 126 86 52 25 13 7 3 3 4 2 4 4 1 3 1 2 4 1 1 0 5 6 3 1 3 2 1 0 1 4 1 2 1 4 1 2 0 2 3 2 2 0 3 4 1 3 1 1 0 2 3 0 1 1 3 3 1 0 0 3 2 3 2 2 3 0 3 2 2 1 2 1 2 1 3 1 1 1 2 2 2 2 0 1 3 1 2 1 4 1 4 5 6 3 2 3 2 0 2 1 1 1 4 2 2 1 2 1 1 0 2 0 1 5 1 3 2 1 1 3 0 2 3 1 1 4 1 0 0 1 0 4 4 2 1 4 1 0 1 1 1 0 0 0 2 3 1 1 0 2 0 1 3 1 1 0 4 3 2 0 1 1 2 1 1 0 2 3 3 0 1 1 3 1 0 0 0 3 3 1 2 2 1 1 2 1 0 2 1 2 0 2 1 2 1 3 1 3 2 1 5 1 1 1 2 1 0 0 0 0 3 2 4 2 0 2 2</intensities>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>
