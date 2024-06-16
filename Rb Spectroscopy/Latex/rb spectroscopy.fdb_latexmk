@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1718477861.86485 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" "rb spectroscopy.pdf" "rb spectroscopy" 1718477863.20463 0
+["pdflatex"] 1718493046.39129 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" "rb spectroscopy.pdf" "rb spectroscopy" 1718493047.65698 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1717437315 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1709406893 24232358 8fee6cb7819e0c07808b4dc40468a4a1 ""
+  "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136765053 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -84,11 +85,11 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644048522 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" 1718477858 1520 e450efa0645ae7dc77651ccb4ab0fb2b ""
-  "rb spectroscopy.aux" 1718477862 656 8b2f89a12671e04802d726ff1ede6db9 "pdflatex"
-  "rb spectroscopy.out" 1718477862 373 6cdd9602c26345d023338a9b19237d2b "pdflatex"
-  "rb spectroscopy.tex" 1718477858 1520 e450efa0645ae7dc77651ccb4ab0fb2b ""
-  "rb spectroscopy.toc" 1718477862 280 c76a01e77e8968ab472ef4089cd8198f "pdflatex"
+  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" 1718493041 1563 cf4cf87c9a035639799567ffe973837d ""
+  "rb spectroscopy.aux" 1718493047 769 162fc5eacea9c8b895429585b82a730a "pdflatex"
+  "rb spectroscopy.out" 1718493047 463 f24f828e7db96b5b59111f0380cf8f4d "pdflatex"
+  "rb spectroscopy.tex" 1718493041 1563 cf4cf87c9a035639799567ffe973837d ""
+  "rb spectroscopy.toc" 1718493047 352 f335389bb5dfcb001bc5fa931ee4b203 "pdflatex"
   (generated)
   "rb spectroscopy.aux"
   "rb spectroscopy.log"

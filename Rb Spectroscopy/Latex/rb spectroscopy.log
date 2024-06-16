@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.2)  15 JUN 2024 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.2)  16 JUN 2024 01:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,27 +484,27 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \pagebreak{
+l.81 \pagebreak{
                 } [1] [2] (rb spectroscopy.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `"rb spectroscopy".out' has not changed.
-(rerunfilecheck)             Checksum: 6CDD9602C26345D023338A9B19237D2B;373.
+(rerunfilecheck)             Checksum: F24F828E7DB96B5B59111F0380CF8F4D;463.
  ) 
 Here is how much of TeX's memory you used:
- 16574 strings out of 474457
- 327055 string characters out of 5742283
+ 16581 strings out of 474457
+ 327147 string characters out of 5742283
  1928190 words of memory out of 5000000
- 38711 multiletter control sequences out of 15000+600000
- 560190 words of font info for 43 fonts, out of 8000000 for 9000
+ 38716 multiletter control sequences out of 15000+600000
+ 561249 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,575b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "rb spectroscopy.pdf" (4 pages, 69214 bytes).
+Output written on "rb spectroscopy.pdf" (4 pages, 75464 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
