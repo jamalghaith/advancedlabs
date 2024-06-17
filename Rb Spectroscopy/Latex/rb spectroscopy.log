@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  17 JUN 2024 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  17 JUN 2024 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -492,17 +492,17 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 [1]
-<Figures/FPI_Data.png, id=59, 722.7pt x 289.08pt>
+<Figures/FPI_Data.png, id=74, 722.7pt x 289.08pt>
 File: Figures/FPI_Data.png Graphic file (type png)
 <use Figures/FPI_Data.png>
 Package pdftex.def Info: Figures/FPI_Data.png  used on input line 93.
 (pdftex.def)             Requested size: 375.80544pt x 150.32245pt.
-<Figures/FPI_Peaks.png, id=61, 722.7pt x 289.08pt>
+<Figures/FPI_Peaks.png, id=76, 722.7pt x 289.08pt>
 File: Figures/FPI_Peaks.png Graphic file (type png)
 <use Figures/FPI_Peaks.png>
 Package pdftex.def Info: Figures/FPI_Peaks.png  used on input line 102.
 (pdftex.def)             Requested size: 375.80544pt x 150.32245pt.
-<Figures/FPI_Peaks_GHz.png, id=62, 722.7pt x 289.08pt>
+<Figures/FPI_Peaks_GHz.png, id=77, 722.7pt x 289.08pt>
 File: Figures/FPI_Peaks_GHz.png Graphic file (type png)
 <use Figures/FPI_Peaks_GHz.png>
 Package pdftex.def Info: Figures/FPI_Peaks_GHz.png  used on input line 115.
@@ -515,7 +515,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.120 \pagebreak{
                  } [1 <./Figures/FPI_Data.png> <./Figures/FPI_Peaks.png> <./Figures/FPI_Peaks_GHz.png>]
-<Figures/FPI_Fit.png, id=80, 722.7pt x 289.08pt>
+<Figures/FPI_Fit.png, id=95, 722.7pt x 289.08pt>
 File: Figures/FPI_Fit.png Graphic file (type png)
 <use Figures/FPI_Fit.png>
 Package pdftex.def Info: Figures/FPI_Fit.png  used on input line 128.
@@ -524,28 +524,36 @@ Package pdftex.def Info: Figures/FPI_Fit.png  used on input line 128.
 
 [2 <./Figures/FPI_Fit.png>]
 
-[3] (rb spectroscopy.bbl)
+[3]
 
-[4] (rb spectroscopy.aux)
+[4]
+
+[5]
+
+[6]
+
+[7] (rb spectroscopy.bbl)
+
+[8] (rb spectroscopy.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `"rb spectroscopy".out' has not changed.
-(rerunfilecheck)             Checksum: 3E10D477B58DFFA288ACEE9533008B49;908.
+(rerunfilecheck)             Checksum: 80811976B55C534B0D2C23D1DB3BC515;1180.
  ) 
 Here is how much of TeX's memory you used:
- 16816 strings out of 473920
- 331843 string characters out of 5726502
+ 16826 strings out of 473920
+ 331957 string characters out of 5726502
  1932908 words of memory out of 5000000
- 39464 multiletter control sequences out of 15000+600000
+ 39467 multiletter control sequences out of 15000+600000
  561744 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,575b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on "rb spectroscopy.pdf" (6 pages, 1348020 bytes).
+Output written on "rb spectroscopy.pdf" (10 pages, 1352725 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
