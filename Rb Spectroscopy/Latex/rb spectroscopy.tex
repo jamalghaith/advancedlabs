@@ -2,6 +2,8 @@
 
 \usepackage{amsmath}
 
+\usepackage{mathrsfs}
+
 \usepackage{graphicx}
 
 \usepackage{hyperref}
@@ -71,11 +73,67 @@
 
 \section{Introduction}
 
+\begin{equation}
+	\mathscr{F} = \frac{\nu_{\text{FSR}}}{\delta \nu}
+	\label{eq:finesse}
+\end{equation}
+
 \section{Analysis}
 
 \subsection{Task 1}
 
-We were instructed
+We were instructed to scale our measurement data using the FPI peaks in addition to determining the finesse.
+
+\subsubsection{Scaling the data}
+
+From \cite{jung_2018_dopplerfree}, we know that our FSR is $1$ GHz. Therefore, if the average spacing between peaks is calculated, we can determine the conversion factor and scale our data accordingly.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/FPI_Data.png}
+	\caption{Peaks in the FPI spectrum, from task 4.  Note: This is only a section of the plot.}
+	\label{fig:peaks}
+\end{figure}
+
+This data was then flipped and normalized by the maximum value to obtain the following plot:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/FPI_Peaks.png}
+	\caption{Normalized peaks in the FPI spectrum.}
+	\label{fig:normalized_peaks}
+\end{figure}
+
+The average spacing between peaks was calculated to be $\approx 56.15$, meaning there are
+
+$\approx \frac{1 \ \text{GHz}}{56.15 \ \text{counts}} \approx 0.0178 \frac{\text{GHz}}{\text{count}}$ 
+
+Scaling the data using this conversion factor, we obtain the following plot:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/FPI_Peaks_GHz.png}
+	\caption{Scaled data using the FPI peaks.}
+	\label{fig:scaled_data}
+\end{figure}
+
+\pagebreak{}
+
+\subsubsection{Determining the finesse}
+
+Using equation \ref{eq:finesse}, the FWHM for a selected FPI peak can be used to find the finesse. The following shows a Lorentzian fit on a selected peak:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/FPI_Fit.png}
+	\caption{Lorentzian fit on a selected FPI peak.}
+	\label{fig:lorentzian_fit}
+\end{figure}
+
+From the fit, $\delta \nu \approx 0.00476 \ \text{GHz}$ Hence, the finesse is \[ \mathscr{F} = \frac{\nu_{\text{FSR}}}{\delta \nu} = \frac{1 \ \text{GHz}}{0.00476 \ \text{GHz}} \approx 209.9\]
+
+
+
 \section{Conclusion}
 
 \pagebreak{}
@@ -87,7 +145,7 @@ We were instructed
 
 \pagebreak{}
 
-%\bibliographystyle{ieeetr} 
-%\bibliography{} 
+\bibliographystyle{ieeetr} 
+\bibliography{rbspectroscopy} 
 
 \end{document}

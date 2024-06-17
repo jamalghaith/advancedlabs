@@ -17,6 +17,8 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
@@ -49,8 +51,6 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwar
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
-INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
-INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
@@ -61,6 +61,8 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoption
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
@@ -182,9 +184,46 @@ INPUT rb spectroscopy.toc
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
 OUTPUT rb spectroscopy.toc
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Figures\FPI_Data.png
+INPUT .\Figures\FPI_Data.png
+INPUT .\Figures\FPI_Data.png
+INPUT .\Figures\FPI_Data.png
+INPUT .\Figures\FPI_Data.png
+INPUT .\Figures\FPI_Data.png
+INPUT .\Figures\FPI_Data.png
+INPUT .\Figures\FPI_Peaks.png
+INPUT .\Figures\FPI_Peaks.png
+INPUT .\Figures\FPI_Peaks.png
+INPUT .\Figures\FPI_Peaks.png
+INPUT .\Figures\FPI_Peaks.png
+INPUT .\Figures\FPI_Peaks.png
+INPUT .\Figures\FPI_Peaks.png
+INPUT .\Figures\FPI_Peaks_GHz.png
+INPUT .\Figures\FPI_Peaks_GHz.png
+INPUT .\Figures\FPI_Peaks_GHz.png
+INPUT .\Figures\FPI_Peaks_GHz.png
+INPUT .\Figures\FPI_Peaks_GHz.png
+INPUT .\Figures\FPI_Peaks_GHz.png
+INPUT .\Figures\FPI_Peaks_GHz.png
+INPUT .\Figures\FPI_Fit.png
+INPUT .\Figures\FPI_Fit.png
+INPUT .\Figures\FPI_Fit.png
+INPUT .\Figures\FPI_Fit.png
+INPUT .\Figures\FPI_Fit.png
+INPUT .\Figures\FPI_Fit.png
+INPUT .\Figures\FPI_Fit.png
+INPUT .\rb spectroscopy.bbl
+INPUT .\rb spectroscopy.bbl
+INPUT rb spectroscopy.bbl
 INPUT rb spectroscopy.aux
 INPUT .\rb spectroscopy.out
 INPUT .\rb spectroscopy.out
@@ -194,7 +233,17 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\rsfs\rsfs10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\rsfs\rsfs10.pfb
