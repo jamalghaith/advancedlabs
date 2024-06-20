@@ -32,7 +32,13 @@
 
 \usepackage{booktabs}
 
+\usepackage{pgfplots}
+
+\usepackage{adjustbox}
+
 \newcommand{\pvec}[1]{\vec{#1}\mkern2mu\vphantom{#1}}
+
+\pgfplotsset{width=10cm,compat=1.9}
 
 \DeclareSIUnit{\angstrom}{\textup{\AA}}
 
@@ -46,6 +52,7 @@
 \date{01.04.2024}
 
 \begin{document}
+
 
 \begin{titlepage}
 	\centering
@@ -64,7 +71,6 @@
     {\Large Conducted on:  14.05.2024\par}
 	\vfill
 \end{titlepage}
-
 
 \tableofcontents
 \pagenumbering{gobble}
@@ -90,29 +96,30 @@ From \cite{jung_2018_dopplerfree}, we know that our FSR is $1$ GHz. Therefore, i
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Figures/FPI_Data.png}
-	\caption{Peaks in the FPI spectrum, from task 4.  Note: This is only a section of the plot.}
-	\label{fig:peaks}
-\end{figure}
-
-This data was then flipped and normalized by the maximum value to obtain the following plot:
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.8\textwidth]{Figures/FPI_Peaks.png}
-	\caption{Normalized peaks in the FPI spectrum.}
-	\label{fig:normalized_peaks}
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/FPI_Data.pgf}}
+		\caption{}
+		\label{fig:peaks}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/FPI_Peaks.pgf}}
+		\caption{}
+		\label{fig:normalized_peaks}
+	\end{subfigure}
+	\caption{FPI peaks. \ref{fig:peaks} Raw data. \ref{fig:normalized_peaks} Flipped and normalized data, with peaks highlighted}
 \end{figure}
 
 The average spacing between peaks was calculated to be $\approx 56.15$, meaning there are
 
-$\approx \frac{1 \ \text{GHz}}{56.15 \ \text{counts}} \approx 0.0178 \frac{\text{GHz}}{\text{count}}$ 
+$\approx \frac{1 \ \text{GHz}}{56.15 \ \text{counts}} \approx 0.0178 \ \frac{\text{GHz}}{\text{count}}$ 
 
 Scaling the data using this conversion factor, we obtain the following plot:
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Figures/FPI_Peaks_GHz.png}
+	\input{Figures/FPI_Peaks_GHz.pgf}
 	\caption{Scaled data using the FPI peaks.}
 	\label{fig:scaled_data}
 \end{figure}
@@ -125,7 +132,7 @@ Using equation \ref{eq:finesse}, the FWHM for a selected FPI peak can be used to
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Figures/FPI_Fit.png}
+	\input{Figures/FPI_Fit.pgf}
 	\caption{Lorentzian fit on a selected FPI peak.}
 	\label{fig:lorentzian_fit}
 \end{figure}

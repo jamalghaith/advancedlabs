@@ -8,5 +8,5 @@
 \contentsline {subsection}{\numberline {2.3}Task 3}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Task 4}{5}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Conclusion}{6}{section.3}%
-\contentsline {section}{Appendices}{7}{section*.6}%
-\contentsline {section}{Bibliography}{8}{section*.7}%
+\contentsline {section}{Appendices}{7}{section*.5}%
+\contentsline {section}{Bibliography}{8}{section*.6}%
