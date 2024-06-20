@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex rb spectroscopy"] 1718905954.88881 "rb spectroscopy.aux" "rb spectroscopy.bbl" "rb spectroscopy" 1718906016.4529 0
+["bibtex rb spectroscopy"] 0 "rb spectroscopy.aux" "rb spectroscopy.bbl" "rb spectroscopy" 1718917005.62748 -1
   "./rbspectroscopy.bib" 1718639091 131 ff56ae15fbdf6f30a98a85ca4c368737 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "rb spectroscopy.aux" 1718906015 2808 c1c0567587a62162911d3e57c583d859 "pdflatex"
+  "rb spectroscopy.aux" 1718917004 2611 7970c0f1379e57544bf0394b733b0262 "pdflatex"
   (generated)
   "rb spectroscopy.bbl"
   "rb spectroscopy.blg"
   (rewritten before read)
-["pdflatex"] 1718906013.18145 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" "rb spectroscopy.pdf" "rb spectroscopy" 1718906016.45386 0
-  "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1718793014 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1718917002.41081 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" "rb spectroscopy.pdf" "rb spectroscopy" 1718917005.62815 0
+  "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1718907733 279613 fe62a258ff6d99cc2243c3a2d16aa767 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1718642578 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1718642580 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1718642579 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -232,16 +232,16 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "Figures/FPI_Data.pgf" 1718905049 55260 50cd130baf8ff23d0a49a7bcef0b9ca1 ""
-  "Figures/FPI_Fit.pgf" 1718905050 31379 3460c7579fa28008f92da5901a407f2a ""
-  "Figures/FPI_Peaks.pgf" 1718905050 75657 1a032df3eea0a30c020bdb3533ef4dae ""
-  "Figures/FPI_Peaks_GHz.pgf" 1718905050 74220 3794d8a8acc47bf98eb8408d673bf3ab ""
-  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" 1718906012 3769 2135597c8b31193f3e21b6f5cf9191a5 ""
-  "rb spectroscopy.aux" 1718906015 2808 c1c0567587a62162911d3e57c583d859 "pdflatex"
-  "rb spectroscopy.bbl" 1718905955 149 026377aad1e48b919b5f4f7a9b1a9d56 "bibtex rb spectroscopy"
-  "rb spectroscopy.out" 1718906015 1180 7b61b158e04a6ea37bac953902de3286 "pdflatex"
-  "rb spectroscopy.tex" 1718906012 3769 2135597c8b31193f3e21b6f5cf9191a5 ""
-  "rb spectroscopy.toc" 1718906015 813 ebff484b60220bd754815d29a5b00da2 "pdflatex"
+  "Figures/FPI_Data.pgf" 1718906035 54002 50cd130baf8ff23d0a49a7bcef0b9ca1 ""
+  "Figures/FPI_Fit.pgf" 1718906035 30586 3460c7579fa28008f92da5901a407f2a ""
+  "Figures/FPI_Peaks.pgf" 1718906035 73801 1a032df3eea0a30c020bdb3533ef4dae ""
+  "Figures/FPI_Peaks_GHz.pgf" 1718906035 72402 3794d8a8acc47bf98eb8408d673bf3ab ""
+  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" 1718908871 3773 6e8cb4dae21f61e4888174cae77c806b ""
+  "rb spectroscopy.aux" 1718917004 2611 7970c0f1379e57544bf0394b733b0262 "pdflatex"
+  "rb spectroscopy.bbl" 1718916714 0 d41d8cd98f00b204e9800998ecf8427e "bibtex rb spectroscopy"
+  "rb spectroscopy.out" 1718917004 1075 252d77114011b5c18510c7290b006a10 "pdflatex"
+  "rb spectroscopy.tex" 1718908871 3773 6e8cb4dae21f61e4888174cae77c806b ""
+  "rb spectroscopy.toc" 1718917004 759 06fd509fc69df07105453b53fcfc5d24 "pdflatex"
   (generated)
   "rb spectroscopy.aux"
   "rb spectroscopy.log"
