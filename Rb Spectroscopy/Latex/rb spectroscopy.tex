@@ -36,6 +36,12 @@
 
 \usepackage{adjustbox}
 
+\usepackage{lmodern}
+
+\usepackage{subcaption}
+
+\makeatletter\@ifpackageloaded{underscore}{}{\usepackage[strings]{underscore}}\makeatother
+
 \newcommand{\pvec}[1]{\vec{#1}\mkern2mu\vphantom{#1}}
 
 \pgfplotsset{width=10cm,compat=1.9}
@@ -84,6 +90,8 @@
 	\label{eq:finesse}
 \end{equation}
 
+\pagebreak{}
+
 \section{Analysis}
 
 \subsection{Task 1}
@@ -98,13 +106,13 @@ From \cite{jung_2018_dopplerfree}, we know that our FSR is $1$ GHz. Therefore, i
 	\centering
 	\begin{subfigure}[t]{0.45\textwidth}
 		\centering
-		\scalebox{0.5}{\input{Figures/FPI_Data.pgf}}
+		\scalebox{0.5}{\input{Figures/1/FPI_Data.pgf}}
 		\caption{}
 		\label{fig:peaks}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.45\textwidth}
 		\centering
-		\scalebox{0.5}{\input{Figures/FPI_Peaks.pgf}}
+		\scalebox{0.5}{\input{Figures/1/FPI_Peaks.pgf}}
 		\caption{}
 		\label{fig:normalized_peaks}
 	\end{subfigure}
@@ -119,7 +127,7 @@ Scaling the data using this conversion factor, we obtain the following plot:
 
 \begin{figure}[h]
 	\centering
-	\input{Figures/FPI_Peaks_GHz.pgf}
+	\input{Figures/1/FPI_Peaks_GHz.pgf}
 	\caption{Scaled data using the FPI peaks.}
 	\label{fig:scaled_data}
 \end{figure}
@@ -132,7 +140,7 @@ Using equation \ref{eq:finesse}, the FWHM for a selected FPI peak can be used to
 
 \begin{figure}[h]
 	\centering
-	\input{Figures/FPI_Fit.pgf}
+	\input{Figures/1/FPI_Fit.pgf}
 	\caption{Lorentzian fit on a selected FPI peak.}
 	\label{fig:lorentzian_fit}
 \end{figure}
@@ -143,6 +151,97 @@ From the fit, $\delta \nu \approx 0.00476 \ \text{GHz}$ Hence, the finesse is \[
 
 \subsection{Task 2}
 
+First, we assign the peaks in the rubidium spectrum to the correct isotopes in specific ground states. The gas cell contains a mixture of $^{85}Rb$ and $^{87}Rb$. The $D_2$ line (780.2 nm) in $^{85}Rb$ corresponds to the transition from the excited state $5^2P_{3/2}$ (with F = 1, 2, 3, 4) to the ground state $5^2S_{1/2}$ (with F = 2, 3 possible). For $^{87}Rb$ the $D_2$ line corresponds to the same transition but with F = 0, 1, 2, 3 possible in the excited state and F = 1, 2 in the ground state.
+
+Now, we want to analyze the effect of changing the temperature and injection current of the diode. Hence we show plots of the saturation spectra for constant temperature and varied current and vice versa. We discuss in the following the behaviour observed. 
+
+The variation of temperature and current could lead to the following effects: 
+
+\begin{enumerate}
+\item Mode hopping:
+
+Mode hopping occurs in lasers when the laser's output frequency abruptly shifts between different longitudinal modes of the laser cavity. Which could happen due to changes in conditions such as temperature and power (injection current) which alter the wavelength of maximal gain[]. When mode hopping happens, a mixture of different frequencies might be emitted before a new mode completely dominates the optical power of the diode. This can result in multiple distinct peaks and patterns appearing at various temperatures and injection currents. Mode hopping leads to a change in he frequency of the beam and hence the intensity of the spectrum. 
+
+\item Size change of the active region in the laser diode: 
+
+An increase in the temperature or injection current (which also increases temperature) will cause the semiconductor material which make up the laser to expand. This affects the dimensions of the active region which changes the optical modes in laser cavity.
+
+\item Spectral broadening: 
+\end{enumerate}
+
+First, we discuss the constant temperature case. Sub-figure (f) shows a significant change upon changing the current from $I = \SI{121}{\mA}$ to $I = \SI{122}{\mA}$ with a drop in the intensity, which could be interpreted as a mode jump. 
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Tconst20C/117mA.jpg}
+        \caption{$I=117$ mA}
+        \label{fig:117mA}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Tconst20C/118mA.jpg}
+        \caption{$I=118$ mA}
+        \label{fig:118mA}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Tconst20C/119mA.jpg}
+        \caption{$I=119$ mA}
+        \label{fig:119mA}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Tconst20C/120mA.jpg}
+        \caption{$I=120$ mA}
+        \label{fig:120mA}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Tconst20C/121mA.jpg}
+        \caption{$I=121$ mA}
+        \label{fig:121mA}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Tconst20C/122mA.jpg}
+        \caption{$I=122$ mA}
+        \label{fig:122mA}
+    \end{subfigure}
+    \caption{Saturation spectra for variation of injection currents}
+    \label{fig:VariedCurrent}
+\end{figure}
+
+\pagebreak{}
+
+For the case of constant injection current, a mode jump occurs between $T = \SI{19.9}{\celsius}$ and $T = \SI{20.1}{\celsius}$. We notice that changing the current affects the spectrum more drastically. This could be due to the fact that a slight change in the current leads to more heating compared to the temperature increments we used.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Iconst118mA/198.jpg}
+        \caption{$T = \SI{19.8}{\celsius}$}
+        \label{fig:198C}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Iconst118mA/199.jpg}
+        \caption{$T = \SI{19.9}{\celsius}$}
+        \label{fig:199C}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Iconst118mA/201.jpg}
+        \caption{$T = \SI{20.1}{\celsius}$}
+        \label{fig:201C}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Iconst118mA/202.jpg}
+        \caption{$T = \SI{20.2}{\celsius}$}
+        \label{fig:202C}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Figures/2/Iconst118mA/203.jpg}
+        \caption{$T = \SI{20.3}{\celsius}$}
+        \label{fig:203C}
+    \end{subfigure}
+    \caption{Saturation spectra for variation of temperature}
+    \label{fig:VariedTemperature}
+\end{figure}
+
 \pagebreak{}
 
 \subsection{Task 3}
@@ -150,8 +249,6 @@ From the fit, $\delta \nu \approx 0.00476 \ \text{GHz}$ Hence, the finesse is \[
 \pagebreak{}
 
 \subsection{Task 4}
-
-
 
 \pagebreak{}
 

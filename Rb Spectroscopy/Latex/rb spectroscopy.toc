@@ -1,11 +1,12 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {2}Analysis}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Task 1}{1}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Scaling the data}{1}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Determining the finesse}{2}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Task 2}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Task 3}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Task 4}{5}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Conclusion}{6}{section.3}%
-\contentsline {section}{Appendices}{7}{section*.5}%
+\contentsline {section}{\numberline {2}Analysis}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Task 1}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Scaling the data}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Determining the finesse}{3}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Task 2}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Task 3}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Task 4}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Conclusion}{8}{section.3}%
+\contentsline {section}{Appendices}{9}{section*.7}%
+\contentsline {section}{Bibliography}{10}{section*.8}%
