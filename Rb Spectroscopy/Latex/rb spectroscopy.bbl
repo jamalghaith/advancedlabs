@@ -1,6 +1,24 @@
 \begin{thebibliography}{1}
 
+\bibitem{demtroder_2008_laser}
+W.~Demtroder, {\em Laser spectroscopy. Vol. 1 : basic principles}.
+\newblock Springer-Verlag, 2008.
+
 \bibitem{jung_2018_dopplerfree}
 F.~Jung, ``Doppler-free rb saturation spectroscopy,'' 2018.
+
+\bibitem{wikipediacontributors_2019_semiconductor}
+W.~Contributors, ``Semiconductor,'' 03 2019.
+
+\bibitem{wikipediacontributors_2019_doping}
+W.~Contributors, ``Doping (semiconductor),'' 09 2019.
+
+\bibitem{nakayama_1984_theoretical}
+S.~Nakayama, ``Theoretical analysis of rb and cs d<sub>2</sub> lines in
+  saturation spectroscopy with optical pumping,'' {\em Japanese journal of
+  applied physics}, vol.~23, pp.~879--879, 07 1984.
+
+\bibitem{asteck_alkali}
+D.~A.~Steck, ``Alkali d line data.''
 
 \end{thebibliography}

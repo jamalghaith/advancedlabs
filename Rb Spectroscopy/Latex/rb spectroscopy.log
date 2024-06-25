@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  22 JUN 2024 00:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  25 JUN 2024 00:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,52 +695,108 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count356
+\calc@Bcount=\count357
+\calc@Adimen=\dimen334
+\calc@Bdimen=\dimen335
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count358
+\calc@Cskip=\skip63
+) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count359
+\l_MT_multwidth_dim=\dimen336
+\origjot=\skip64
+\l_MT_shortvdotswithinadjustabove_dim=\dimen337
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen338
+\l_MT_above_intertext_sep=\dimen339
+\l_MT_below_intertext_sep=\dimen340
+\l_MT_above_shortintertext_sep=\dimen341
+\l_MT_below_shortintertext_sep=\dimen342
+\xmathstrut@box=\box78
+\xmathstrut@dim=\dimen343
 ) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/underscore\underscore.sty
 Package: underscore 2006/09/13
 LaTeX Info: Redefining \_ on input line 42.
 ) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/firstaid\underscore-ltx.sty
 Package: underscore-ltx 2023/09/20 LaTeX firstaid to make underscore protected 
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 60.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 68.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count356
-\l__pdf_internal_box=\box78
-) (rb spectroscopy.aux)
+\l__color_backend_stack_int=\count360
+\l__pdf_internal_box=\box79
+) (rb spectroscopy.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure0' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:figure0' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure45' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:figure45' multiply defined.
+
+)
 \openout1 = `"rb spectroscopy.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
-\scratchdimen=\dimen334
-\scratchbox=\box79
-\nofMPsegments=\count358
-\nofMParguments=\count359
+\scratchcounter=\count361
+\scratchdimen=\dimen344
+\scratchbox=\box80
+\nofMPsegments=\count362
+\nofMParguments=\count363
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count360
-\MPscratchDim=\dimen335
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
+\MPscratchCnt=\count364
+\MPscratchDim=\dimen345
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
 \everyMPtoPDFconversion=\toks50
 ) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -748,7 +804,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 68.
  (rb spectroscopy.out) (rb spectroscopy.out)
 \@outlinefile=\write4
 \openout4 = `"rb spectroscopy.out"'.
@@ -793,7 +849,7 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 60.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 68.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
@@ -802,25 +858,25 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 [1
 
 {C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (rb spectroscopy.toc
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 4.
+(Font)              <10> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
+(Font)              <5> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
@@ -835,9 +891,57 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \pagebreak{
-                } [1{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] (Figures/1/FPI_Data.pgf)
-Overfull \hbox (23.11148pt too wide) in paragraph at lines 109--110
+l.112 \pagebreak{
+                 } [1{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+<Figures/1.png, id=167, 957.5775pt x 633.36626pt>
+File: Figures/1.png Graphic file (type png)
+<use Figures/1.png>
+Package pdftex.def Info: Figures/1.png  used on input line 147.
+(pdftex.def)             Requested size: 234.8775pt x 155.35487pt.
+
+
+[2{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./Figures/1.png>]
+<Figures/3.png, id=187, 922.44624pt x 521.95pt>
+File: Figures/3.png Graphic file (type png)
+<use Figures/3.png>
+Package pdftex.def Info: Figures/3.png  used on input line 174.
+(pdftex.def)             Requested size: 234.8775pt x 132.90036pt.
+<Figures/2.png, id=188, 841.1425pt x 418.56375pt>
+File: Figures/2.png Graphic file (type png)
+<use Figures/2.png>
+Package pdftex.def Info: Figures/2.png  used on input line 180.
+(pdftex.def)             Requested size: 234.8775pt x 116.8777pt.
+
+
+[3 <./Figures/3.png> <./Figures/2.png>]
+<Figures/4.png, id=198, 869.2475pt x 504.88625pt>
+File: Figures/4.png Graphic file (type png)
+<use Figures/4.png>
+Package pdftex.def Info: Figures/4.png  used on input line 206.
+(pdftex.def)             Requested size: 234.8775pt x 136.42125pt.
+
+
+[4 <./Figures/4.png>]
+
+[5]
+<Figures/wiki2.png, id=216, 1435.3625pt x 681.54625pt>
+File: Figures/wiki2.png Graphic file (type png)
+<use Figures/wiki2.png>
+Package pdftex.def Info: Figures/wiki2.png  used on input line 249.
+(pdftex.def)             Requested size: 234.8775pt x 111.52472pt.
+<Figures/wiki1.png, id=219, 1613.02625pt x 769.87625pt>
+File: Figures/wiki1.png Graphic file (type png)
+<use Figures/wiki1.png>
+Package pdftex.def Info: Figures/wiki1.png  used on input line 259.
+(pdftex.def)             Requested size: 234.8775pt x 112.09322pt.
+
+
+[6 <./Figures/wiki2.png> <./Figures/wiki1.png>]
+
+[7]
+
+[8] (Figures/1/FPI_Data.pgf)
+Overfull \hbox (23.11148pt too wide) in paragraph at lines 338--339
  [][] 
  []
 
@@ -848,109 +952,207 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9.79996> on input line 401.
 )
-Overfull \hbox (23.11148pt too wide) in paragraph at lines 115--116
+Overfull \hbox (23.11148pt too wide) in paragraph at lines 344--345
  [][] 
  []
 
 (Figures/1/FPI_Peaks_GHz.pgf)
 
-[2{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] (Figures/1/FPI_Fit.pgf)
+[9] (Figures/1/FPI_Fit.pgf)
 
-[3]
-<Figures/2/Tconst20C/117mA.jpg, id=106, 547.04375pt x 474.77374pt>
+[10]
+<Figures/2/Tconst20C/117mA.jpg, id=263, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/117mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/117mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/117mA.jpg  used on input line 177.
+Package pdftex.def Info: Figures/2/Tconst20C/117mA.jpg  used on input line 405.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 178.
+(Font)              <9> on input line 406.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 178.
-<Figures/2/Tconst20C/118mA.jpg, id=107, 547.04375pt x 474.77374pt>
+(Font)              <6> on input line 406.
+<Figures/2/Tconst20C/118mA.jpg, id=264, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/118mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/118mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/118mA.jpg  used on input line 182.
+Package pdftex.def Info: Figures/2/Tconst20C/118mA.jpg  used on input line 410.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
-<Figures/2/Tconst20C/119mA.jpg, id=108, 547.04375pt x 474.77374pt>
+<Figures/2/Tconst20C/119mA.jpg, id=265, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/119mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/119mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/119mA.jpg  used on input line 187.
+Package pdftex.def Info: Figures/2/Tconst20C/119mA.jpg  used on input line 415.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
-<Figures/2/Tconst20C/120mA.jpg, id=109, 547.04375pt x 474.77374pt>
+<Figures/2/Tconst20C/120mA.jpg, id=266, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/120mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/120mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/120mA.jpg  used on input line 192.
+Package pdftex.def Info: Figures/2/Tconst20C/120mA.jpg  used on input line 420.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
-<Figures/2/Tconst20C/121mA.jpg, id=110, 547.04375pt x 474.77374pt>
+<Figures/2/Tconst20C/121mA.jpg, id=267, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/121mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/121mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/121mA.jpg  used on input line 197.
+Package pdftex.def Info: Figures/2/Tconst20C/121mA.jpg  used on input line 425.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
-<Figures/2/Tconst20C/122mA.jpg, id=111, 547.04375pt x 474.77374pt>
+<Figures/2/Tconst20C/122mA.jpg, id=268, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/122mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/122mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/122mA.jpg  used on input line 202.
+Package pdftex.def Info: Figures/2/Tconst20C/122mA.jpg  used on input line 430.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 
 
-[4 <./Figures/2/Tconst20C/117mA.jpg> <./Figures/2/Tconst20C/118mA.jpg> <./Figures/2/Tconst20C/119mA.jpg> <./Figures/2/Tconst20C/120mA.jpg> <./Figures/2/Tconst20C/121mA.jpg> <./Figures/2/Tconst20C/122mA.jpg>]
-<Figures/2/Iconst118mA/198.jpg, id=121, 547.04375pt x 474.77374pt>
+[11 <./Figures/2/Tconst20C/117mA.jpg> <./Figures/2/Tconst20C/118mA.jpg> <./Figures/2/Tconst20C/119mA.jpg> <./Figures/2/Tconst20C/120mA.jpg> <./Figures/2/Tconst20C/121mA.jpg> <./Figures/2/Tconst20C/122mA.jpg>]
+<Figures/2/Iconst118mA/198.jpg, id=278, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/198.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/198.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/198.jpg  used on input line 217.
+Package pdftex.def Info: Figures/2/Iconst118mA/198.jpg  used on input line 445.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
-<Figures/2/Iconst118mA/199.jpg, id=122, 547.04375pt x 474.77374pt>
+<Figures/2/Iconst118mA/199.jpg, id=279, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/199.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/199.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/199.jpg  used on input line 222.
+Package pdftex.def Info: Figures/2/Iconst118mA/199.jpg  used on input line 450.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
-<Figures/2/Iconst118mA/201.jpg, id=123, 547.04375pt x 474.77374pt>
+<Figures/2/Iconst118mA/201.jpg, id=280, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/201.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/201.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/201.jpg  used on input line 227.
+Package pdftex.def Info: Figures/2/Iconst118mA/201.jpg  used on input line 455.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
-<Figures/2/Iconst118mA/202.jpg, id=124, 547.04375pt x 474.77374pt>
+<Figures/2/Iconst118mA/202.jpg, id=281, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/202.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/202.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/202.jpg  used on input line 232.
+Package pdftex.def Info: Figures/2/Iconst118mA/202.jpg  used on input line 460.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
-<Figures/2/Iconst118mA/203.jpg, id=125, 547.04375pt x 474.77374pt>
+<Figures/2/Iconst118mA/203.jpg, id=282, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/203.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/203.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/203.jpg  used on input line 237.
+Package pdftex.def Info: Figures/2/Iconst118mA/203.jpg  used on input line 465.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 
 
-[5 <./Figures/2/Iconst118mA/198.jpg> <./Figures/2/Iconst118mA/199.jpg> <./Figures/2/Iconst118mA/201.jpg> <./Figures/2/Iconst118mA/202.jpg> <./Figures/2/Iconst118mA/203.jpg>]
+[12 <./Figures/2/Iconst118mA/198.jpg> <./Figures/2/Iconst118mA/199.jpg> <./Figures/2/Iconst118mA/201.jpg> <./Figures/2/Iconst118mA/202.jpg> <./Figures/2/Iconst118mA/203.jpg>]
+<Figures/3/0deg.jpg, id=289, 547.04375pt x 474.77374pt>
+File: Figures/3/0deg.jpg Graphic file (type jpg)
+<use Figures/3/0deg.jpg>
+Package pdftex.def Info: Figures/3/0deg.jpg  used on input line 483.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/45deg.jpg, id=290, 547.04375pt x 474.77374pt>
+File: Figures/3/45deg.jpg Graphic file (type jpg)
+<use Figures/3/45deg.jpg>
+Package pdftex.def Info: Figures/3/45deg.jpg  used on input line 489.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/90deg.jpg, id=291, 547.04375pt x 474.77374pt>
+File: Figures/3/90deg.jpg Graphic file (type jpg)
+<use Figures/3/90deg.jpg>
+Package pdftex.def Info: Figures/3/90deg.jpg  used on input line 495.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/135deg.jpg, id=292, 547.04375pt x 474.77374pt>
+File: Figures/3/135deg.jpg Graphic file (type jpg)
+<use Figures/3/135deg.jpg>
+Package pdftex.def Info: Figures/3/135deg.jpg  used on input line 501.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/180deg.jpg, id=293, 547.04375pt x 474.77374pt>
+File: Figures/3/180deg.jpg Graphic file (type jpg)
+<use Figures/3/180deg.jpg>
+Package pdftex.def Info: Figures/3/180deg.jpg  used on input line 507.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/225deg.jpg, id=294, 547.04375pt x 474.77374pt>
+File: Figures/3/225deg.jpg Graphic file (type jpg)
+<use Figures/3/225deg.jpg>
+Package pdftex.def Info: Figures/3/225deg.jpg  used on input line 513.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/270deg.jpg, id=295, 547.04375pt x 474.77374pt>
+File: Figures/3/270deg.jpg Graphic file (type jpg)
+<use Figures/3/270deg.jpg>
+Package pdftex.def Info: Figures/3/270deg.jpg  used on input line 519.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/315deg.jpg, id=296, 547.04375pt x 474.77374pt>
+File: Figures/3/315deg.jpg Graphic file (type jpg)
+<use Figures/3/315deg.jpg>
+Package pdftex.def Info: Figures/3/315deg.jpg  used on input line 525.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/355deg.jpg, id=297, 547.04375pt x 474.77374pt>
+File: Figures/3/355deg.jpg Graphic file (type jpg)
+<use Figures/3/355deg.jpg>
+Package pdftex.def Info: Figures/3/355deg.jpg  used on input line 531.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/110ThinFilter.jpg, id=298, 547.04375pt x 474.77374pt>
+File: Figures/3/110ThinFilter.jpg Graphic file (type jpg)
+<use Figures/3/110ThinFilter.jpg>
+Package pdftex.def Info: Figures/3/110ThinFilter.jpg  used on input line 548.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
+<Figures/3/110ThickFilter.jpg, id=299, 547.04375pt x 474.77374pt>
+File: Figures/3/110ThickFilter.jpg Graphic file (type jpg)
+<use Figures/3/110ThickFilter.jpg>
+Package pdftex.def Info: Figures/3/110ThickFilter.jpg  used on input line 554.
+(pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 
-[6]
 
-[7]
+[13 <./Figures/3/0deg.jpg> <./Figures/3/45deg.jpg> <./Figures/3/90deg.jpg> <./Figures/3/135deg.jpg> <./Figures/3/180deg.jpg> <./Figures/3/225deg.jpg> <./Figures/3/270deg.jpg> <./Figures/3/315deg.jpg> <./Figures/3/355deg.jpg> <./Figures/3/110ThinFilter.jpg> <./Figures/3/110ThickFilter.jpg>] (Figures/4/Absorption_Saturation.pgf) (Figures/4/Absorption_Spectrum_Peaks.pgf)
 
-[8]
+[14] (Figures/4/VoigtFit_1.pgf) (Figures/4/VoigtFit_2.pgf) (Figures/4/VoigtFit_3.pgf) (Figures/4/VoigtFit_4.pgf)
 
-[9] (rb spectroscopy.bbl)
+[15] (Figures/4/Peak1_Dips.pgf
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 1040.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 1040.
+) (Figures/4/Peak2_Dips.pgf) (Figures/4/Peak3_Dips.pgf) (Figures/4/Peak4_Dips.pgf)
+<Figures/4/Crossover.png, id=323, 246.39421pt x 303.44948pt>
+File: Figures/4/Crossover.png Graphic file (type png)
+<use Figures/4/Crossover.png>
+Package pdftex.def Info: Figures/4/Crossover.png  used on input line 743.
+(pdftex.def)             Requested size: 246.3936pt x 303.44872pt.
 
-[10] (rb spectroscopy.aux)
+
+[16 <./Figures/4/Crossover.png>]
+
+[17]
+
+[18]
+<Figures/4/rubidium85numbers.png, id=345, 452.77155pt x 534.0753pt>
+File: Figures/4/rubidium85numbers.png Graphic file (type png)
+<use Figures/4/rubidium85numbers.png>
+Package pdftex.def Info: Figures/4/rubidium85numbers.png  used on input line 818.
+(pdftex.def)             Requested size: 452.77043pt x 534.07399pt.
+
+
+[19 <./Figures/4/rubidium85numbers.png>]
+<Figures/4/rubidium87numbers.png, id=355, 458.1918pt x 545.6385pt>
+File: Figures/4/rubidium87numbers.png Graphic file (type png)
+<use Figures/4/rubidium87numbers.png>
+Package pdftex.def Info: Figures/4/rubidium87numbers.png  used on input line 827.
+(pdftex.def)             Requested size: 458.19069pt x 545.63716pt.
+
+
+[20 <./Figures/4/rubidium87numbers.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 849.
+
+
+
+[21] (rb spectroscopy.bbl)
+
+[22] (rb spectroscopy.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `"rb spectroscopy".out' has not changed.
-(rerunfilecheck)             Checksum: CCAF72EF83C691E3C89DEFD0C143CE86;1180.
+(rerunfilecheck)             Checksum: 40EB631A7CEF6336FA996098619B2523;3818.
  ) 
 Here is how much of TeX's memory you used:
- 38600 strings out of 473920
- 926895 string characters out of 5726502
- 1959908 words of memory out of 5000000
- 60801 multiletter control sequences out of 15000+600000
- 613560 words of font info for 74 fonts, out of 8000000 for 9000
+ 39684 strings out of 473920
+ 949658 string characters out of 5726502
+ 1981908 words of memory out of 5000000
+ 61768 multiletter control sequences out of 15000+600000
+ 625303 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,107p,778b,1127s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on "rb spectroscopy.pdf" (12 pages, 1039171 bytes).
+ 99i,12n,107p,1786b,1160s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on "rb spectroscopy.pdf" (24 pages, 2418914 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
+ 376 words of extra memory for PDF output out of 10000 (max. 10000000)
 
