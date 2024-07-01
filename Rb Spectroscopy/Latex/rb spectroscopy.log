@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  25 JUN 2024 00:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  1 JUL 2024 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -896,7 +896,7 @@ l.112 \pagebreak{
 <Figures/1.png, id=167, 957.5775pt x 633.36626pt>
 File: Figures/1.png Graphic file (type png)
 <use Figures/1.png>
-Package pdftex.def Info: Figures/1.png  used on input line 147.
+Package pdftex.def Info: Figures/1.png  used on input line 148.
 (pdftex.def)             Requested size: 234.8775pt x 155.35487pt.
 
 
@@ -904,12 +904,12 @@ Package pdftex.def Info: Figures/1.png  used on input line 147.
 <Figures/3.png, id=187, 922.44624pt x 521.95pt>
 File: Figures/3.png Graphic file (type png)
 <use Figures/3.png>
-Package pdftex.def Info: Figures/3.png  used on input line 174.
+Package pdftex.def Info: Figures/3.png  used on input line 175.
 (pdftex.def)             Requested size: 234.8775pt x 132.90036pt.
 <Figures/2.png, id=188, 841.1425pt x 418.56375pt>
 File: Figures/2.png Graphic file (type png)
 <use Figures/2.png>
-Package pdftex.def Info: Figures/2.png  used on input line 180.
+Package pdftex.def Info: Figures/2.png  used on input line 181.
 (pdftex.def)             Requested size: 234.8775pt x 116.8777pt.
 
 
@@ -917,7 +917,7 @@ Package pdftex.def Info: Figures/2.png  used on input line 180.
 <Figures/4.png, id=198, 869.2475pt x 504.88625pt>
 File: Figures/4.png Graphic file (type png)
 <use Figures/4.png>
-Package pdftex.def Info: Figures/4.png  used on input line 206.
+Package pdftex.def Info: Figures/4.png  used on input line 207.
 (pdftex.def)             Requested size: 234.8775pt x 136.42125pt.
 
 
@@ -927,12 +927,12 @@ Package pdftex.def Info: Figures/4.png  used on input line 206.
 <Figures/wiki2.png, id=216, 1435.3625pt x 681.54625pt>
 File: Figures/wiki2.png Graphic file (type png)
 <use Figures/wiki2.png>
-Package pdftex.def Info: Figures/wiki2.png  used on input line 249.
+Package pdftex.def Info: Figures/wiki2.png  used on input line 250.
 (pdftex.def)             Requested size: 234.8775pt x 111.52472pt.
 <Figures/wiki1.png, id=219, 1613.02625pt x 769.87625pt>
 File: Figures/wiki1.png Graphic file (type png)
 <use Figures/wiki1.png>
-Package pdftex.def Info: Figures/wiki1.png  used on input line 259.
+Package pdftex.def Info: Figures/wiki1.png  used on input line 260.
 (pdftex.def)             Requested size: 234.8775pt x 112.09322pt.
 
 
@@ -941,7 +941,7 @@ Package pdftex.def Info: Figures/wiki1.png  used on input line 259.
 [7]
 
 [8] (Figures/1/FPI_Data.pgf)
-Overfull \hbox (23.11148pt too wide) in paragraph at lines 338--339
+Overfull \hbox (23.11148pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
@@ -952,7 +952,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9.79996> on input line 401.
 )
-Overfull \hbox (23.11148pt too wide) in paragraph at lines 344--345
+Overfull \hbox (23.11148pt too wide) in paragraph at lines 345--346
  [][] 
  []
 
@@ -964,36 +964,36 @@ Overfull \hbox (23.11148pt too wide) in paragraph at lines 344--345
 <Figures/2/Tconst20C/117mA.jpg, id=263, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/117mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/117mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/117mA.jpg  used on input line 405.
+Package pdftex.def Info: Figures/2/Tconst20C/117mA.jpg  used on input line 406.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 406.
+(Font)              <9> on input line 407.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 406.
+(Font)              <6> on input line 407.
 <Figures/2/Tconst20C/118mA.jpg, id=264, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/118mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/118mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/118mA.jpg  used on input line 410.
+Package pdftex.def Info: Figures/2/Tconst20C/118mA.jpg  used on input line 411.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/2/Tconst20C/119mA.jpg, id=265, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/119mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/119mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/119mA.jpg  used on input line 415.
+Package pdftex.def Info: Figures/2/Tconst20C/119mA.jpg  used on input line 416.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/2/Tconst20C/120mA.jpg, id=266, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/120mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/120mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/120mA.jpg  used on input line 420.
+Package pdftex.def Info: Figures/2/Tconst20C/120mA.jpg  used on input line 421.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/2/Tconst20C/121mA.jpg, id=267, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/121mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/121mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/121mA.jpg  used on input line 425.
+Package pdftex.def Info: Figures/2/Tconst20C/121mA.jpg  used on input line 426.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/2/Tconst20C/122mA.jpg, id=268, 547.04375pt x 474.77374pt>
 File: Figures/2/Tconst20C/122mA.jpg Graphic file (type jpg)
 <use Figures/2/Tconst20C/122mA.jpg>
-Package pdftex.def Info: Figures/2/Tconst20C/122mA.jpg  used on input line 430.
+Package pdftex.def Info: Figures/2/Tconst20C/122mA.jpg  used on input line 431.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 
 
@@ -1001,27 +1001,27 @@ Package pdftex.def Info: Figures/2/Tconst20C/122mA.jpg  used on input line 430.
 <Figures/2/Iconst118mA/198.jpg, id=278, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/198.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/198.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/198.jpg  used on input line 445.
+Package pdftex.def Info: Figures/2/Iconst118mA/198.jpg  used on input line 446.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/2/Iconst118mA/199.jpg, id=279, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/199.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/199.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/199.jpg  used on input line 450.
+Package pdftex.def Info: Figures/2/Iconst118mA/199.jpg  used on input line 451.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/2/Iconst118mA/201.jpg, id=280, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/201.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/201.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/201.jpg  used on input line 455.
+Package pdftex.def Info: Figures/2/Iconst118mA/201.jpg  used on input line 456.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/2/Iconst118mA/202.jpg, id=281, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/202.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/202.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/202.jpg  used on input line 460.
+Package pdftex.def Info: Figures/2/Iconst118mA/202.jpg  used on input line 461.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/2/Iconst118mA/203.jpg, id=282, 547.04375pt x 474.77374pt>
 File: Figures/2/Iconst118mA/203.jpg Graphic file (type jpg)
 <use Figures/2/Iconst118mA/203.jpg>
-Package pdftex.def Info: Figures/2/Iconst118mA/203.jpg  used on input line 465.
+Package pdftex.def Info: Figures/2/Iconst118mA/203.jpg  used on input line 466.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 
 
@@ -1029,57 +1029,57 @@ Package pdftex.def Info: Figures/2/Iconst118mA/203.jpg  used on input line 465.
 <Figures/3/0deg.jpg, id=289, 547.04375pt x 474.77374pt>
 File: Figures/3/0deg.jpg Graphic file (type jpg)
 <use Figures/3/0deg.jpg>
-Package pdftex.def Info: Figures/3/0deg.jpg  used on input line 483.
+Package pdftex.def Info: Figures/3/0deg.jpg  used on input line 484.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/45deg.jpg, id=290, 547.04375pt x 474.77374pt>
 File: Figures/3/45deg.jpg Graphic file (type jpg)
 <use Figures/3/45deg.jpg>
-Package pdftex.def Info: Figures/3/45deg.jpg  used on input line 489.
+Package pdftex.def Info: Figures/3/45deg.jpg  used on input line 490.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/90deg.jpg, id=291, 547.04375pt x 474.77374pt>
 File: Figures/3/90deg.jpg Graphic file (type jpg)
 <use Figures/3/90deg.jpg>
-Package pdftex.def Info: Figures/3/90deg.jpg  used on input line 495.
+Package pdftex.def Info: Figures/3/90deg.jpg  used on input line 496.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/135deg.jpg, id=292, 547.04375pt x 474.77374pt>
 File: Figures/3/135deg.jpg Graphic file (type jpg)
 <use Figures/3/135deg.jpg>
-Package pdftex.def Info: Figures/3/135deg.jpg  used on input line 501.
+Package pdftex.def Info: Figures/3/135deg.jpg  used on input line 502.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/180deg.jpg, id=293, 547.04375pt x 474.77374pt>
 File: Figures/3/180deg.jpg Graphic file (type jpg)
 <use Figures/3/180deg.jpg>
-Package pdftex.def Info: Figures/3/180deg.jpg  used on input line 507.
+Package pdftex.def Info: Figures/3/180deg.jpg  used on input line 508.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/225deg.jpg, id=294, 547.04375pt x 474.77374pt>
 File: Figures/3/225deg.jpg Graphic file (type jpg)
 <use Figures/3/225deg.jpg>
-Package pdftex.def Info: Figures/3/225deg.jpg  used on input line 513.
+Package pdftex.def Info: Figures/3/225deg.jpg  used on input line 514.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/270deg.jpg, id=295, 547.04375pt x 474.77374pt>
 File: Figures/3/270deg.jpg Graphic file (type jpg)
 <use Figures/3/270deg.jpg>
-Package pdftex.def Info: Figures/3/270deg.jpg  used on input line 519.
+Package pdftex.def Info: Figures/3/270deg.jpg  used on input line 520.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/315deg.jpg, id=296, 547.04375pt x 474.77374pt>
 File: Figures/3/315deg.jpg Graphic file (type jpg)
 <use Figures/3/315deg.jpg>
-Package pdftex.def Info: Figures/3/315deg.jpg  used on input line 525.
+Package pdftex.def Info: Figures/3/315deg.jpg  used on input line 526.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/355deg.jpg, id=297, 547.04375pt x 474.77374pt>
 File: Figures/3/355deg.jpg Graphic file (type jpg)
 <use Figures/3/355deg.jpg>
-Package pdftex.def Info: Figures/3/355deg.jpg  used on input line 531.
+Package pdftex.def Info: Figures/3/355deg.jpg  used on input line 532.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/110ThinFilter.jpg, id=298, 547.04375pt x 474.77374pt>
 File: Figures/3/110ThinFilter.jpg Graphic file (type jpg)
 <use Figures/3/110ThinFilter.jpg>
-Package pdftex.def Info: Figures/3/110ThinFilter.jpg  used on input line 548.
+Package pdftex.def Info: Figures/3/110ThinFilter.jpg  used on input line 549.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 <Figures/3/110ThickFilter.jpg, id=299, 547.04375pt x 474.77374pt>
 File: Figures/3/110ThickFilter.jpg Graphic file (type jpg)
 <use Figures/3/110ThickFilter.jpg>
-Package pdftex.def Info: Figures/3/110ThickFilter.jpg  used on input line 554.
+Package pdftex.def Info: Figures/3/110ThickFilter.jpg  used on input line 555.
 (pdftex.def)             Requested size: 140.92793pt x 122.30812pt.
 
 
@@ -1096,7 +1096,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <Figures/4/Crossover.png, id=323, 246.39421pt x 303.44948pt>
 File: Figures/4/Crossover.png Graphic file (type png)
 <use Figures/4/Crossover.png>
-Package pdftex.def Info: Figures/4/Crossover.png  used on input line 743.
+Package pdftex.def Info: Figures/4/Crossover.png  used on input line 744.
 (pdftex.def)             Requested size: 246.3936pt x 303.44872pt.
 
 
@@ -1108,7 +1108,7 @@ Package pdftex.def Info: Figures/4/Crossover.png  used on input line 743.
 <Figures/4/rubidium85numbers.png, id=345, 452.77155pt x 534.0753pt>
 File: Figures/4/rubidium85numbers.png Graphic file (type png)
 <use Figures/4/rubidium85numbers.png>
-Package pdftex.def Info: Figures/4/rubidium85numbers.png  used on input line 818.
+Package pdftex.def Info: Figures/4/rubidium85numbers.png  used on input line 819.
 (pdftex.def)             Requested size: 452.77043pt x 534.07399pt.
 
 
@@ -1116,14 +1116,14 @@ Package pdftex.def Info: Figures/4/rubidium85numbers.png  used on input line 818
 <Figures/4/rubidium87numbers.png, id=355, 458.1918pt x 545.6385pt>
 File: Figures/4/rubidium87numbers.png Graphic file (type png)
 <use Figures/4/rubidium87numbers.png>
-Package pdftex.def Info: Figures/4/rubidium87numbers.png  used on input line 827.
+Package pdftex.def Info: Figures/4/rubidium87numbers.png  used on input line 828.
 (pdftex.def)             Requested size: 458.19069pt x 545.63716pt.
 
 
 [20 <./Figures/4/rubidium87numbers.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 849.
+               Default added (so using `tbp') on input line 850.
 
 
 

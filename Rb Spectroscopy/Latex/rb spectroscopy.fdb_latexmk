@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex rb spectroscopy"] 1719267107.39948 "rb spectroscopy.aux" "rb spectroscopy.bbl" "rb spectroscopy" 1719267113.41853 0
+["bibtex rb spectroscopy"] 1719860640.2283 "rb spectroscopy.aux" "rb spectroscopy.bbl" "rb spectroscopy" 1719860646.65787 0
   "./rbspectroscopy.bib" 1719266870 1683 2e87435c76dc53eea35020c4ae8dbac9 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "rb spectroscopy.aux" 1719267112 17164 2d188b9f404aec52bb4252ed83049a26 "pdflatex"
+  "rb spectroscopy.aux" 1719860645 17164 7ce333827595d3c5864963bcce14cd55 "pdflatex"
   (generated)
   "rb spectroscopy.bbl"
   "rb spectroscopy.blg"
   (rewritten before read)
-["pdflatex"] 1719267107.81207 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" "rb spectroscopy.pdf" "rb spectroscopy" 1719267113.41945 0
+["pdflatex"] 1719860640.75022 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" "rb spectroscopy.pdf" "rb spectroscopy" 1719860646.65862 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1719265483 279613 fe62a258ff6d99cc2243c3a2d16aa767 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1718642578 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1718642580 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -312,12 +312,12 @@
   "Figures/4/rubidium87numbers.png" 1719261063 29691 d29c44e1fd2aab65de02e318933527b7 ""
   "Figures/wiki1.png" 1719257942 180391 670fc7da3da65a8a7e43e99a4a20e368 ""
   "Figures/wiki2.png" 1719257942 100224 dd3245de208d5a2dc273a2e6a3a0ca31 ""
-  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" 1719267100 46906 ab92399a801224e0ec2f6ed2038170d5 ""
-  "rb spectroscopy.aux" 1719267112 17164 2d188b9f404aec52bb4252ed83049a26 "pdflatex"
-  "rb spectroscopy.bbl" 1719267107 793 b7926c55c045b674beced652f6e73e7d "bibtex rb spectroscopy"
-  "rb spectroscopy.out" 1719267112 3818 40eb631a7cef6336fa996098619b2523 "pdflatex"
-  "rb spectroscopy.tex" 1719267100 46906 ab92399a801224e0ec2f6ed2038170d5 ""
-  "rb spectroscopy.toc" 1719267112 2148 d23c0bcfc7a54aa18ad4666c8ec093f4 "pdflatex"
+  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rb Spectroscopy/Latex/rb spectroscopy.tex" 1719860630 46908 1abe3a4c9988fe343afaaccd4fc9b86a ""
+  "rb spectroscopy.aux" 1719860645 17164 7ce333827595d3c5864963bcce14cd55 "pdflatex"
+  "rb spectroscopy.bbl" 1719860640 793 b7926c55c045b674beced652f6e73e7d "bibtex rb spectroscopy"
+  "rb spectroscopy.out" 1719860645 3818 40eb631a7cef6336fa996098619b2523 "pdflatex"
+  "rb spectroscopy.tex" 1719860630 46908 1abe3a4c9988fe343afaaccd4fc9b86a ""
+  "rb spectroscopy.toc" 1719860645 2148 d23c0bcfc7a54aa18ad4666c8ec093f4 "pdflatex"
   (generated)
   "rb spectroscopy.aux"
   "rb spectroscopy.log"
