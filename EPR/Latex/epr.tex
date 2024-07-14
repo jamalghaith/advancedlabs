@@ -30,6 +30,8 @@
 
 \usepackage{booktabs}
 
+\usepackage{pgfplots}
+
 \newcommand{\pvec}[1]{\vec{#1}\mkern2mu\vphantom{#1}}
 
 \DeclareSIUnit{\angstrom}{\textup{\AA}}
@@ -70,8 +72,260 @@
 \pagenumbering{arabic}
 
 \section{Introduction}
+\begin{equation}
+	h {\nu}_0 = g \mu_B B_0
+	\label{eq:resonancecondition}
+\end{equation}
+\pagebreak{}
 
 \section{Analysis}
+
+\subsection{Task 1: \textit{Frequency mixing and modulation}}
+
+Here we were tasked with observing the signals that would result from a frequency mixer with $f_1 = 10$ MHz and $f_2$ varying from 200 to 1000 kHz. This is what we saw on the oscilloscope:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.45\textwidth]{Figures/Task 1/Oscilloscope.jpg}
+	\caption{Oscilloscope output with $f_1 = 10$ MHz and $f_2 = 200$ kHz.}
+	\label{fig:oscilloscope}
+\end{figure}
+
+This is what we saw on the HDSDR software:
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[t]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{Figures/Task 1/Mixing.png}
+		\caption{Screenshot of the HDSDR software after varying $f_2$.}
+		\label{fig:mixing}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}[t]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{Figures/Task 1/MixingColored.png}
+		\caption{Zoomed in version of the image on the left, with the left branch colored in red and the right branch colored in green.}
+		\label{fig:mixing_colored}
+	\end{subfigure}
+	\caption{Frequency mixing}
+	\label{fig:mixing_all}
+\end{figure}
+
+Figure \ref{fig:mixing_colored} shows the two main branches of the signal. The right one, in green, is the result of the addition of the two frequencies ($f_1+f_2$), while the left one, in red, is the result of their subtraction ($f_1-f_2$). 
+We varied in steps of 100 kHz which can clearly be seen in the image. The left one ends at 9 MHz and the right one at 11 MHz; corresponding to the frequencies $ 10 \pm 1 $ MHz. 
+
+The two other lines that are observed are at 10 MHz and 9.458 MHz. The 10 MHz line is there for obvious reasons, but the other is odd, maybe due to some interference or noise.
+
+
+\subsection{Task 2: \textit{Receiving and analyzing signals in the VLF range from 10 kHz to 150 kHz }}
+
+Here we were tasked with observing signals what would arise from varying the channels on a simple radio transmitter (walkie-talkie). 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Figures/Task 2/Radio.png}
+	\caption{HDSDR screenshot with the walkie-talkie on different channels.}
+	\label{fig:radio}
+\end{figure}
+
+As we went from channel 1 to channel 8, the frequency decreased from $\approx$ 416795 KHz down to $\approx$ 416708 in increments of $\approx$ 12kHz.
+
+\pagebreak{}
+
+\subsection{Task 4: \textit{Determination of the resonance frequency and recording of the dispersion curves of different DPPH samples}}
+
+We were provided with two DPPH of different weights; 1 $\mu$g and 10 $\mu$g. We were tasked with recording the dispersion curves and then finding the resonance frequency, which was done by taking screenshots of the software and converting it to points using WebPlotDigitizer. \cite{automerisio} 
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.45}{\input{Figures/Task 4/DPPH1mg.pgf}}
+		\caption{Digitized dispersion curve of the 1 $\mu$g DPPH sample. $B_0 = 0.368$ T, $f_0 = 792.451$ MHz.}
+		\label{fig:DPPH1mgDigitized}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Task 4/DPPH1mg.png}
+		\caption{Dispersion curve of the 1 $\mu$g DPPH sample, as seen in HDSDR.}
+		\label{fig:DPPH1mg}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.45}{\input{Figures/Task 4/DPPH10mg.pgf}}
+		\caption{Digitized dispersion curve of the 10 $\mu$g DPPH sample. $B_0 = 0.367$ T, $f_0 = 791.902$ MHz.}
+		\label{fig:DPPH10mgDigitized}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Task 4/DPPH10mg.png}
+		\caption{Dispersion curve of the 10 $\mu$g DPPH sample, as seen in HDSDR.}
+		\label{fig:DPPH10mg}
+	\end{subfigure}
+	\caption{}
+	\label{fig:DPPHPlots}
+\end{figure}
+
+using the data from the digitized dispersion curves, we can calculate the g-factor of the DPPH samples by solving for $g$ in equation \ref{eq:resonancecondition}, such that:
+
+\begin{equation*}
+	g = \frac{h \nu_0}{\mu_B B_0}
+\end{equation*}
+
+The following table shows the calculated g-factors for the two samples:
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	DPPH g-factor & Theoretical             & Experimental & \% Error \\ \hline
+	1 $\mu$g      & \multirow{2}{*}{2.0036} & 2.0575       & 2.69     \\ \cline{1-1} \cline{3-4} 
+	10 $\mu$g     &                         & 2.0628       & 2.96     \\ \hline
+	\end{tabular}
+\caption{Comparison between the theoretical and experimental g-factors of the DPPH samples.}
+\end{table}
+
+The percent error for the 10 $\mu$g sample is slightly higher than that of the 1 $\mu$g sample. Theoretically, the values should be the same (as the material is unchanged), but a potential reason that the error increases is because at higher concentrations, more dipole interactions can occur which can shift the resonance condition slightly.
+This is also seen in the resonance frequency increasing from 792.451 MHz to 791.902 MHz in \ref{fig:DPPH1mgDigitized} and \ref{fig:DPPH10mgDigitized} respectively.
+
+Other sources of error include the calibration of the axes and point assignment in the software. Also, $\nu_0$ was used as 10.6 GHz, but this might not be correct as the frequencies were mixed.
+
+\pagebreak{}
+
+\subsection{Task 5: \textit{Determination of the resonance frequency and recording of the dispersion
+curves of different Ultramarine samples}}
+
+The same is done here as in the previous task, but with four Ultramarine samples of decreasing concentrations.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.44}{\input{Figures/Task 5/Ultramarine.pgf}}
+		\caption{Digitized dispersion curve of the undiluted Ultramarine sample. $B_0 = 0.366$ T, $f_0 = 791.984$ MHz.}
+		\label{fig:Ultramarine1Digitized}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Task 5/Ultramarine.png}
+		\caption{Dispersion curve of the undiluted Ultramarine sample, as seen in HDSDR.}
+		\label{fig:Ultramarine1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.44}{\input{Figures/Task 5/Ultramarine10.pgf}}
+		\caption{Digitized dispersion curve of the 1:10 diluted Ultramarine sample. $B_0 = 0.365$ T, $f_0 = 792.825$ MHz.}
+		\label{fig:Ultramarine10Digitized}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Task 5/Ultramarine10.png}
+		\caption{Dispersion curve of the 1:10 diluted Ultramarine sample, as seen in HDSDR.}
+		\label{fig:Ultramarine10}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.44}{\input{Figures/Task 5/Ultramarine100.pgf}}
+		\caption{Digitized dispersion curve of the 1:100 diluted Ultramarine sample. $B_0 = 0.369$ T, $f_0 = 792.378$ MHz.}
+		\label{fig:Ultramarine100Digitized}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Task 5/Ultramarine100.png}
+		\caption{Dispersion curve of the 1:100 diluted Ultramarine sample, as seen in HDSDR.}
+		\label{fig:Ultramarine100}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.44}{\input{Figures/Task 5/Ultramarine1000.pgf}}
+		\caption{Digitized dispersion curve of the 1:1000 diluted Ultramarine sample. $B_0 = 0.362$ T, $f_0 = 792.692$ MHz.}
+		\label{fig:Ultramarine1000Digitized}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Task 5/Ultramarine1000.png}
+		\caption{Dispersion curve of the 1:1000 diluted Ultramarine sample, as seen in HDSDR.}
+		\label{fig:Ultramarine1000}
+	\end{subfigure}
+	\caption{}
+	\label{fig:UltramarinePlots}
+\end{figure}
+
+\pagebreak{}
+
+The following table shows the calculated g-factors for the four samples:
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	Ultramarine g-factor & Theoretical             & Experimental & \% Error \\ \hline
+	Undiluted            & \multirow{4}{*}{2.0290} & 2.0709       & 2.06     \\ \cline{1-1} \cline{3-4} 
+	1:10                 &                         & 2.0753       & 2.28     \\ \cline{1-1} \cline{3-4} 
+	1:100                &                         & 2.0527       & 1.17     \\ \cline{1-1} \cline{3-4} 
+	1:1000               &                         & 2.0904       & 3.03     \\ \hline
+	\end{tabular}
+	\caption{Comparison between the theoretical and experimental g-factors of the Ultramarine samples.}
+\end{table}
+
+The percent error for the 1:100 diluted sample is the lowest, while the 1:1000 diluted sample has the highest. Given the analysis of the previous task, one would expect the 1:1000 diluted sample to have the lowest error, but this is overshadowed by the fact that
+the resonance was impossible to detect at the lowest concentration, as it barely happened. Furthermore, the slight increase in percent error from undiluted to 1:10 can be attributed to software calibration issues. 
+
+Interestingly, Figure \ref{fig:UltramarinePlots} shows that the resonance frequency increases, then decreases, then increases again (with the magnetic field behaving in the opposite manner) with increasing dilution. This is probably due to the fact that EPR can be a sensitive measurement, so any number of environmental factors could have affected the signal. 
+
+\pagebreak{}
+
+\subsection{Task 6: \textit{Measurement of the DPPH sample 10 $\mu$g with a calibrated LNB as observation
+system}}
+
+Once again, this is very similar to task 4, but with a calibrated LNB such that $\nu_0 =$ 9.75 GHz. 
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.45}{\input{Figures/Task 6/DPPH10mgCalibrated.pgf}}
+		\caption{Digitized dispersion curve of the 10 $\mu$g DPPH sample. $B_0 = 0.371$ T, $f_0 = 792.072$ MHz.}
+		\label{fig:DPPH10mgDigitizedCalibrated}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Task 6/DPPH10mgCalibrated.png}
+		\caption{Dispersion curve of the 10 $\mu$g DPPH sample, as seen in HDSDR.}
+		\label{fig:DPPH10mgCalibrated}
+	\end{subfigure}
+	\caption{}
+	\label{fig:DPPHCalibrated}
+\end{figure}
+
+The g-factor for the 10 $\mu$g DPPH sample is calculated to be 1.8762, which is a significant deviation from the theoretical value of 2.0036 (a 6.4\% error).	
+
+Comparing the results for DPPH in this task and task 4, we obtain the following:
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	DPPH 10 $\mu$g & Uncalibrated LNB & Calibrated LNB & Change from uncalibrated \\ \hline
+g-factor       & 2.0628           & 1.8762         & -9.95\%                  \\ \hline
+$f_0$          & 791.902          & 792.072        & +0.17 MHz                \\ \hline
+$B_0$          & 0.367            & 0.371          & +4 mT                    \\ \hline
+	\end{tabular}
+	\caption{Comparison between the results of the 10 $\mu$g DPPH sample with an uncalibrated and calibrated LNB.}
+\end{table}
+
+Both resonance frequency and magnetic field increased slightly. In other tasks, when one increased the other would decrease. This is due to the fact that the LNB was calibrated to a different frequency, so the resonance condition was met at a different point.
+
+\pagebreak{}
 
 \section{Conclusion}
 
@@ -84,7 +338,7 @@
 
 \pagebreak{}
 
-%\bibliographystyle{ieeetr} 
-%\bibliography{epr} 
+\bibliographystyle{ieeetr} 
+\bibliography{epr} 
 
 \end{document}
