@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  14 JUL 2024 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  20 JUL 2024 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -721,36 +721,76 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 
 
 [1]
+<Figures/Intro/1.png, id=130, 592.2125pt x 413.545pt>
+File: Figures/Intro/1.png Graphic file (type png)
+<use Figures/Intro/1.png>
+Package pdftex.def Info: Figures/Intro/1.png  used on input line 88.
+(pdftex.def)             Requested size: 234.8775pt x 164.0142pt.
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 
-      [1]
-<Figures/Task 1/Oscilloscope.jpg, id=81, 8190.6pt x 6167.04pt>
+l.100 \pagebreak{
+                 } [1 <./Figures/Intro/1.png>]
+<Figures/Intro/2.png, id=146, 758.835pt x 550.055pt>
+File: Figures/Intro/2.png Graphic file (type png)
+<use Figures/Intro/2.png>
+Package pdftex.def Info: Figures/Intro/2.png  used on input line 106.
+(pdftex.def)             Requested size: 234.8775pt x 170.2551pt.
+<Figures/Intro/3.png, id=149, 558.085pt x 500.87125pt>
+File: Figures/Intro/3.png Graphic file (type png)
+<use Figures/Intro/3.png>
+Package pdftex.def Info: Figures/Intro/3.png  used on input line 117.
+(pdftex.def)             Requested size: 234.8775pt x 210.80011pt.
+
+
+[2 <./Figures/Intro/2.png> <./Figures/Intro/3.png>]
+<Figures/Intro/4.png, id=162, 523.9575pt x 559.08875pt>
+File: Figures/Intro/4.png Graphic file (type png)
+<use Figures/Intro/4.png>
+Package pdftex.def Info: Figures/Intro/4.png  used on input line 129.
+(pdftex.def)             Requested size: 234.8775pt x 250.6236pt.
+<Figures/Intro/5.png, id=165, 415.5525pt x 255.95625pt>
+File: Figures/Intro/5.png Graphic file (type png)
+<use Figures/Intro/5.png>
+Package pdftex.def Info: Figures/Intro/5.png  used on input line 149.
+(pdftex.def)             Requested size: 234.8775pt x 144.67021pt.
+
+
+[3{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Figures/Intro/4.png> <./Figures/Intro/5.png>]
+<Figures/Intro/EPR.png, id=180, 449.5194pt x 561.89925pt>
+File: Figures/Intro/EPR.png Graphic file (type png)
+<use Figures/Intro/EPR.png>
+Package pdftex.def Info: Figures/Intro/EPR.png  used on input line 164.
+(pdftex.def)             Requested size: 469.75502pt x 587.21654pt.
+
+
+[4 <./Figures/Intro/EPR.png>]
+<Figures/Task 1/Oscilloscope.jpg, id=187, 8190.6pt x 6167.04pt>
 File: Figures/Task 1/Oscilloscope.jpg Graphic file (type jpg)
 <use Figures/Task 1/Oscilloscope.jpg>
-Package pdftex.def Info: Figures/Task 1/Oscilloscope.jpg  used on input line 89.
+Package pdftex.def Info: Figures/Task 1/Oscilloscope.jpg  used on input line 179.
 (pdftex.def)             Requested size: 211.38832pt x 159.12535pt.
-<Figures/Task 1/Mixing.png, id=82, 1264.725pt x 760.34062pt>
+<Figures/Task 1/Mixing.png, id=188, 1264.725pt x 760.34062pt>
 File: Figures/Task 1/Mixing.png Graphic file (type png)
 <use Figures/Task 1/Mixing.png>
-Package pdftex.def Info: Figures/Task 1/Mixing.png  used on input line 99.
+Package pdftex.def Info: Figures/Task 1/Mixing.png  used on input line 189.
 (pdftex.def)             Requested size: 211.38832pt x 127.07504pt.
-<Figures/Task 1/MixingColored.png, id=84, 779.91376pt x 395.97937pt>
+<Figures/Task 1/MixingColored.png, id=189, 779.91376pt x 395.97937pt>
 File: Figures/Task 1/MixingColored.png Graphic file (type png)
 <use Figures/Task 1/MixingColored.png>
-Package pdftex.def Info: Figures/Task 1/MixingColored.png  used on input line 105.
+Package pdftex.def Info: Figures/Task 1/MixingColored.png  used on input line 195.
 (pdftex.def)             Requested size: 211.38832pt x 107.32672pt.
-<Figures/Task 2/Radio.png, id=86, 1264.725pt x 396.7322pt>
+<Figures/Task 2/Radio.png, id=191, 1264.725pt x 396.7322pt>
 File: Figures/Task 2/Radio.png Graphic file (type png)
 <use Figures/Task 2/Radio.png>
-Package pdftex.def Info: Figures/Task 2/Radio.png  used on input line 125.
+Package pdftex.def Info: Figures/Task 2/Radio.png  used on input line 215.
 (pdftex.def)             Requested size: 234.8775pt x 73.67882pt.
 
 
-[2 <./Figures/Task 1/Oscilloscope.jpg> <./Figures/Task 1/Mixing.png> <./Figures/Task 1/MixingColored.png> <./Figures/Task 2/Radio.png>] (Figures/Task 4/DPPH1mg.pgf
+[5 <./Figures/Task 1/Oscilloscope.jpg> <./Figures/Task 1/Mixing.png> <./Figures/Task 1/MixingColored.png> <./Figures/Task 2/Radio.png>] (Figures/Task 4/DPPH1mg.pgf
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 631.
 
 
@@ -771,75 +811,75 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.8> not available
 (Font)              size <17.28> substituted on input line 919.
 
 )
-<Figures/Task 4/DPPH1mg.png, id=103, 1264.725pt x 352.31625pt>
+<Figures/Task 4/DPPH1mg.png, id=208, 1264.725pt x 352.31625pt>
 File: Figures/Task 4/DPPH1mg.png Graphic file (type png)
 <use Figures/Task 4/DPPH1mg.png>
-Package pdftex.def Info: Figures/Task 4/DPPH1mg.png  used on input line 149.
+Package pdftex.def Info: Figures/Task 4/DPPH1mg.png  used on input line 239.
 (pdftex.def)             Requested size: 211.38832pt x 58.8823pt.
  (Figures/Task 4/DPPH10mg.pgf)
-<Figures/Task 4/DPPH10mg.png, id=104, 1264.725pt x 393.72093pt>
+<Figures/Task 4/DPPH10mg.png, id=209, 1264.725pt x 393.72093pt>
 File: Figures/Task 4/DPPH10mg.png Graphic file (type png)
 <use Figures/Task 4/DPPH10mg.png>
-Package pdftex.def Info: Figures/Task 4/DPPH10mg.png  used on input line 162.
+Package pdftex.def Info: Figures/Task 4/DPPH10mg.png  used on input line 252.
 (pdftex.def)             Requested size: 211.38832pt x 65.80222pt.
 
 
-[3 <./Figures/Task 4/DPPH1mg.png> <./Figures/Task 4/DPPH10mg.png>] (Figures/Task 5/Ultramarine.pgf)
-<Figures/Task 5/Ultramarine.png, id=119, 1264.725pt x 393.72093pt>
+[6 <./Figures/Task 4/DPPH1mg.png> <./Figures/Task 4/DPPH10mg.png>] (Figures/Task 5/Ultramarine.pgf)
+<Figures/Task 5/Ultramarine.png, id=224, 1264.725pt x 393.72093pt>
 File: Figures/Task 5/Ultramarine.png Graphic file (type png)
 <use Figures/Task 5/Ultramarine.png>
-Package pdftex.def Info: Figures/Task 5/Ultramarine.png  used on input line 212.
+Package pdftex.def Info: Figures/Task 5/Ultramarine.png  used on input line 302.
 (pdftex.def)             Requested size: 211.38832pt x 65.80222pt.
  (Figures/Task 5/Ultramarine10.pgf)
-<Figures/Task 5/Ultramarine10.png, id=120, 1264.725pt x 378.66469pt>
+<Figures/Task 5/Ultramarine10.png, id=225, 1264.725pt x 378.66469pt>
 File: Figures/Task 5/Ultramarine10.png Graphic file (type png)
 <use Figures/Task 5/Ultramarine10.png>
-Package pdftex.def Info: Figures/Task 5/Ultramarine10.png  used on input line 226.
+Package pdftex.def Info: Figures/Task 5/Ultramarine10.png  used on input line 316.
 (pdftex.def)             Requested size: 211.38832pt x 63.28589pt.
  (Figures/Task 5/Ultramarine100.pgf)
-<Figures/Task 5/Ultramarine100.png, id=121, 1264.725pt x 395.22656pt>
+<Figures/Task 5/Ultramarine100.png, id=226, 1264.725pt x 395.22656pt>
 File: Figures/Task 5/Ultramarine100.png Graphic file (type png)
 <use Figures/Task 5/Ultramarine100.png>
-Package pdftex.def Info: Figures/Task 5/Ultramarine100.png  used on input line 240.
+Package pdftex.def Info: Figures/Task 5/Ultramarine100.png  used on input line 330.
 (pdftex.def)             Requested size: 211.38832pt x 66.05385pt.
  (Figures/Task 5/Ultramarine1000.pgf)
-<Figures/Task 5/Ultramarine1000.png, id=122, 1264.725pt x 386.19281pt>
+<Figures/Task 5/Ultramarine1000.png, id=227, 1264.725pt x 386.19281pt>
 File: Figures/Task 5/Ultramarine1000.png Graphic file (type png)
 <use Figures/Task 5/Ultramarine1000.png>
-Package pdftex.def Info: Figures/Task 5/Ultramarine1000.png  used on input line 254.
+Package pdftex.def Info: Figures/Task 5/Ultramarine1000.png  used on input line 344.
 (pdftex.def)             Requested size: 211.38832pt x 64.54405pt.
 
 
-[4 <./Figures/Task 5/Ultramarine.png> <./Figures/Task 5/Ultramarine10.png> <./Figures/Task 5/Ultramarine100.png> <./Figures/Task 5/Ultramarine1000.png>]
+[7 <./Figures/Task 5/Ultramarine.png> <./Figures/Task 5/Ultramarine10.png> <./Figures/Task 5/Ultramarine100.png> <./Figures/Task 5/Ultramarine1000.png>]
 
-[5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 287.
-
+[8]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 287.
+(hyperref)                removing `math shift' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `\mu' on input line 377.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 377.
 
 (Figures/Task 6/DPPH10mgCalibrated.pgf)
-<Figures/Task 6/DPPH10mgCalibrated.png, id=139, 1264.725pt x 760.34062pt>
+<Figures/Task 6/DPPH10mgCalibrated.png, id=243, 1264.725pt x 760.34062pt>
 File: Figures/Task 6/DPPH10mgCalibrated.png Graphic file (type png)
 <use Figures/Task 6/DPPH10mgCalibrated.png>
-Package pdftex.def Info: Figures/Task 6/DPPH10mgCalibrated.png  used on input line 302.
+Package pdftex.def Info: Figures/Task 6/DPPH10mgCalibrated.png  used on input line 392.
 (pdftex.def)             Requested size: 211.38832pt x 127.07504pt.
 
 
-[6 <./Figures/Task 6/DPPH10mgCalibrated.png>]
+[9 <./Figures/Task 6/DPPH10mgCalibrated.png>]
 
-[7]
+[10]
 
-[8] (epr.bbl)
+[11] (epr.bbl)
 
-[9] (epr.aux)
+[12] (epr.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -850,20 +890,20 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.48pt have occurred.
 
 Package rerunfilecheck Info: File `epr.out' has not changed.
-(rerunfilecheck)             Checksum: 767A5177C6FC51B05210845479BB5C0D;3164.
+(rerunfilecheck)             Checksum: A87D8FE3DCC9FC31A885EFB7A2CF8CF1;4553.
  ) 
 Here is how much of TeX's memory you used:
- 37335 strings out of 473920
- 902833 string characters out of 5726502
+ 37441 strings out of 473920
+ 905060 string characters out of 5726502
  1955908 words of memory out of 5000000
- 59598 multiletter control sequences out of 15000+600000
- 568180 words of font info for 71 fonts, out of 8000000 for 9000
+ 59677 multiletter control sequences out of 15000+600000
+ 568515 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,107p,803b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on epr.pdf (11 pages, 9853053 bytes).
+ 99i,11n,107p,1066b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on epr.pdf (14 pages, 10395314 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
