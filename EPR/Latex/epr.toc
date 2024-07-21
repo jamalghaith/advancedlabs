@@ -11,12 +11,11 @@
 \contentsline {subsubsection}{\numberline {1.6.1}DPPH}{3}{subsubsection.1.6.1}%
 \contentsline {subsubsection}{\numberline {1.6.2}Ultramarine}{3}{subsubsection.1.6.2}%
 \contentsline {subsection}{\numberline {1.7}Experimental Setup}{4}{subsection.1.7}%
-\contentsline {section}{\numberline {2}Analysis}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Task 1: \textit {Frequency mixing and modulation}}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Task 2: \textit {Receiving and analyzing signals in the VLF range from 10 kHz to 150 kHz }}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Task 4: \textit {Determination of the resonance frequency and recording of the dispersion curves of different DPPH samples}}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Task 5: \textit {Determination of the resonance frequency and recording of the dispersion curves of different Ultramarine samples}}{7}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Task 6: \textit {Measurement of the DPPH sample 10 $\mu $g with a calibrated LNB as observation system}}{9}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Conclusion}{10}{section.3}%
-\contentsline {section}{Appendices}{11}{section*.17}%
-\contentsline {section}{Bibliography}{12}{section*.18}%
+\contentsline {section}{\numberline {2}Analysis}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Task 1: \textit {Frequency mixing and modulation}}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Task 2: \textit {Receiving and analyzing signals in the VLF range from 10 kHz to 150 kHz }}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Task 4: \textit {Determination of the resonance frequency and recording of the dispersion curves of different DPPH samples}}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Task 5: \textit {Determination of the resonance frequency and recording of the dispersion curves of different Ultramarine samples}}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Task 6: \textit {Measurement of the DPPH sample 10 $\mu $g with a calibrated LNB as observation system}}{11}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Conclusion}{12}{section.3}%
+\contentsline {section}{Bibliography}{13}{section*.20}%

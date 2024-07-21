@@ -5,36 +5,36 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: epr.bib
-You've used 5 entries,
+You've used 8 entries,
             1876 wiz_defined-function locations,
-            496 strings with 3852 characters,
-and the built_in function-call counts, 530 in all, are:
-= -- 40
-> -- 8
+            510 strings with 4221 characters,
+and the built_in function-call counts, 893 in all, are:
+= -- 70
+> -- 21
 < -- 0
-+ -- 6
-- -- 1
-* -- 19
-:= -- 58
-add.period$ -- 2
-call.type$ -- 5
-change.case$ -- 5
++ -- 12
+- -- 4
+* -- 34
+:= -- 104
+add.period$ -- 5
+call.type$ -- 8
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 20
-empty$ -- 91
-format.name$ -- 1
-if$ -- 142
+cite$ -- 8
+duplicate$ -- 32
+empty$ -- 145
+format.name$ -- 4
+if$ -- 237
 int.to.chr$ -- 0
-int.to.str$ -- 5
+int.to.str$ -- 8
 missing$ -- 0
-newline$ -- 18
-num.names$ -- 1
-pop$ -- 33
+newline$ -- 27
+num.names$ -- 3
+pop$ -- 55
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 32
+skip$ -- 45
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -43,6 +43,6 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 1
-width$ -- 6
-write$ -- 30
+while$ -- 3
+width$ -- 9
+write$ -- 50

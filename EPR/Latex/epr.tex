@@ -76,6 +76,7 @@
 
 \subsection{EPR}
 Electron paramagnetic resonance (EPR) or electron spin resonance is a spectroscopy method used to study molecules or atoms which have unpaired electrons. A paramagnetic sample is placed in a magnetic field and irradiated with microwaves which interact with the spins of the unpaired electrons. 
+
 \subsection{Zeeman effect}
 When an external magnetic field is applied to a paramagnetic substance, the spins of the unpaired electrons can align either parallel or anti-parallel to the direction of the magnetic field, resulting in spin states of $m_s = \pm \frac{1}{2}$. These alignments correspond to different energy levels, thus lifting the degeneracy of the electron spin states. The energy difference between those levels is: 
 \begin{equation}
@@ -107,7 +108,6 @@ The vast majority of EPR measurements are conducted using microwaves in the \SIr
     \caption{EPR Spectrum \cite{wikipediacontributors_2019_electron}}
     \label{fig:eprspectrum}
 \end{figure}
-
 
 \subsection{RF techniques}
 \subsubsection{Frequency modulation}
@@ -152,8 +152,7 @@ Diphenyl-Picryl-Hydrazyl (DPPH) is a common used material for EPR measurements. 
 \end{figure}
 
 \subsubsection{Ultramarine}
-Ultramarine (UM) is another widely used substance for EPR measurements due to its strong paramagnetic characteristics. Its g-factor is g = 2.0290 and therefore differs strongly from the g-factor of an electron. Its chemical formula is $Na_{8-10}A_{16}Si_{6}O_{24}S_{2-4}$
-
+Ultramarine (UM) is another widely used substance for EPR measurements due to its strong paramagnetic characteristics. Its g-factor is $g = 2.0290$ and therefore differs strongly from the g-factor of an electron. Its chemical formula is $\text{Na}_{8-10}\text{A}_{16}\text{Si}_{6}\text{O}_{24}\text{S}_{2-4}$
 
 \pagebreak{}
 
@@ -162,9 +161,56 @@ Ultramarine (UM) is another widely used substance for EPR measurements due to it
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Figures/Intro/EPR.png}
-	\caption{Experimental setup for the EPR experiment.}
+	\caption{Experimental setup for the EPR experiment. \cite{physicsdepartmentuiuc_1999_electron}}
 	\label{fig:setup}
 \end{figure}
+
+Figure \ref{fig:setup} shows the experiment setup of an EPR spectrometer. It mainly consists of: the microwave bridge and the recieving system with the magnets.
+
+\pagebreak{}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Figures/Intro/Microwave_Cavity.png}
+	\caption{Microwave cavity. \cite{physicsdepartmentuiuc_1999_electron}}
+	\label{fig:microwave_cavity}
+\end{figure}
+
+Figure \ref{fig:microwave_cavity} shows the microwave cavity which is used to generate the microwaves, and detection of the EPR signal. 
+It consists of a klystron, an attenuator, a circulator, and a sample cavity resonator.
+
+\begin{itemize}
+  \item Klystron: Generates microwaves in the X-Band frequency range (8-12 GHz).
+  \item Attentuator: Used to adjust the power of the microwaves.
+  \item Circulator: Directs the microwaves to the sample cavity, and reflects energy from the cavity to the detector.
+  \item Sample Cavity: Acts like a tuned circuit with very high Q-factor $\left(Q=\frac{\omega \cdot \text{Energy stored}}{\text{Power dissipated in cavity}}\right)$. When this sample cavity is in resonance with the microwaves, the impedance of the cavity changes causing the signal to be reflected back to the crystal detector.
+\end{itemize}
+
+As aforementioned, the microwave frequency remains constant while the external magnetic field is swept through the resonance condition. To amplify the EPR signal, a high-frequency modulated magnetic field is added to the slowly swept magnetic field. This approach also reduces noise and improves spectral resolution. The enhancements occur because the sample reacts to the modulated magnetic field, altering the signal's amplitude. This change corresponds to the difference in absorbed energy within the resonator cavity. Noise is eliminated from the measured signal since the signal's phase and frequency are known.
+
+The high-frequency modulation is introduced using small coils positioned on each side of the cavity walls along the axis of the static field. Typically, a frequency of 100 kHz is used.
+
+The modulation amplitude should be smaller than the resonance line width. This ensures that the detected 100 kHz signal is proportional to the slope of the absorption curve. Consequently, at resonance (corresponding to the zero curve), the 100 kHz component at the detector is zero. Similarly, the maximum slope occurs at the inflection point where the output signal is also at its maximum. The polarity of the output signal from the phase-sensitive detector is determined by the slope's sign. Therefore, with small modulation amplitudes, the output signal approximates the first derivative of the absorption signal. However, using higher modulation amplitudes closer to the line width value results in distorted line shapes.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Figures/Intro/Field_Modulation.png}
+	\caption{Magnetic field modulation. \cite{a2019_electron}}
+	\label{fig:field_modulation}
+\end{figure}
+
+\pagebreak{}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Figures/Intro/LNB.png}
+	\caption{Low-noise block. \cite{departmentofphysicsandgeosciences_2001_electronparamagnetic}}
+	\label{fig:lnb}
+\end{figure}
+
+The low-noise block (LNB), also known as a modified low-noise block down converter, is used for EPR measurements on the DPPH and ultramarine samples. An LNB typically combines a frequency mixer, local oscillators, and a down converter. It also includes a low-noise amplifier that boosts a low-power signal while maintaining nearly the same signal-to-noise ratio.
+
+Figure \ref{fig:lnb} shows the LNB used, where the two violet ring cylinders represent the local oscillators (LOs). Each LO generates a specific frequency: one at 9.75 GHz and the other at 10.6 GHz. These frequencies are mixed by a mixer, producing both the sum and difference frequencies of the two LOs, with only the difference frequency being considered. This resulting frequency is then processed through a down converter, shifting it to around 800 MHz at the output. The samples are exposed to the dielectric resonator with the 10.6 GHz frequency, depicted as the smaller violet ring cylinder on the right. This setup allows for the measurement of dispersion signals.
 
 \pagebreak{}
 
@@ -270,8 +316,8 @@ The following table shows the calculated g-factors for the two samples:
 	\begin{tabular}{|c|c|c|c|}
 	\hline
 	DPPH g-factor & Theoretical             & Experimental & \% Error \\ \hline
-	1 $\mu$g      & \multirow{2}{*}{2.0036} & 2.0575       & 2.69     \\ \cline{1-1} \cline{3-4} 
-	10 $\mu$g     &                         & 2.0628       & 2.96     \\ \hline
+	1 $\mu$g      & \multirow{2}{*}{2.0036} & 2.0463       & 2.13     \\ \cline{1-1} \cline{3-4} 
+	10 $\mu$g     &                         & 2.0515       & 2.39     \\ \hline
 	\end{tabular}
 \caption{Comparison between the theoretical and experimental g-factors of the DPPH samples.}
 \end{table}
@@ -279,7 +325,7 @@ The following table shows the calculated g-factors for the two samples:
 The percent error for the 10 $\mu$g sample is slightly higher than that of the 1 $\mu$g sample. Theoretically, the values should be the same (as the material is unchanged), but a potential reason that the error increases is because at higher concentrations, more dipole interactions can occur which can shift the resonance condition slightly.
 This is also seen in the resonance frequency increasing from 792.451 MHz to 791.902 MHz in \ref{fig:DPPH1mgDigitized} and \ref{fig:DPPH10mgDigitized} respectively.
 
-Other sources of error include the calibration of the axes and point assignment in the software. Also, $\nu_0$ was used as 10.6 GHz, but this might not be correct as the frequencies were mixed.
+Other sources of error include the calibration of the axes and point assignment in the software. 
 
 \pagebreak{}
 
@@ -358,10 +404,10 @@ The following table shows the calculated g-factors for the four samples:
 	\begin{tabular}{|c|c|c|c|}
 	\hline
 	Ultramarine g-factor & Theoretical             & Experimental & \% Error \\ \hline
-	Undiluted            & \multirow{4}{*}{2.0290} & 2.0709       & 2.06     \\ \cline{1-1} \cline{3-4} 
-	1:10                 &                         & 2.0753       & 2.28     \\ \cline{1-1} \cline{3-4} 
-	1:100                &                         & 2.0527       & 1.17     \\ \cline{1-1} \cline{3-4} 
-	1:1000               &                         & 2.0904       & 3.03     \\ \hline
+	Undiluted            & \multirow{4}{*}{2.0290} & 2.0595       & 1.51     \\ \cline{1-1} \cline{3-4} 
+	1:10                 &                         & 2.0641       & 1.73     \\ \cline{1-1} \cline{3-4} 
+	1:100                &                         & 2.0416       & 0.62     \\ \cline{1-1} \cline{3-4} 
+	1:1000               &                         & 2.0791       & 2.47     \\ \hline
 	\end{tabular}
 	\caption{Comparison between the theoretical and experimental g-factors of the Ultramarine samples.}
 \end{table}
@@ -376,7 +422,7 @@ Interestingly, Figure \ref{fig:UltramarinePlots} shows that the resonance freque
 \subsection{Task 6: \textit{Measurement of the DPPH sample 10 $\mu$g with a calibrated LNB as observation
 system}}
 
-Once again, this is very similar to task 4, but with a calibrated LNB such that $\nu_0 =$ 9.75 GHz. 
+Once again, this is very similar to task 4, but with a calibrated LNB such that the local oscillator has a frequency of exactly 9.75 GHz as the reciever. 
 
 \begin{figure}[h]
 	\centering
@@ -397,7 +443,7 @@ Once again, this is very similar to task 4, but with a calibrated LNB such that 
 	\label{fig:DPPHCalibrated}
 \end{figure}
 
-The g-factor for the 10 $\mu$g DPPH sample is calculated to be 1.8762, which is a significant deviation from the theoretical value of 2.0036 (a 6.4\% error).	
+The g-factor for the 10 $\mu$g DPPH sample is calculated to be 2.0286, close the theoretical value of 2.0036 (a 1.25\% error).	
 
 Comparing the results for DPPH in this task and task 4, we obtain the following:
 
@@ -406,7 +452,7 @@ Comparing the results for DPPH in this task and task 4, we obtain the following:
 	\begin{tabular}{|c|c|c|c|}
 	\hline
 	DPPH 10 $\mu$g & Uncalibrated LNB & Calibrated LNB & Change from uncalibrated \\ \hline
-g-factor       & 2.0628           & 1.8762         & -9.95\%                  \\ \hline
+g-factor       & 2.0515           & 2.0286         & -1.12\%                  \\ \hline
 $f_0$          & 791.902          & 792.072        & +0.17 MHz                \\ \hline
 $B_0$          & 0.367            & 0.371          & +4 mT                    \\ \hline
 	\end{tabular}
@@ -415,16 +461,22 @@ $B_0$          & 0.367            & 0.371          & +4 mT                    \\
 
 Both resonance frequency and magnetic field increased slightly. In other tasks, when one increased the other would decrease. This is due to the fact that the LNB was calibrated to a different frequency, so the resonance condition was met at a different point.
 
+The g-factor decreased slightly, and is more accurate now. This makes sense as the LNB was calibrated so the displayed magnetic field strength should be more accurate to the real value.
+
 \pagebreak{}
 
 \section{Conclusion}
 
-\pagebreak{}
+In \textit{Task 1}, we observed the outputs from a frequency mixer with \(f_1 = 10\) MHz and \(f_2\) varying from 200 to 1000 kHz. The oscilloscope and HDSDR software outputs confirmed the expected frequency components, with the sum and difference frequencies \(f_1 + f_2\) and \(f_1 - f_2\) clearly visible. The presence of additional lines suggests possible interference or noise.
 
-\begin{appendices}
+\textit{Task 2} involved receiving and analyzing signals in the VLF range from 10 kHz to 150 kHz using a simple radio transmitter. The frequency shifts observed when changing channels on the walkie-talkie confirmed the expected behavior of decreasing frequency increments.
 
+\textit{Task 4} focused on determining the resonance frequency and recording dispersion curves for DPPH samples of different weights (1 $\mu$g and 10 $\mu$g). The g-factors calculated for the samples showed a small percent error from the theoretical value, with a slight increase in error for the higher concentration sample. Potential sources of error include dipole interactions at higher concentrations and calibration inaccuracies.
 
-\end{appendices}
+\textit{Task 5} repeated the process with four Ultramarine samples of decreasing concentrations. The g-factors showed varying percent errors, with the 1:100 diluted sample having the lowest error. The unexpected behavior of the resonance frequency and magnetic field with increasing dilution suggests environmental factors may have influenced the EPR measurements.
+
+\textit{Task 6} measured the 10 $\mu$g DPPH sample using a calibrated LNB, resulting in a g-factor of 2.0286. Comparing the results with the uncalibrated LNB showed a slight decrease in the g-factor and small increases in the resonance frequency and magnetic field strength. The calibration of the LNB improved the accuracy of the measurements.
+
 
 \pagebreak{}
 

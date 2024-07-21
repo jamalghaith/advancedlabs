@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex epr"] 1721512653.28531 "epr.aux" "epr.bbl" "epr" 1721512784.81577 0
-  "./epr.bib" 1721511592 1693 a5b8ad118319888c8d0067cced3d2bad ""
+["bibtex epr"] 1721578326.98499 "epr.aux" "epr.bbl" "epr" 1721591710.63217 0
+  "./epr.bib" 1721577622 1985 07d389994aa24cc88b05488f3f681cb9 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "epr.aux" 1721512783 12290 3cd22a9ee0c1dea5760dab6563f57564 "pdflatex"
+  "epr.aux" 1721591709 13801 01837cdba509205a0b658dbe93d5dc00 "pdflatex"
   (generated)
   "epr.bbl"
   "epr.blg"
   (rewritten before read)
-["pdflatex"] 1721512776.47235 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/EPR/Latex/epr.tex" "epr.pdf" "epr" 1721512784.81649 0
+["pdflatex"] 1721591700.68679 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/EPR/Latex/epr.tex" "epr.pdf" "epr" 1721591710.63303 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1721511428 279613 fe62a258ff6d99cc2243c3a2d16aa767 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1718642567 24264499 ea39e99011a57b36e9b63f595cf6628d ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001775420 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -38,6 +38,7 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1247596667 36554 b67dc2cfa451409e100b3fcf5f506509 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247596667 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
@@ -237,6 +238,9 @@
   "Figures/Intro/4.png" 1721504050 81276 c5f496347e88b1175bbe1ad3e711c560 ""
   "Figures/Intro/5.png" 1721504050 21372 f38007c35eff7639a5db3b49fa55ee9f ""
   "Figures/Intro/EPR.png" 1721508517 55410 90be11a78ca1082759caea68908d7cda ""
+  "Figures/Intro/Field_Modulation.png" 1721576470 15132 2c35061eb9d0046fd97b9f5f97d76592 ""
+  "Figures/Intro/LNB.png" 1721508819 1642200 8c5dd2bd48247c555009a1ed690babf1 ""
+  "Figures/Intro/Microwave_Cavity.png" 1721508357 14472 f58fbbe7a91e4b891c2dbe5d3d56822f ""
   "Figures/Task 1/Mixing.png" 1718406949 946473 fe61baa89b7076b9b8a59964f8588849 ""
   "Figures/Task 1/MixingColored.png" 1720909204 644731 c95a8b75058bbf4fed184735ced68bce ""
   "Figures/Task 1/Oscilloscope.jpg" 1720910373 7389383 28e972acbf5ba8af2c4cf4b9cdb56220 ""
@@ -255,12 +259,12 @@
   "Figures/Task 5/Ultramarine1000.png" 1720805459 130887 e292fb75bfbd239ad8afaa0b7e30b14e ""
   "Figures/Task 6/DPPH10mgCalibrated.pgf" 1720970683 36997 a9cebe8ce307dc6f23fda9940b8b2c76 ""
   "Figures/Task 6/DPPH10mgCalibrated.png" 1718406949 283699 3590d98ffb7a87656f4783334877c360 ""
-  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/EPR/Latex/epr.tex" 1721512775 18795 76187a7f87133208833143a4a300c5f7 ""
-  "epr.aux" 1721512783 12290 3cd22a9ee0c1dea5760dab6563f57564 "pdflatex"
-  "epr.bbl" 1721512653 475 cee699fa269fb0fa1fcedd0e34c6ee3e "bibtex epr"
-  "epr.out" 1721512783 4553 a87d8fe3dcc9fc31a885efb7a2cf8cf1 "pdflatex"
-  "epr.tex" 1721512775 18795 76187a7f87133208833143a4a300c5f7 ""
-  "epr.toc" 1721512783 2068 6e356640936f2ccb29c094683821e7d8 "pdflatex"
+  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/EPR/Latex/epr.tex" 1721591699 25042 2d7934533987f144817184793a4ef277 ""
+  "epr.aux" 1721591709 13801 01837cdba509205a0b658dbe93d5dc00 "pdflatex"
+  "epr.bbl" 1721578327 841 5086bdb03da9314e8d8a800c9ffc4d18 "bibtex epr"
+  "epr.out" 1721591709 4457 a52e3c3bf8f85ff5138251252ad095ff "pdflatex"
+  "epr.tex" 1721591699 25042 2d7934533987f144817184793a4ef277 ""
+  "epr.toc" 1721591709 2015 99f0479593b19e788a126a0280dd5088 "pdflatex"
   (generated)
   "epr.aux"
   "epr.log"
