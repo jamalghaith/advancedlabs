@@ -530,6 +530,7 @@ INPUT .\Figures\Task 6\DPPH10mgCalibrated.png
 INPUT .\epr.bbl
 INPUT .\epr.bbl
 INPUT epr.bbl
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT epr.aux
 INPUT .\epr.out
 INPUT .\epr.out
@@ -571,5 +572,7 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1000.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1000.pfb

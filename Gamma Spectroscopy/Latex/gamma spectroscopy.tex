@@ -30,6 +30,10 @@
 
 \usepackage{booktabs}
 
+\usepackage{url}
+
+\usepackage{pgfplots}
+
 \newcommand{\pvec}[1]{\vec{#1}\mkern2mu\vphantom{#1}}
 
 \DeclareSIUnit{\angstrom}{\textup{\AA}}
@@ -71,7 +75,36 @@
 
 \section{Introduction}
 
+\pagebreak{}
+
 \section{Analysis}
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	\textbf{Parent Nuclide} & \textbf{Origin} & \textbf{Experimental Energy {[}keV{]}} & \textbf{Theoretical Energy {[}keV{]}} & \textbf{\% Error} \\ \hline
+	$^{208}$Tl   & $^{232}$Th Series, or  $^{208}$Pb(n,p) & 2618.58 & 2164.51 & 0.19 \\ \hline
+	$^{214}$Bi   & $^{238}$U or $^{226}$Ra Series         & 1766.32 & 1764.49 & 0.10 \\ \hline
+	$^{40}$K     & Primordial                             & 1461.58 & 1460.82 & 0.05 \\ \hline
+	$^{214}$Bi   & $^{238}$U or $^{226}$Ra Series         & 1121.32 & 1120.29 & 0.09 \\ \hline
+	$^{228}$Ac   & $^{232}$Th Series                      & 911.49  & 911.20  & 0.03 \\ \hline
+	$^{214}$Bi   & $^{238}$U or $^{226}$Ra Series         & 609.65  & 609.31  & 0.06 \\ \hline
+	$^{208}$Tl   & $^{232}$Th Series                      & 583.50  & 583.19  & 0.05 \\ \hline
+	Annihilation & $\beta^+$ Decay and Doppler Broadening & 511.19  & 511.00  & 0.04 \\ \hline
+	$^{214}$Pb   & $^{238}$U or $^{226}$Ra Series         & 352.36  & 351.93  & 0.12 \\ \hline
+	$^{214}$Pb   & $^{238}$U or $^{226}$Ra Series         & 295.54  & 295.22  & 0.11 \\ \hline
+	$^{212}$Pb   & $^{232}$Th Series                      & 239.05  & 238.63  & 0.18 \\ \hline
+	$^{228}$Ac   & $^{232}$Th Series                      & 209.67  & 209.26  & 0.20 \\ \hline
+	$^{226}$Ra   & $^{238}$U Series                       & 186.43  & 186.21  & 0.12 \\ \hline
+	\end{tabular}
+	}
+	\caption{}
+	\label{tab:Background}
+\end{table}
+
+\pagebreak{}
 
 \section{Conclusion}
 
@@ -84,7 +117,7 @@
 
 \pagebreak{}
 
-%\bibliographystyle{ieeetr} 
+%\bibliographystyle{plainurl} 
 %\bibliography{} 
 
 \end{document}

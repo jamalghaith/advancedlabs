@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  21 JUL 2024 21:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  21 JUL 2024 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -622,24 +622,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (epr.aux)
 \openout1 = `epr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count354
@@ -659,7 +659,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 50.
  (epr.out) (epr.out)
 \@outlinefile=\write4
 \openout4 = `epr.out'.
@@ -704,11 +704,11 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 48.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 50.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 48.
+ on input line 50.
 
 
 
@@ -724,7 +724,7 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 <Figures/Intro/1.png, id=125, 592.2125pt x 413.545pt>
 File: Figures/Intro/1.png Graphic file (type png)
 <use Figures/Intro/1.png>
-Package pdftex.def Info: Figures/Intro/1.png  used on input line 89.
+Package pdftex.def Info: Figures/Intro/1.png  used on input line 91.
 (pdftex.def)             Requested size: 234.8775pt x 164.0142pt.
 
 
@@ -732,17 +732,17 @@ Package pdftex.def Info: Figures/Intro/1.png  used on input line 89.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 \pagebreak{
+l.103 \pagebreak{
                  } [1 <./Figures/Intro/1.png>]
 <Figures/Intro/2.png, id=141, 758.835pt x 550.055pt>
 File: Figures/Intro/2.png Graphic file (type png)
 <use Figures/Intro/2.png>
-Package pdftex.def Info: Figures/Intro/2.png  used on input line 107.
+Package pdftex.def Info: Figures/Intro/2.png  used on input line 109.
 (pdftex.def)             Requested size: 234.8775pt x 170.2551pt.
 <Figures/Intro/3.png, id=144, 558.085pt x 500.87125pt>
 File: Figures/Intro/3.png Graphic file (type png)
 <use Figures/Intro/3.png>
-Package pdftex.def Info: Figures/Intro/3.png  used on input line 117.
+Package pdftex.def Info: Figures/Intro/3.png  used on input line 119.
 (pdftex.def)             Requested size: 234.8775pt x 210.80011pt.
 
 
@@ -750,12 +750,12 @@ Package pdftex.def Info: Figures/Intro/3.png  used on input line 117.
 <Figures/Intro/4.png, id=157, 523.9575pt x 559.08875pt>
 File: Figures/Intro/4.png Graphic file (type png)
 <use Figures/Intro/4.png>
-Package pdftex.def Info: Figures/Intro/4.png  used on input line 129.
+Package pdftex.def Info: Figures/Intro/4.png  used on input line 131.
 (pdftex.def)             Requested size: 234.8775pt x 250.6236pt.
 <Figures/Intro/5.png, id=160, 415.5525pt x 255.95625pt>
 File: Figures/Intro/5.png Graphic file (type png)
 <use Figures/Intro/5.png>
-Package pdftex.def Info: Figures/Intro/5.png  used on input line 149.
+Package pdftex.def Info: Figures/Intro/5.png  used on input line 151.
 (pdftex.def)             Requested size: 234.8775pt x 144.67021pt.
 
 
@@ -763,7 +763,7 @@ Package pdftex.def Info: Figures/Intro/5.png  used on input line 149.
 <Figures/Intro/EPR.png, id=175, 449.5194pt x 561.89925pt>
 File: Figures/Intro/EPR.png Graphic file (type png)
 <use Figures/Intro/EPR.png>
-Package pdftex.def Info: Figures/Intro/EPR.png  used on input line 163.
+Package pdftex.def Info: Figures/Intro/EPR.png  used on input line 165.
 (pdftex.def)             Requested size: 469.75502pt x 587.21654pt.
 
 
@@ -771,12 +771,12 @@ Package pdftex.def Info: Figures/Intro/EPR.png  used on input line 163.
 <Figures/Intro/Microwave_Cavity.png, id=186, 427.8384pt x 159.7167pt>
 File: Figures/Intro/Microwave_Cavity.png Graphic file (type png)
 <use Figures/Intro/Microwave_Cavity.png>
-Package pdftex.def Info: Figures/Intro/Microwave_Cavity.png  used on input line 174.
+Package pdftex.def Info: Figures/Intro/Microwave_Cavity.png  used on input line 176.
 (pdftex.def)             Requested size: 469.75502pt x 175.37453pt.
 <Figures/Intro/Field_Modulation.png, id=190, 510.90875pt x 206.7725pt>
 File: Figures/Intro/Field_Modulation.png Graphic file (type png)
 <use Figures/Intro/Field_Modulation.png>
-Package pdftex.def Info: Figures/Intro/Field_Modulation.png  used on input line 197.
+Package pdftex.def Info: Figures/Intro/Field_Modulation.png  used on input line 199.
 (pdftex.def)             Requested size: 469.75502pt x 190.11626pt.
 
 
@@ -784,7 +784,7 @@ Package pdftex.def Info: Figures/Intro/Field_Modulation.png  used on input line 
 <Figures/Intro/LNB.png, id=204, 455.4pt x 228.03pt>
 File: Figures/Intro/LNB.png Graphic file (type png)
 <use Figures/Intro/LNB.png>
-Package pdftex.def Info: Figures/Intro/LNB.png  used on input line 206.
+Package pdftex.def Info: Figures/Intro/LNB.png  used on input line 208.
 (pdftex.def)             Requested size: 469.75502pt x 235.22841pt.
 
 
@@ -792,22 +792,22 @@ Package pdftex.def Info: Figures/Intro/LNB.png  used on input line 206.
 <Figures/Task 1/Oscilloscope.jpg, id=214, 8190.6pt x 6167.04pt>
 File: Figures/Task 1/Oscilloscope.jpg Graphic file (type jpg)
 <use Figures/Task 1/Oscilloscope.jpg>
-Package pdftex.def Info: Figures/Task 1/Oscilloscope.jpg  used on input line 225.
+Package pdftex.def Info: Figures/Task 1/Oscilloscope.jpg  used on input line 227.
 (pdftex.def)             Requested size: 211.38832pt x 159.12535pt.
 <Figures/Task 1/Mixing.png, id=215, 1264.725pt x 760.34062pt>
 File: Figures/Task 1/Mixing.png Graphic file (type png)
 <use Figures/Task 1/Mixing.png>
-Package pdftex.def Info: Figures/Task 1/Mixing.png  used on input line 235.
+Package pdftex.def Info: Figures/Task 1/Mixing.png  used on input line 237.
 (pdftex.def)             Requested size: 211.38832pt x 127.07504pt.
 <Figures/Task 1/MixingColored.png, id=216, 779.91376pt x 395.97937pt>
 File: Figures/Task 1/MixingColored.png Graphic file (type png)
 <use Figures/Task 1/MixingColored.png>
-Package pdftex.def Info: Figures/Task 1/MixingColored.png  used on input line 241.
+Package pdftex.def Info: Figures/Task 1/MixingColored.png  used on input line 243.
 (pdftex.def)             Requested size: 211.38832pt x 107.32672pt.
 <Figures/Task 2/Radio.png, id=218, 1264.725pt x 396.7322pt>
 File: Figures/Task 2/Radio.png Graphic file (type png)
 <use Figures/Task 2/Radio.png>
-Package pdftex.def Info: Figures/Task 2/Radio.png  used on input line 261.
+Package pdftex.def Info: Figures/Task 2/Radio.png  used on input line 263.
 (pdftex.def)             Requested size: 234.8775pt x 73.67882pt.
 
 
@@ -835,13 +835,13 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.8> not available
 <Figures/Task 4/DPPH1mg.png, id=234, 1264.725pt x 352.31625pt>
 File: Figures/Task 4/DPPH1mg.png Graphic file (type png)
 <use Figures/Task 4/DPPH1mg.png>
-Package pdftex.def Info: Figures/Task 4/DPPH1mg.png  used on input line 285.
+Package pdftex.def Info: Figures/Task 4/DPPH1mg.png  used on input line 287.
 (pdftex.def)             Requested size: 211.38832pt x 58.8823pt.
  (Figures/Task 4/DPPH10mg.pgf)
 <Figures/Task 4/DPPH10mg.png, id=235, 1264.725pt x 393.72093pt>
 File: Figures/Task 4/DPPH10mg.png Graphic file (type png)
 <use Figures/Task 4/DPPH10mg.png>
-Package pdftex.def Info: Figures/Task 4/DPPH10mg.png  used on input line 298.
+Package pdftex.def Info: Figures/Task 4/DPPH10mg.png  used on input line 300.
 (pdftex.def)             Requested size: 211.38832pt x 65.80222pt.
 
 
@@ -849,25 +849,25 @@ Package pdftex.def Info: Figures/Task 4/DPPH10mg.png  used on input line 298.
 <Figures/Task 5/Ultramarine.png, id=250, 1264.725pt x 393.72093pt>
 File: Figures/Task 5/Ultramarine.png Graphic file (type png)
 <use Figures/Task 5/Ultramarine.png>
-Package pdftex.def Info: Figures/Task 5/Ultramarine.png  used on input line 348.
+Package pdftex.def Info: Figures/Task 5/Ultramarine.png  used on input line 350.
 (pdftex.def)             Requested size: 211.38832pt x 65.80222pt.
  (Figures/Task 5/Ultramarine10.pgf)
 <Figures/Task 5/Ultramarine10.png, id=251, 1264.725pt x 378.66469pt>
 File: Figures/Task 5/Ultramarine10.png Graphic file (type png)
 <use Figures/Task 5/Ultramarine10.png>
-Package pdftex.def Info: Figures/Task 5/Ultramarine10.png  used on input line 362.
+Package pdftex.def Info: Figures/Task 5/Ultramarine10.png  used on input line 364.
 (pdftex.def)             Requested size: 211.38832pt x 63.28589pt.
  (Figures/Task 5/Ultramarine100.pgf)
 <Figures/Task 5/Ultramarine100.png, id=252, 1264.725pt x 395.22656pt>
 File: Figures/Task 5/Ultramarine100.png Graphic file (type png)
 <use Figures/Task 5/Ultramarine100.png>
-Package pdftex.def Info: Figures/Task 5/Ultramarine100.png  used on input line 376.
+Package pdftex.def Info: Figures/Task 5/Ultramarine100.png  used on input line 378.
 (pdftex.def)             Requested size: 211.38832pt x 66.05385pt.
  (Figures/Task 5/Ultramarine1000.pgf)
 <Figures/Task 5/Ultramarine1000.png, id=253, 1264.725pt x 386.19281pt>
 File: Figures/Task 5/Ultramarine1000.png Graphic file (type png)
 <use Figures/Task 5/Ultramarine1000.png>
-Package pdftex.def Info: Figures/Task 5/Ultramarine1000.png  used on input line 390.
+Package pdftex.def Info: Figures/Task 5/Ultramarine1000.png  used on input line 392.
 (pdftex.def)             Requested size: 211.38832pt x 64.54405pt.
 
 
@@ -876,27 +876,37 @@ Package pdftex.def Info: Figures/Task 5/Ultramarine1000.png  used on input line 
 [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 423.
+(hyperref)                removing `math shift' on input line 425.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 423.
+(hyperref)                removing `\mu' on input line 425.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 423.
+(hyperref)                removing `math shift' on input line 425.
 
 (Figures/Task 6/DPPH10mgCalibrated.pgf)
 <Figures/Task 6/DPPH10mgCalibrated.png, id=269, 1264.725pt x 760.34062pt>
 File: Figures/Task 6/DPPH10mgCalibrated.png Graphic file (type png)
 <use Figures/Task 6/DPPH10mgCalibrated.png>
-Package pdftex.def Info: Figures/Task 6/DPPH10mgCalibrated.png  used on input line 438.
+Package pdftex.def Info: Figures/Task 6/DPPH10mgCalibrated.png  used on input line 440.
 (pdftex.def)             Requested size: 211.38832pt x 127.07504pt.
 
 
 [11 <./Figures/Task 6/DPPH10mgCalibrated.png>]
 
-[12] (epr.bbl)
+[12] (epr.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+[]\OT1/cmr/m/n/10 Electron para-m-ag-netic res-o-nance (epr) | zurich in-stru-ments, 12 2019.  URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+[]$\OT1/cmtt/m/n/10 https : / / www . zhinst . com / europe / en / applications / nanotechnology-[]materials-[]science /
+ []
+
+)
 
 [13] (epr.aux)
  ***********
@@ -912,17 +922,17 @@ Package rerunfilecheck Info: File `epr.out' has not changed.
 (rerunfilecheck)             Checksum: A52E3C3BF8F85FF5138251252AD095FF;4457.
  ) 
 Here is how much of TeX's memory you used:
- 37477 strings out of 473920
- 906369 string characters out of 5726502
+ 37479 strings out of 473920
+ 906390 string characters out of 5726502
  1955908 words of memory out of 5000000
- 59707 multiletter control sequences out of 15000+600000
- 568515 words of font info for 72 fonts, out of 8000000 for 9000
+ 59708 multiletter control sequences out of 15000+600000
+ 568683 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,1066b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on epr.pdf (15 pages, 12872185 bytes).
+<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on epr.pdf (15 pages, 12892261 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
+ 406 PDF objects out of 1000 (max. 8388607)
  64 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

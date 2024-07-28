@@ -1,29 +1,44 @@
 \begin{thebibliography}{1}
 
-\bibitem{wikipediacontributors_2019_electron}
-W.~Contributors, ``Electron paramagnetic resonance,'' 08 2019.
-
-\bibitem{waveform}
-``Waveform for frequency modulation.''
+\bibitem{automerisio}
+automeris.io: Ai assisted data extraction from charts using webplotdigitizer.
+\newblock URL: \url{https://automeris.io/}.
 
 \bibitem{understand}
-``Understand rf mixing \& frequency mixers » electronics notes.''
+Understand rf mixing \& frequency mixers » electronics notes.
+\newblock URL:
+  \url{https://www.electronics-notes.com/articles/radio/rf-mixer/rf-mixing-basics.php}.
 
-\bibitem{a2020_dpph}
-``Dpph,'' 06 2020.
-
-\bibitem{physicsdepartmentuiuc_1999_electron}
-P.~D. UIUC, ``Electron paramagnetic resonance,'' 1999.
+\bibitem{waveform}
+Waveform for frequency modulation.
+\newblock URL:
+  \url{https://electronicscoach.com/frequency-modulation.html/waveform-for-frequency-modulation}.
 
 \bibitem{a2019_electron}
-``Electron paramagnetic resonance (epr) | zurich instruments,'' 12 2019.
+Electron paramagnetic resonance (epr) | zurich instruments, 12 2019.
+\newblock URL:
+  \url{https://www.zhinst.com/europe/en/applications/nanotechnology-materials-science/electron-paramagnetic-resonance-epr}.
+
+\bibitem{a2020_dpph}
+Dpph, 06 2020.
+\newblock URL: \url{https://en.wikipedia.org/wiki/DPPH}.
+
+\bibitem{wikipediacontributors_2019_electron}
+Wikipedia Contributors.
+\newblock Electron paramagnetic resonance, 08 2019.
+\newblock URL:
+  \url{https://en.wikipedia.org/wiki/Electron_paramagnetic_resonance}.
 
 \bibitem{departmentofphysicsandgeosciences_2001_electronparamagnetic}
-D.~of~Physics and Geosciences, ``"electron-paramagnetic resonance (epr)",''
-  2001.
+Department of~Physics and Geosciences.
+\newblock "electron-paramagnetic resonance (epr)", 2001.
+\newblock URL:
+  \url{https://home.uni-leipzig.de/physfp/manuals/EPR_englisch_11_2013.pdf}.
 
-\bibitem{automerisio}
-``automeris.io: Ai assisted data extraction from charts using
-  webplotdigitizer.''
+\bibitem{physicsdepartmentuiuc_1999_electron}
+Physics~Department UIUC.
+\newblock Electron paramagnetic resonance, 1999.
+\newblock URL:
+  \url{https://home.uni-leipzig.de/physfp/manuals/EPR_englisch_11_2013.pdf}.
 
 \end{thebibliography}
