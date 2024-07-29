@@ -84,25 +84,180 @@
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{|c|c|c|c|c|}
 	\hline
-	\textbf{Parent Nuclide} & \textbf{Origin} & \textbf{Experimental Energy {[}keV{]}} & \textbf{Theoretical Energy {[}keV{]}} & \textbf{\% Error} \\ \hline
-	$^{208}$Tl   & $^{232}$Th Series, or  $^{208}$Pb(n,p) & 2618.58 & 2164.51 & 0.19 \\ \hline
-	$^{214}$Bi   & $^{238}$U or $^{226}$Ra Series         & 1766.32 & 1764.49 & 0.10 \\ \hline
+	\textbf{Parent Nuclide} &
+	  \textbf{Origin} &
+	  \textbf{Experimental Energy {[}keV{]}} &
+	  \textbf{Theoretical Energy {[}keV{]}} &
+	  \textbf{\% Error} \\ \hline
+	$^{208}$Tl   & \multirow{5}{*}{$^{232}$Th Series}     & 2618.58 & 2614.51 & 0.16 \\ \cline{1-1} \cline{3-5} 
+	$^{228}$Ac   &                                        & 911.49  & 911.20  & 0.03 \\ \cline{1-1} \cline{3-5} 
+	$^{208}$Tl   &                                        & 583.50  & 583.19  & 0.05 \\ \cline{1-1} \cline{3-5} 
+	$^{212}$Pb   &                                        & 239.05  & 238.63  & 0.18 \\ \cline{1-1} \cline{3-5} 
+	$^{228}$Ac   &                                        & 209.67  & 209.26  & 0.20 \\ \hline
+	$^{214}$Bi &
+	  \multirow{6}{*}{$^{238}$U or $^{226}$Ra Series} &
+	  1766.32 &
+	  1764.49 &
+	  0.10 \\ \cline{1-1} \cline{3-5} 
+	$^{214}$Bi   &                                        & 1121.32 & 1120.29 & 0.09 \\ \cline{1-1} \cline{3-5} 
+	$^{214}$Bi   &                                        & 609.65  & 609.31  & 0.06 \\ \cline{1-1} \cline{3-5} 
+	$^{214}$Pb   &                                        & 352.36  & 351.93  & 0.12 \\ \cline{1-1} \cline{3-5} 
+	$^{214}$Pb   &                                        & 295.54  & 295.22  & 0.11 \\ \cline{1-1} \cline{3-5} 
+	$^{226}$Ra   &                                        & 186.43  & 186.21  & 0.12 \\ \hline
 	$^{40}$K     & Primordial                             & 1461.58 & 1460.82 & 0.05 \\ \hline
-	$^{214}$Bi   & $^{238}$U or $^{226}$Ra Series         & 1121.32 & 1120.29 & 0.09 \\ \hline
-	$^{228}$Ac   & $^{232}$Th Series                      & 911.49  & 911.20  & 0.03 \\ \hline
-	$^{214}$Bi   & $^{238}$U or $^{226}$Ra Series         & 609.65  & 609.31  & 0.06 \\ \hline
-	$^{208}$Tl   & $^{232}$Th Series                      & 583.50  & 583.19  & 0.05 \\ \hline
 	Annihilation & $\beta^+$ Decay and Doppler Broadening & 511.19  & 511.00  & 0.04 \\ \hline
-	$^{214}$Pb   & $^{238}$U or $^{226}$Ra Series         & 352.36  & 351.93  & 0.12 \\ \hline
-	$^{214}$Pb   & $^{238}$U or $^{226}$Ra Series         & 295.54  & 295.22  & 0.11 \\ \hline
-	$^{212}$Pb   & $^{232}$Th Series                      & 239.05  & 238.63  & 0.18 \\ \hline
-	$^{228}$Ac   & $^{232}$Th Series                      & 209.67  & 209.26  & 0.20 \\ \hline
-	$^{226}$Ra   & $^{238}$U Series                       & 186.43  & 186.21  & 0.12 \\ \hline
 	\end{tabular}
 	}
 	\caption{}
 	\label{tab:Background}
 \end{table}
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|ccccc|}
+	\hline
+	\multicolumn{5}{|c|}{\textbf{Rock}}                                                                                                                          \\ \hline
+	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
+	  \multicolumn{1}{c|}{\textbf{Origin}} &
+	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{Theoretical Energy {[}keV{]}}} &
+	  \textbf{\% Error} \\ \hline
+	\multicolumn{1}{|c|}{$^{214}$Bi} &
+	  \multicolumn{1}{c|}{\multirow{7}{*}{$^{238}$U or $^{226}$Ra Series}} &
+	  \multicolumn{1}{c|}{1766.32} &
+	  \multicolumn{1}{c|}{1764.49} &
+	  0.10 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Bi}     & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{1120.67} & \multicolumn{1}{c|}{1120.29} & 0.03  \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Bi}     & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{609.32}  & \multicolumn{1}{c|}{609.31}  & 0.002 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb}     & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{352.36}  & \multicolumn{1}{c|}{351.93}  & 0.12  \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb}     & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{295.54}  & \multicolumn{1}{c|}{295.22}  & 0.11  \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb}     & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{242.27}  & \multicolumn{1}{c|}{242.00}  & 0.11  \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{226}$Ra}     & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{186.43}  & \multicolumn{1}{c|}{186.21}  & 0.12  \\ \hline
+	\multicolumn{1}{|c|}{$^{234}$Th}     & \multicolumn{1}{c|}{$^{238}$U Series (Doublet)} & \multicolumn{1}{c|}{92.81}   & \multicolumn{1}{c|}{92.58}   & 0.25  \\ \hline
+	\multicolumn{1}{|c|}{Bi K$\alpha_1$} & \multicolumn{1}{c|}{$^{212, 214}$Pb Decay}      & \multicolumn{1}{c|}{77.31}   & \multicolumn{1}{c|}{77.11}   & 0.26  \\ \hline
+	\end{tabular}
+	}
+	\caption{}
+	\label{tab:Rock}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|ccccr|}
+	\hline
+	\multicolumn{5}{|c|}{\textbf{Chernobyl}}                                                                                                 \\ \hline
+	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
+	  \multicolumn{1}{c|}{\textbf{Origin}} &
+	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{Theoretical Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{\% Error}} \\ \hline
+	\multicolumn{1}{|c|}{$^{208}$Tl} &
+	  \multicolumn{1}{c|}{\multirow{3}{*}{$^{232}$Th Series}} &
+	  \multicolumn{1}{c|}{2616.64} &
+	  \multicolumn{1}{c|}{2614.51} &
+	  0.08 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{212}$Pb} & \multicolumn{1}{c|}{}           & \multicolumn{1}{c|}{238.72}  & \multicolumn{1}{c|}{238.63}  & 0.04  \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{228}$Ac} & \multicolumn{1}{c|}{}           & \multicolumn{1}{c|}{208.70}  & \multicolumn{1}{c|}{209.26}  & -0.27 \\ \hline
+	\multicolumn{1}{|c|}{$^{40}$K}   & \multicolumn{1}{c|}{Primordial} & \multicolumn{1}{c|}{1461.90} & \multicolumn{1}{c|}{1460.82} & 0.07  \\ \hline
+	\multicolumn{1}{|c|}{$^{137}$Cs} & \multicolumn{1}{c|}{Fission}    & \multicolumn{1}{c|}{661.66}  & \multicolumn{1}{c|}{661.94}  & -0.04 \\ \hline
+	\multicolumn{1}{|c|}{$^{234}$Pa} & \multicolumn{1}{c|}{$^{228}$Ac} & \multicolumn{1}{c|}{131.22}  & \multicolumn{1}{c|}{131.20}  & 0.02  \\ \hline
+	\end{tabular}
+	}
+	\caption{}
+	\label{tab:Chernobyl}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|ccccr|}
+	\hline
+	\multicolumn{5}{|c|}{\textbf{Soil}}                                                                                                                    \\ \hline
+	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
+	  \multicolumn{1}{c|}{\textbf{Origin}} &
+	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{Theoretical Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{\% Error}} \\ \hline
+	\multicolumn{1}{|c|}{$^{214}$Bi} &
+	  \multicolumn{1}{c|}{\multirow{8}{*}{$^{238}$U or $^{226}$Ra Series}} &
+	  \multicolumn{1}{c|}{1766.32} &
+	  \multicolumn{1}{c|}{1764.49} &
+	  0.10 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Bi}     & \multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{1239.15} & \multicolumn{1}{c|}{1238.11} & 0.08 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Bi}     & \multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{1121.32} & \multicolumn{1}{c|}{1120.29} & 0.09 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Bi}     & \multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{609.97}  & \multicolumn{1}{c|}{609.31}  & 0.11 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb}     & \multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{352.36}  & \multicolumn{1}{c|}{351.93}  & 0.12 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb}     & \multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{295.54}  & \multicolumn{1}{c|}{295.22}  & 0.11 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb}     & \multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{242.27}  & \multicolumn{1}{c|}{242.00}  & 0.11 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{226}$Ra}     & \multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{186.43}  & \multicolumn{1}{c|}{186.21}  & 0.12 \\ \hline
+	\multicolumn{1}{|c|}{$^{40}$K}       & \multicolumn{1}{c|}{Primordial}            & \multicolumn{1}{c|}{1462.22} & \multicolumn{1}{c|}{1460.82} & 0.10 \\ \hline
+	\multicolumn{1}{|c|}{Bi K$\alpha_1$} & \multicolumn{1}{c|}{$^{212, \ 214}$Pb Decay} & \multicolumn{1}{c|}{77.63}   & \multicolumn{1}{c|}{77.11}   & 0.67 \\ \hline
+	\end{tabular}
+	}
+	\caption{}
+	\label{tab:Soil}
+\end{table}
+
+\pagebreak{}
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|ccccc|}
+	\hline
+	\multicolumn{5}{|c|}{\textbf{V}}                                                                                              \\ \hline
+	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
+	  \multicolumn{1}{c|}{\textbf{Origin}} &
+	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{Theoretical Energy {[}keV{]}}} &
+	  \textbf{\% Error} \\ \hline
+	\multicolumn{1}{|c|}{$^{214}$Bi} &
+	  \multicolumn{1}{c|}{\multirow{8}{*}{$^{238}$U or $^{226}$Ra Series}} &
+	  \multicolumn{1}{c|}{1766.32} &
+	  \multicolumn{1}{c|}{1764.49} &
+	  0.10 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Bi} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{1120.68} & \multicolumn{1}{c|}{1120.29} & 0.03 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Bi} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{609.65}  & \multicolumn{1}{c|}{609.31}  & 0.06 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{352.36}  & \multicolumn{1}{c|}{351.93}  & 0.12 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{295.54}  & \multicolumn{1}{c|}{295.22}  & 0.11 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{214}$Pb} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{242.60}  & \multicolumn{1}{c|}{242.00}  & 0.25 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{226}$Ra} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{186.43}  & \multicolumn{1}{c|}{186.21}  & 0.12 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{234}$Th} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{93.13}   & \multicolumn{1}{c|}{92.58}   & 0.59 \\ \hline
+	\end{tabular}
+	}
+	\caption{}
+	\label{tab:V}
+\end{table}
+
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|ccccr|}
+	\hline
+	\multicolumn{5}{|c|}{\textbf{W}}                                                                                                                                    \\ \hline
+	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
+	  \multicolumn{1}{c|}{\textbf{Origin}} &
+	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{Theoretical Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{\% Error}} \\ \hline
+	\multicolumn{1}{|c|}{$^{208}$Tl}     & \multicolumn{1}{c|}{\multirow{7}{*}{$^{232}$Th Series}} & \multicolumn{1}{c|}{2618.25} & \multicolumn{1}{c|}{2614.51} & 0.14 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{228}$Ac}     & \multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{969.60}  & \multicolumn{1}{c|}{968.97}  & 0.07 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{228}$Ac}     & \multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{911.16}  & \multicolumn{1}{c|}{911.20}  & 0.00 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{208}$Tl}     & \multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{583.50}  & \multicolumn{1}{c|}{583.19}  & 0.05 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{228}$Ac}     & \multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{338.48}  & \multicolumn{1}{c|}{338.32}  & 0.05 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{212}$Pb}     & \multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{239.05}  & \multicolumn{1}{c|}{238.63}  & 0.18 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{228}$Ac}     & \multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{210.00}  & \multicolumn{1}{c|}{209.26}  & 0.35 \\ \hline
+	\multicolumn{1}{|c|}{Bi K$\alpha_1$} & \multicolumn{1}{c|}{$^{212, \ 214}$Pb Decay}              & \multicolumn{1}{c|}{77.63}   & \multicolumn{1}{c|}{77.11}   & 0.67 \\ \hline
+	\end{tabular}
+	}
+	\caption{}
+	\label{tab:W}
+\end{table}
+
+\scalebox{0.7}{\input{Figures/Task 3/BackgroundWindowed.pgf}}
 
 \pagebreak{}
 
