@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  29 JUL 2024 03:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  29 JUL 2024 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -619,7 +619,32 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count353
 \l__pdf_internal_box=\box76
-) (gamma spectroscopy.aux)
+) (gamma spectroscopy.aux
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:4' multiply defined.
+
+)
 \openout1 = `"gamma spectroscopy.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -721,32 +746,114 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 
 
 [1]
+<Figures/Intro/1.png, id=178, 881.2925pt x 326.21875pt>
+File: Figures/Intro/1.png Graphic file (type png)
+<use Figures/Intro/1.png>
+Package pdftex.def Info: Figures/Intro/1.png  used on input line 91.
+(pdftex.def)             Requested size: 234.8775pt x 86.94034pt.
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \pagebreak{
-                } [1]
+l.125 \pagebreak{
+                 } [1 <./Figures/Intro/1.png>]
+<Figures/Intro/2.png, id=197, 365.365pt x 306.14375pt>
+File: Figures/Intro/2.png Graphic file (type png)
+<use Figures/Intro/2.png>
+Package pdftex.def Info: Figures/Intro/2.png  used on input line 142.
+(pdftex.def)             Requested size: 234.8775pt x 196.80487pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./Figures/Intro/2.png>]
+<Figures/Intro/3.png, id=207, 279.0425pt x 178.6675pt>
+File: Figures/Intro/3.png Graphic file (type png)
+<use Figures/Intro/3.png>
+Package pdftex.def Info: Figures/Intro/3.png  used on input line 164.
+(pdftex.def)             Requested size: 234.8775pt x 150.39317pt.
+<Figures/Intro/4.png, id=213, 1347.0325pt x 821.0675pt>
+File: Figures/Intro/4.png Graphic file (type png)
+<use Figures/Intro/4.png>
+Package pdftex.def Info: Figures/Intro/4.png  used on input line 173.
+(pdftex.def)             Requested size: 234.8775pt x 143.16277pt.
 
 
+[3 <./Figures/Intro/3.png> <./Figures/Intro/4.png>]
+<Figures/Intro/6.png, id=229, 391.4625pt x 241.90375pt>
+File: Figures/Intro/6.png Graphic file (type png)
+<use Figures/Intro/6.png>
+Package pdftex.def Info: Figures/Intro/6.png  used on input line 185.
+(pdftex.def)             Requested size: 234.8775pt x 145.14336pt.
 
-[2] (Figures/Task 3/BackgroundWindowed.pgf
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 89.
+
+[4 <./Figures/Intro/6.png>]
+<Figures/Intro/5.png, id=242, 914.41624pt x 312.16624pt>
+File: Figures/Intro/5.png Graphic file (type png)
+<use Figures/Intro/5.png>
+Package pdftex.def Info: Figures/Intro/5.png  used on input line 208.
+(pdftex.def)             Requested size: 234.8775pt x 80.18007pt.
+<Figures/Intro/7.png, id=245, 892.33376pt x 425.59pt>
+File: Figures/Intro/7.png Graphic file (type png)
+<use Figures/Intro/7.png>
+Package pdftex.def Info: Figures/Intro/7.png  used on input line 228.
+(pdftex.def)             Requested size: 234.8775pt x 112.02101pt.
+
+
+[5 <./Figures/Intro/5.png> <./Figures/Intro/7.png>] (Figures/Task 1/Risetime.pgf
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 164.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.8> not available
-(Font)              size <17.28> substituted on input line 6372.
+(Font)              size <17.28> substituted on input line 644.
 
 )
 
-[3]
+[6] (Figures/Task 2/Na22.pgf
+LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 4342.
 
-[4]
 
-[5] (gamma spectroscopy.aux)
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16.8> not available
+(Font)              size <17.28> substituted on input line 4342.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.8> not available
+(Font)              size <17.28> substituted on input line 4342.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.8> not available
+(Font)              size <17.28> substituted on input line 4342.
+
+) (Figures/Task 2/Co60.pgf) (Figures/Task 2/Ba133.pgf)
+Overfull \hbox (6.24156pt too wide) in paragraph at lines 280--281
+ [][] 
+ []
+
+(Figures/Task 2/Cs137.pgf) (Figures/Task 2/EnergyCalibration.pgf)
+
+[7] (Figures/Task 2/Co60peak.pgf) (Figures/Task 2/Co60FWHM.pgf) (Figures/Task 2/AvgCountRate.pgf)
+
+[8] (Figures/Task 3/Background.pgf) (Figures/Task 3/BackgroundWindowed.pgf)
+
+[9]
+
+[10] (Figures/Task 4/Rock.pgf)
+
+[11] (Figures/Task 4/Soil.pgf)
+
+[12] (Figures/Task 4/Chernobyl.pgf)
+
+[13] (Figures/Task 5/V.pgf)
+
+[14] (Figures/Task 5/W.pgf)
+
+[15]
+
+[16] (Figures/Task 1/1.pgf) (Figures/Task 1/2.pgf) (Figures/Task 1/3.pgf) (Figures/Task 1/4.pgf) (Figures/Task 1/5.pgf) (Figures/Task 1/6.pgf) (Figures/Task 1/7.pgf) (Figures/Task 1/8.pgf) (Figures/Task 1/9.pgf)
+
+[17] (gamma spectroscopy.bbl)
+
+[18] (gamma spectroscopy.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -756,21 +863,24 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.48pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `"gamma spectroscopy".out' has not changed.
-(rerunfilecheck)             Checksum: 5E4A8BED1878C2F1606766EE4BA374AF;373.
+(rerunfilecheck)             Checksum: 626B1D89AA4B14371F74A5DBAF42EE91;4864.
  ) 
 Here is how much of TeX's memory you used:
- 37109 strings out of 473920
- 896865 string characters out of 5726502
- 2002908 words of memory out of 5000000
- 59418 multiletter control sequences out of 15000+600000
- 564057 words of font info for 57 fonts, out of 8000000 for 9000
+ 37533 strings out of 473920
+ 907513 string characters out of 5726502
+ 2004908 words of memory out of 5000000
+ 59678 multiletter control sequences out of 15000+600000
+ 568707 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,107p,784b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on "gamma spectroscopy.pdf" (7 pages, 200636 bytes).
+ 99i,13n,107p,854b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "gamma spectroscopy.pdf" (20 pages, 902040 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 466 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

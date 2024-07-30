@@ -1,5 +1,32 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {2}Analysis}{2}{section.2}%
-\contentsline {section}{\numberline {3}Conclusion}{4}{section.3}%
-\contentsline {section}{Appendices}{5}{section*.8}%
+\contentsline {subsection}{\numberline {1.1}Basics of Nuclear Physics}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Gamma radiation}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Radioactive decay}{1}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Decay law}{1}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Gamma rays and matter}{2}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Photoelectric absorption}{2}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Compton scattering}{3}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Pair production}{4}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Experimental setup}{5}{subsection.1.9}%
+\contentsline {subsubsection}{\numberline {1.9.1}structure of the detector}{5}{subsubsection.1.9.1}%
+\contentsline {subsubsection}{\numberline {1.9.2}Calibration and measurement}{5}{subsubsection.1.9.2}%
+\contentsline {subsubsection}{\numberline {1.9.3}Materials used}{5}{subsubsection.1.9.3}%
+\contentsline {subsubsection}{\numberline {1.9.4}Radiation sources}{5}{subsubsection.1.9.4}%
+\contentsline {section}{\numberline {2}Analysis}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Task 1: \textit {Finding Optimal Settings}}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Task 2: \textit {Energy Calibration \& Resolution}}{7}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Calibration}{7}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Resolution \& Peak-to-Compton Ratio}{8}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Task 3: \textit {Background Measurement}}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Task 4: \textit {Known Samples}}{11}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Rock Sample: \textit {Ronneb 1}}{11}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Soil Sample: \textit {QQ250m}}{12}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Dirt Sample: \textit {Chernobyl}}{13}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}Task 5: \textit {Unknown Samples}}{14}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Sample V}{14}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Sample W}{15}{subsubsection.2.5.2}%
+\contentsline {section}{\numberline {3}Conclusion}{16}{section.3}%
+\contentsline {section}{Appendices}{17}{section*.27}%
+\contentsline {section}{\numberline {A}Task 1 Fits}{17}{appendix.1.A}%
+\contentsline {section}{Bibliography}{18}{section*.29}%

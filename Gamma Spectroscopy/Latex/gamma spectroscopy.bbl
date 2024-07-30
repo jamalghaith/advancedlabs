@@ -1,3 +1,21 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{_2020_compton}
+Wikipedia~Contributors ~.
+\newblock Compton scattering, 08 2020.
+\newblock URL: \url{https://en.wikipedia.org/wiki/Compton_scattering}.
+
+\bibitem{wikipediacontributors_2019_valence}
+Wikipedia Contributors.
+\newblock Valence and conduction bands, 09 2019.
+\newblock URL:
+  \url{https://en.wikipedia.org/wiki/Valence_and_conduction_bands}.
+
+\bibitem{plotzki_2024_highresolution}
+David Plotzki.
+\newblock High-resolution gamma spectrometry with the ge-semiconductor
+  detector, 03 2024.
+\newblock URL:
+  \url{http://www.uni-leipzig.de/%7Ephysfp/manuals/Gamma_NEU_en.pdf}.
 
 \end{thebibliography}

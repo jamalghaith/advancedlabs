@@ -75,9 +75,302 @@
 
 \section{Introduction}
 
+\subsection{Basics of Nuclear Physics}
+Atomic nuclei are composed of protons and neutrons, collectively known as nucleons. The number of protons in the nucleus is called the atomic number $Z$, while the quantity of neutrons is termed the neutron number $N$. The sum of protons and neutrons, or nucleons, in the nucleus is referred to as the mass number $A$: 
+\begin{equation}
+    A = Z + N
+\end{equation}
+
+A nuclide is completely defined by its specific number of protons $Z$ and neutrons $N$. To specify a particular nuclide, a notation is used that includes the total nucleon number $A$ and the number of protons $Z$ along with the element symbol. For example, $^{137} _{55}$Cs and $^{22}_{11}$Na. Since the chemical symbol and the atomic number provide equivalent information, the atomic number is often omitted in simplified notation: $^{137}$Cs and $^{22}$Na. Atomic nuclei can vary in the number of neutrons. Elements that share the same atomic number $Z$ but have different neutron numbers $N$ are called isotopes. To denote that an atomic nucleus is radioactive, the terms radionuclide or radioisotope (depending on the context) are used.
+
+\subsection{Gamma radiation}
+Gamma radiation is highly energetic electromagnetic radiation emitted by atomic nuclei as they transition from an excited energetic state to a ground state. Gamma radiation and X-rays overlap in a certain wavelength range (see Figure \ref{fig:EMspectrum}). The difference between the two is the origin of the radiation. While gamma radiation originates from atomic nuclei, X-rays are generated mainly due to the acceleration, deceleration or energy transitions of charged particles. For example, electronic transitions in atoms. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Intro/1.png}
+    \caption{Electromagnetic spectrum \cite{plotzki_2024_highresolution}}
+    \label{fig:EMspectrum}
+\end{figure}
+
+\subsection{Radioactive decay}
+Nuclei which emit gamma rays reach their excited states mainly due to radioactive decay. When an unstable nucleus (the parent nuclide, X) decays into a lighter nucleus (the daughter nuclide, Y) the difference in the mass results in particle radiation (P) and energy release (Q), which involves gamma rays. 
+
+\begin{equation*}
+\text{X} \rightarrow \text{Y} + \text{P} + \text{Q}
+\end{equation*}
+
+A decay is only possible if the mass of the parent
+nuclide is greater than the sum of the masses of
+all resulting particles (i.e., if the total energy released in the radioactive decay (the Q-value) is positive): 
+\begin{equation}
+    m_X \geq m_Y + m_P
+\end{equation}
+
+The characteristic gamma emission energies resulting from radioactive decay are conventionally attributed to the parent nuclide, even though they are actually emitted by the daughter nuclide.
+
+\subsection{Decay law}
+For an ensemble of $N$ unstable, radioactive nuclei, the decay rate $dN/dt$ is proportional to the number of nuclei present:
+\begin{equation}
+    A = -dN/dt = \lambda N
+\end{equation}
+The quantity $A$ is the current \textit{activity} of the sample, which has the unit Bacquerel (1 Bq = 1/s, one Bacquerel corresponds to one radioactive decay per second). The \textit{decay constant} determines the rate of decay in the ensemble. The solution to equation (3) is given by the decay law: 
+
+\begin{equation}
+    N(t) = N_0 e^{-\lambda t}
+\end{equation}
+
+Using this law and given an initial population $N_0$, we can estimate how many nuclei will still be present at a time t. The mean life-time of a nucleus is given by $\tau = 1/\lambda$ and the half-life is given by $t_{1/2} = \ln{(2)}/\lambda$. The half-life is defined as the time in which half of the nuclei will likely have decayed. 
+
+\pagebreak{}
+
+\subsection{Gamma rays and matter}
+Gamma radiation is a type of ionizing radiation. The high-energy photons ionize atoms in the materials they interact with. In semiconductors, such as the germanium detector used in this experiment, they produce cascades of electron-hole pairs. This process allows for precise determination of photon energy. Various ionization mechanisms are briefly described below.
+
+\subsection{Photoelectric absorption}
+The photoelectric effect involves the transfer of the entire energy of a photon to an electron, ejecting it from its atomic shell thus ionizing the atom. The kinetic energy $E_k$ of the ejected electron is given by the difference between the gamma photon energy $E_\gamma$ and the binding energy $E_b$: 
+
+\begin{equation}
+    E_k = E_\gamma - E_b
+\end{equation}
+
+The ejected fast electrons interact with nearby electrons, gradually generating new electron-hole pairs in the semiconductor, resulting in a cascade effect.
+
+The ionized atom is now in an unstable excited state with the energy $E_b$ above the ground state. Relaxation to the ground state occurs quickly either by further ionization or due to the higher-energy electrons filling the vacancy. In the latter process, X-rays are typically emitted. These X-rays either get absorbed by neighbouring atoms or escape the detector and are lost. In this case, some of the energy of the gamma radiation is \textit{not} converted into electron-hole pairs which results in a measurement error. This happens when absorption occurs at the surface of the detector and hence is a relatively rare event. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Intro/2.png}
+    \caption{Photoelectric effect \cite{plotzki_2024_highresolution}}
+    \label{fig:Photoelectric effect}
+\end{figure}
+
+\pagebreak{}
+
+\subsection{Compton scattering}
+Compton scattering is the scattering of high-energy photons by electrons. In Compton scattering, only a part of the photon's energy is transferred to the electron, as opposed to the photoelectric effect. After the scattering, the photon has lost energy and changes its direction due to the conservation of momentum. The main equation of Compton scattering is: 
+
+\begin{equation}
+    E_{\text {k }}=E_\gamma\left(1-\frac{1}{1+E_\gamma(1-\cos \theta) / m_{e} c^2}\right)
+	\label{eq:Compton}
+\end{equation}
+
+Where $E_k$ is the kinetic energy of the electron and $\theta$ is the scattering angle. The rest energy of the electron is $m_{e} c^2 = \SI{511}{keV}$. This equation applies in the case of scattering of a free electron. If the electrons are bound, their binding energy must be subtracted. However, this binding energy is typically negligible compared to the energy of a gamma photon, even in the case of atomically bound electrons. The energy of the scattered photon is: 
+\begin{equation}
+    E_{\gamma^\prime} =  E_\gamma -  E_k
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Intro/3.png}
+    \caption{Compton scattering \cite{plotzki_2024_highresolution}}
+    \label{fig:Compton scattering}
+\end{figure}
+
+Let's examine equation \ref{eq:Compton}. In the scenario where complete forward scattering occurs ($\theta = 0$), no energy is transferred to the electron. And in complete backscattering ($\theta = \SI{180}{\degree})$ a part of the photon's energy is transferred to the electron. A plot of equation \ref{eq:Compton} for a gamma ray photon with an energy of $\SI{500}{keV}$ is shown in Figure \ref{fig:Compton scattering graph}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Intro/4.png}
+    \caption{Energies of a photon at 500 keV and an electron after Compton scattering \cite{_2020_compton}}
+    \label{fig:Compton scattering graph}
+\end{figure}
+
+\pagebreak{}
+
+\subsection{Pair production}
+Pair production happens when a high-energy photon is converted into an electron-positron pair. This happens when the photon is near the atomic nucleus. The photon must have an energy of at least the rest mass of the electron-positron pair (i.e. $2\times511 = \SI{1022}{keV} $). If the photon's energy surpasses this threshold, the extra energy is converted into the kinetic energy of the electron and positron. Additionally, a small portion of the energy is used for the recoil of the atom in whose Coulomb field the pair production occurs. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Intro/6.png}
+    \caption{Pair production \cite{plotzki_2024_highresolution}}
+    \label{fig:Pair production}
+\end{figure}
+
+As the electron and positron move through the surrounding material, they interact with other atoms, ionizing them and generating additional free charge carriers. Through this process, they lose their kinetic energy and eventually come to rest. The positron at rest annihilates extremely quickly (on the order of nanoseconds) with an electron nearby, creating two photons with $\SI{511}{keV}$ of energy each. Three processes can occur now: 
+
+\begin{enumerate}
+    \item Single escape: One photon leaves the detector without interaction, a secondary peak appears at $\SI{511}{keV}$ less than the main peak.
+    \item Double escape: Both photons leave the detector without interaction, a secondary peak appears at $\SI{1022}{keV}$ less than the main peak.
+    \item No escape: No secondary peaks appears.
+\end{enumerate}
+
+The electron-positron pair is typically moving with respect to the lab's frame of reference at the moment this annihilation occurs. This is because the positron could have some residual kinetic energy and the fact that orbital electrons have angular momentum. Thus, a Doppler shift of the photon wavelengths (and energies) takes place. This manifests in high-resolution gamma ray spectroscopy as the peaks of the positron annihilation are a little wider than the characteristic peaks from atomic nuclei.
+
+\pagebreak{}
+
+\subsection{Experimental setup}
+\subsubsection{structure of the detector}
+The gamma spectrometer (Figure \ref{fig:spec}) includes a germanium semiconductor detector. The detector is composed of multiple stacked layers of germanium. A voltage is applied across these layers to move the released electrons to an amplifier, which then directs them to a multi-channel analyzer. The detector has 8192 channels which makes it possible to resolve energies from 0 to \SI{3000}{keV}. The detector is housed within a vacuum chamber inside an aluminum casing. Cooling is achieved through a cooling rod that is immersed in a tank of liquid nitrogen.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Intro/5.png}
+    \caption{Setup of the gamma spectrometer \cite{plotzki_2024_highresolution}}
+    \label{fig:spec}
+\end{figure}
+
+
+\subsubsection{Calibration and measurement}
+Cs-137 is used to measure the applied voltage and the rise time, which is how the detector channels are linked to the energy and intensity of the radiation. The rise time is basically the time interval in which events (or counts) are recorded. The optimal rise time is affected by two factors. If the rise time is too low, there is the risk of lower resolution due to rapid decay avalanches, which is likely at gamma ray energies. On the other hand, if the rise time is too high, a pile-up of events could occur.
+
+To determine the composition of unknown samples accurately, we must eliminate contamination from background radiation and other gamma emitters, such as $^{40}$K. To achieve this, the laboratory's background radiation is measured over a specific time period. During the main measurement, the peaks of the background radiation can be ignored to accurately obtain the gamma spectrum of the samples. Specific energy peaks can be identified from this spectrum and matched to different elements using nuclide maps. An intensity-to-half-life ratio can also help infer the quantitative composition of elements in the sample. This requires correlating the measured radiation intensity with the actual radiation emitted from the sample.
+
+\subsubsection{Materials used}
+As already discussed, germanium is the main component of the detector. Germanium is a semiconductor which has a diamond-like crystal structure, which determines its electrical conductivity. Germanium detectors have the advantage of a very high detection resolution. Though, they require cooling to low temperatures. 
+
+In conductors, the valence and conduction bands are connected and no energy is spent when an electron in the valence band is brought from the valence band to the conduction band, leaving a hole behind which can be filled by other electrons. 
+
+However, this is not the case in semiconductors since there exists a gap between the two bands, the \textit{band gap}. Thus, an energy is needed before an electron "jumps" from the valence band to the conduction band, creating an electron-hole pair. In our experiment, this energy cost is supplied by the gamma photons.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Intro/7.png}
+    \caption{Valence and conduction bands in different materials \cite{wikipediacontributors_2019_valence}}
+    \label{fig:bands}
+\end{figure}
+
+\subsubsection{Radiation sources}
+The calibration substances—$^{137}$Cs, $^{22}$Na, and $^{60}$Co— are well-suited for our experiment because there is a high likelihood that they will frequently produce the same decay events with known emission energies. Additionally, we anticipate detecting the 1461 keV peak from $^{40}$K, which is commonly found in biological materials, as well as the 511 keV peak from positron annihilation in $\beta^+$ decay.
+
+
 \pagebreak{}
 
 \section{Analysis}
+
+\subsection{Task 1: \textit{Finding Optimal Settings}}
+
+In this task we used a Cs-137 sample to find the optimal rise time $\tau$ for the detector. This was done by finding the Full Width at Half Maximum (FWHM) of the same peak for different rise times, found in appendix \ref{appendix:Task1}. 
+
+The following shows the FWHM values plotted against rise times:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{1}{\input{Figures/Task 1/Risetime.pgf}}
+	\caption{FWHM values for different rise times}
+	\label{fig:risetimes}
+\end{figure}
+
+We chose a rise time of $\tau = 5.6 \ \mu$s as it was the best compromise between resolution and low rise time. 
+
+\pagebreak{}
+
+\subsection{Task 2: \textit{Energy Calibration \& Resolution}}
+\subsubsection{Calibration}
+
+The output of the spectrometer is given in channel numbers, which correspond to energies. To convert these channel numbers to energies, samples with known peak energies are used.
+We used the following samples: $^{137}$Cs, $^{60}$Co, $^{22}$Na, and $^{133}$Ba.
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/Na22.pgf}}
+		\caption{}
+		\label{fig:1}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/Co60.pgf}}
+		\caption{}
+		\label{fig:2}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/Ba133.pgf}}
+		\caption{}
+		\label{fig:3}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/Cs137.pgf}}
+		\caption{}
+		\label{fig:4}
+	\end{subfigure}
+	\caption{Spectrum of different samples, with the channel number of the peak marked. N.B. 'Normalization' here refers to dividing by the maximum number of counts, not by the measurement time as done later on.}
+	\label{fig:task1spectra}
+\end{figure}
+
+Then, the known peak energies found in \cite{plotzki_2024_highresolution} were used to acquire the following plot:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{1}{\input{Figures/Task 2/EnergyCalibration.pgf}}
+	\caption{Energy calibration curve.}
+	\label{fig:EnergyCalibration}
+\end{figure}
+
+\pagebreak{}
+
+\subsubsection{Resolution \& Peak-to-Compton Ratio}
+
+The resolution $R$ of the detector can be found via
+
+\begin{equation}
+	R = \frac{E_{\text{max}}}{\text{FWHM}}
+\end{equation}
+
+where $E_{\text{max}}$ is the energy of a specified peak. According to \cite{plotzki_2024_highresolution}, the 1332.5 keV peak of $^{60}$Co is the standard for determining the resolution of Ge-semiconductor detectors. 
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/Co60peak.pgf}}
+		\caption{Spectrum of $^{60}$Co, the the 1332.5 keV highlighted.}
+		\label{fig:Co60Broad}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/Co60FWHM.pgf}}
+		\caption{Window around the 1332.5 keV peak of $^{60}$Co, along with the Gaussian fit.}
+		\label{fig:Co60window}
+	\end{subfigure}
+	\caption{}
+	\label{fig:energyresolution}
+\end{figure}
+
+Since the FWHM of the peak is $2.240$ keV, the resolution is 
+\[R = \frac{2.240}{1332.5} \approx \boxed{0.00168}\]
+
+The peak-to-Compton ratio is found by dividing the maximum count rate of the peak by the average count rate in the range 1024 - 1096 keV. 
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{1}{\input{Figures/Task 2/AvgCountRate.pgf}}
+	\caption{Average count rate in the range 1024 - 1096 keV.}
+	\label{fig:AvgCountRate}
+\end{figure}
+
+The peak-to-Compton ratio is then
+\[ \frac{5.35}{0.162} \approx \boxed{33.0} \]
+
+\pagebreak{}
+
+\subsection{Task 3: \textit{Background Measurement}}
+
+A background spectrum was measured for 1 hour. The following was found:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{1}{\input{Figures/Task 3/Background.pgf}}
+	\caption{Background spectrum.}
+	\label{fig:Background}
+\end{figure}
+
+Then, the background spectrum was analyzed by first disregarding the backscatter peak, and then finding the energy values of the peaks and matching them to the table in \cite{plotzki_2024_highresolution}. The following shows the result:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{0.7}{\input{Figures/Task 3/BackgroundWindowed.pgf}}
+	\caption{Analysis of the background spectrum. Different isotopes are marked by different colors.}
+	\label{fig:BackgroundAnalysis}
+\end{figure}
+
+\pagebreak{}
+
+The following table shows the in-depth values and origin of the peaks found in Figure \ref{fig:BackgroundAnalysis}.
 
 \begin{table}[h]
 	\centering
@@ -108,16 +401,41 @@
 	Annihilation & $\beta^+$ Decay and Doppler Broadening & 511.19  & 511.00  & 0.04 \\ \hline
 	\end{tabular}
 	}
-	\caption{}
+	\caption{Values found using \cite{plotzki_2024_highresolution}.}
 	\label{tab:Background}
 \end{table}
+
+The $^{214}$Bi peak at 609.65 keV is a secondary peak due to a single escape event of the primary peak at 1121.32 keV (the difference between them is $\approx 511$ keV).
+
+The peak at 511.19 keV is due to the annihilation of positrons in $\beta^+$ decay, due to cosmic rays. The doppler broadening is due to the movement of the positron-electron pair.
+
+This background spectrum was then used to correct the measured spectra of the samples in the following tasks.
+
+\pagebreak{}
+
+\subsection{Task 4: \textit{Known Samples}}
+
+In this task, A rock sample from a uranium mine, a dirt sample from Chernobyl, and a soil sample from the Leipzig University main campus are measured.
+
+\subsubsection{Rock Sample: \textit{Ronneb 1}}
+
+The following shows the spectrum of the rock sample:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{1}{\input{Figures/Task 4/Rock.pgf}}
+	\caption{Spectrum of the rock sample.}
+	\label{fig:Rock}
+\end{figure}
+
+The following table shows the in-depth values and origin of the peaks found in Figure \ref{fig:Rock}:
 
 \begin{table}[h]
 	\centering
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{|ccccc|}
 	\hline
-	\multicolumn{5}{|c|}{\textbf{Rock}}                                                                                                                          \\ \hline
+	\multicolumn{5}{|c|}{\textbf{Rock - Ronneb 1}}                                                                                                                          \\ \hline
 	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
 	  \multicolumn{1}{c|}{\textbf{Origin}} &
 	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
@@ -135,46 +453,40 @@
 	\multicolumn{1}{|c|}{$^{214}$Pb}     & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{242.27}  & \multicolumn{1}{c|}{242.00}  & 0.11  \\ \cline{1-1} \cline{3-5} 
 	\multicolumn{1}{|c|}{$^{226}$Ra}     & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{186.43}  & \multicolumn{1}{c|}{186.21}  & 0.12  \\ \hline
 	\multicolumn{1}{|c|}{$^{234}$Th}     & \multicolumn{1}{c|}{$^{238}$U Series (Doublet)} & \multicolumn{1}{c|}{92.81}   & \multicolumn{1}{c|}{92.58}   & 0.25  \\ \hline
-	\multicolumn{1}{|c|}{Bi K$\alpha_1$} & \multicolumn{1}{c|}{$^{212, 214}$Pb Decay}      & \multicolumn{1}{c|}{77.31}   & \multicolumn{1}{c|}{77.11}   & 0.26  \\ \hline
+	\multicolumn{1}{|c|}{Bi K$\alpha_1$} & \multicolumn{1}{c|}{$^{212, \ 214}$Pb Decay}      & \multicolumn{1}{c|}{77.31}   & \multicolumn{1}{c|}{77.11}   & 0.26  \\ \hline
 	\end{tabular}
 	}
-	\caption{}
+	\caption{Values found using \cite{plotzki_2024_highresolution}.}
 	\label{tab:Rock}
 \end{table}
 
-\begin{table}[h]
+This was the most active sample, with the highest count rate. This is likely due to the fact that its recently acquired.
+
+Once again, The $^{214}$Bi peak at 609.32 keV is a secondary peak due to a single escape event of the primary peak at 1120.67 keV.
+
+This shows that the rock sample was indeed in a uranium mine, as all the peak are the result of uranium decay series.
+
+It additionally has a doublet peak at 92.58 keV. Again this is due to the Uranium series, but the doublet is due to the fact that we need higher resolution to resolve two peaks that are very close to each other.
+
+\pagebreak{}
+
+\subsubsection{Soil Sample: \textit{QQ250m}}
+
+The following shows the spectrum of the dirt sample:
+
+\begin{figure}[h!]
 	\centering
-	\resizebox{\textwidth}{!}{
-	\begin{tabular}{|ccccr|}
-	\hline
-	\multicolumn{5}{|c|}{\textbf{Chernobyl}}                                                                                                 \\ \hline
-	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
-	  \multicolumn{1}{c|}{\textbf{Origin}} &
-	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
-	  \multicolumn{1}{c|}{\textbf{Theoretical Energy {[}keV{]}}} &
-	  \multicolumn{1}{c|}{\textbf{\% Error}} \\ \hline
-	\multicolumn{1}{|c|}{$^{208}$Tl} &
-	  \multicolumn{1}{c|}{\multirow{3}{*}{$^{232}$Th Series}} &
-	  \multicolumn{1}{c|}{2616.64} &
-	  \multicolumn{1}{c|}{2614.51} &
-	  0.08 \\ \cline{1-1} \cline{3-5} 
-	\multicolumn{1}{|c|}{$^{212}$Pb} & \multicolumn{1}{c|}{}           & \multicolumn{1}{c|}{238.72}  & \multicolumn{1}{c|}{238.63}  & 0.04  \\ \cline{1-1} \cline{3-5} 
-	\multicolumn{1}{|c|}{$^{228}$Ac} & \multicolumn{1}{c|}{}           & \multicolumn{1}{c|}{208.70}  & \multicolumn{1}{c|}{209.26}  & -0.27 \\ \hline
-	\multicolumn{1}{|c|}{$^{40}$K}   & \multicolumn{1}{c|}{Primordial} & \multicolumn{1}{c|}{1461.90} & \multicolumn{1}{c|}{1460.82} & 0.07  \\ \hline
-	\multicolumn{1}{|c|}{$^{137}$Cs} & \multicolumn{1}{c|}{Fission}    & \multicolumn{1}{c|}{661.66}  & \multicolumn{1}{c|}{661.94}  & -0.04 \\ \hline
-	\multicolumn{1}{|c|}{$^{234}$Pa} & \multicolumn{1}{c|}{$^{228}$Ac} & \multicolumn{1}{c|}{131.22}  & \multicolumn{1}{c|}{131.20}  & 0.02  \\ \hline
-	\end{tabular}
-	}
-	\caption{}
-	\label{tab:Chernobyl}
-\end{table}
+	\scalebox{1}{\input{Figures/Task 4/Soil.pgf}}
+	\caption{Spectrum of the soil sample.}
+	\label{fig:Dirt}
+\end{figure}
 
 \begin{table}[h]
 	\centering
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{|ccccr|}
 	\hline
-	\multicolumn{5}{|c|}{\textbf{Soil}}                                                                                                                    \\ \hline
+	\multicolumn{5}{|c|}{\textbf{Soil - QQ250m}}                                                                                                                    \\ \hline
 	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
 	  \multicolumn{1}{c|}{\textbf{Origin}} &
 	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
@@ -196,11 +508,75 @@
 	\multicolumn{1}{|c|}{Bi K$\alpha_1$} & \multicolumn{1}{c|}{$^{212, \ 214}$Pb Decay} & \multicolumn{1}{c|}{77.63}   & \multicolumn{1}{c|}{77.11}   & 0.67 \\ \hline
 	\end{tabular}
 	}
-	\caption{}
+	\caption{Values found using \cite{plotzki_2024_highresolution}.}
 	\label{tab:Soil}
 \end{table}
 
+Similar to the rock sample, this is all due to the uranium decay series. It also has the secondary $^{214}$Bi peak at 609.32 that was discussed previously. However, it does not have a doublet.
+
+The soil sample also has a peak at 1462.22 keV, which is due to $^{40}$K, a naturally occurring isotope. Interestingly, this is not found the sample from the mines; presumably since they are taken deeper in the ground.
+
 \pagebreak{}
+
+\subsubsection{Dirt Sample: \textit{Chernobyl}}
+
+The following shows the spectrum of the Chernobyl sample:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{1}{\input{Figures/Task 4/Chernobyl.pgf}}
+	\caption{Spectrum of the dirt sample from Chernobyl.}
+	\label{fig:Chernobyl}
+\end{figure}
+
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|ccccr|}
+	\hline
+	\multicolumn{5}{|c|}{\textbf{Dirt Sample - Chernobyl}}                                                                                                 \\ \hline
+	\multicolumn{1}{|c|}{\textbf{Parent Nuclide}} &
+	  \multicolumn{1}{c|}{\textbf{Origin}} &
+	  \multicolumn{1}{c|}{\textbf{Experimental Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{Theoretical Energy {[}keV{]}}} &
+	  \multicolumn{1}{c|}{\textbf{\% Error}} \\ \hline
+	\multicolumn{1}{|c|}{$^{208}$Tl} &
+	  \multicolumn{1}{c|}{\multirow{3}{*}{$^{232}$Th Series}} &
+	  \multicolumn{1}{c|}{2616.64} &
+	  \multicolumn{1}{c|}{2614.51} &
+	  0.08 \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{212}$Pb} & \multicolumn{1}{c|}{}           & \multicolumn{1}{c|}{238.72}  & \multicolumn{1}{c|}{238.63}  & 0.04  \\ \cline{1-1} \cline{3-5} 
+	\multicolumn{1}{|c|}{$^{228}$Ac} & \multicolumn{1}{c|}{}           & \multicolumn{1}{c|}{208.70}  & \multicolumn{1}{c|}{209.26}  & -0.27 \\ \hline
+	\multicolumn{1}{|c|}{$^{40}$K}   & \multicolumn{1}{c|}{Primordial} & \multicolumn{1}{c|}{1461.90} & \multicolumn{1}{c|}{1460.82} & 0.07  \\ \hline
+	\multicolumn{1}{|c|}{$^{137}$Cs} & \multicolumn{1}{c|}{Fission}    & \multicolumn{1}{c|}{661.66}  & \multicolumn{1}{c|}{661.94}  & -0.04 \\ \hline
+	\multicolumn{1}{|c|}{$^{234}$Pa} & \multicolumn{1}{c|}{$^{228}$Ac} & \multicolumn{1}{c|}{131.22}  & \multicolumn{1}{c|}{131.20}  & 0.02  \\ \hline
+	\end{tabular}
+	}
+	\caption{Values found using \cite{plotzki_2024_highresolution}.}
+	\label{tab:Chernobyl}
+\end{table}
+
+The Chernobyl sample had the lowest count rate of the three samples. This is likely due to the fact that the sample is quite old, as the chernobyl disaster happened 38 years ago, meaning the most radioactive elements have decayed.
+
+This is supported by the table which mostly shows elements from the end of the Thorium decay chain. 
+
+It also shows a peak at 661.66 keV, which is due to $^{137}$Cs, a fission product when Uranium undergoes fission, which makes sense.
+
+\pagebreak{}
+
+\subsection{Task 5: \textit{Unknown Samples}}
+
+\subsubsection{Sample V}
+
+In this task, two unknown samples were measured. The following shows the spectrum of the first unknown sample:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{1}{\input{Figures/Task 5/V.pgf}}
+	\caption{Spectrum of the first unknown sample, labeled V in the lab.}
+	\label{fig:V}
+\end{figure}
 
 \begin{table}[h]
 	\centering
@@ -227,10 +603,24 @@
 	\multicolumn{1}{|c|}{$^{234}$Th} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{93.13}   & \multicolumn{1}{c|}{92.58}   & 0.59 \\ \hline
 	\end{tabular}
 	}
-	\caption{}
+	\caption{Values found using \cite{plotzki_2024_highresolution}.}
 	\label{tab:V}
 \end{table}
 
+It's clear that this sample is Uranium, as all the peaks are due to the Uranium Decay series. It also has the aforementioned secondary $^{214}$Bi peak at 609.65 keV.
+
+\pagebreak{}
+
+\subsubsection{Sample W}
+
+The following shows the spectrum of the second unknown sample:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{1}{\input{Figures/Task 5/W.pgf}}
+	\caption{Spectrum of the second unknown sample, labeled W in the lab.}
+	\label{fig:W}
+\end{figure}
 
 \begin{table}[h]
 	\centering
@@ -253,26 +643,96 @@
 	\multicolumn{1}{|c|}{Bi K$\alpha_1$} & \multicolumn{1}{c|}{$^{212, \ 214}$Pb Decay}              & \multicolumn{1}{c|}{77.63}   & \multicolumn{1}{c|}{77.11}   & 0.67 \\ \hline
 	\end{tabular}
 	}
-	\caption{}
+	\caption{Values found using \cite{plotzki_2024_highresolution}.}
 	\label{tab:W}
 \end{table}
 
-\scalebox{0.7}{\input{Figures/Task 3/BackgroundWindowed.pgf}}
+
+
+It is clear that this sample is Thorium-232, as all the peaks are due to the Thorium decay series. The Bi K$\alpha_1$ peak is due to $^{212}$Pb from the Thorium decay series.
 
 \pagebreak{}
 
 \section{Conclusion}
 
+In this experiment, we optimized the detector settings using a Cs-137 sample, achieving the best resolution at a rise time of 5.6 $\mu$s. We calibrated the energy spectrum with known samples, obtaining a linear energy calibration curve. The detector's resolution, determined from the 1332.5 keV peak of Co-60, was approximately 0.00168. The peak-to-Compton ratio was calculated to be around 33.0. Background radiation analysis revealed peaks corresponding to natural isotopes and cosmic events. Analysis of known samples confirmed the presence of expected isotopes, consistent with their origins. The analysis of unknown samples revealed that sample V was Uranium-238, while sample W was Thorium-232. 
+The percent errors throughout all the measurements were very low, owing the high resolution of the detector and the high quality of the data collected.
+
+
 \pagebreak{}
 
 \begin{appendices}
+
+\section{Task 1 Fits}
+\label{appendix:Task1}
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/1.pgf}}
+		\caption{FWHM $= 21.53$, $\tau = 0.5 \mu$s }
+		\label{fig:1}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/2.pgf}}
+		\caption{FWHM $= 15.17$, $\tau = 0.8\mu$s}
+		\label{fig:2}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/3.pgf}}
+		\caption{FWHM $= 11.02$ keV, $\tau = 1.2 \ \mu$s.}
+		\label{fig:3}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/4.pgf}}
+		\caption{FWHM $= 6.91$ keV, $\tau = 2.4 \ \mu$s.}
+		\label{fig:4}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/5.pgf}}
+		\caption{FWHM $= 5.54$ keV, $\tau = 3.6 \ \mu$s.}
+		\label{fig:5}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/6.pgf}}
+		\caption{FWHM $= 4.74$ keV, $\tau = 5.6 \ \mu$s.}
+		\label{fig:6}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/7.pgf}}
+		\caption{FWHM $= 4.37$ keV, $\tau = 8.0 \ \mu$s.}
+		\label{fig:7}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/8.pgf}}
+		\caption{FWHM $= 4.31$ keV, $\tau = 10.4 \ \mu$s.}
+		\label{fig:8}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 1/9.pgf}}
+		\caption{FWHM $= 4.35$ keV, $\tau = 13.6 \ \mu$s.}
+		\label{fig:9}
+	\end{subfigure}
+	\caption{FWHM values for different rise times}
+	\label{fig:Task 1}
+\end{figure}
+
 
 
 \end{appendices}
 
 \pagebreak{}
 
-%\bibliographystyle{plainurl} 
-%\bibliography{} 
+\bibliographystyle{plainurl} 
+\bibliography{gammaspectroscopy} 
 
 \end{document}

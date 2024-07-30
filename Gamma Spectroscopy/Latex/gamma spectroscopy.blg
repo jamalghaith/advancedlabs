@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: gamma spectroscopy.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainurl.bst
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: gammaspectroscopy.bib
+You've used 3 entries,
+            2943 wiz_defined-function locations,
+            654 strings with 5615 characters,
+and the built_in function-call counts, 1033 in all, are:
+= -- 99
+> -- 24
+< -- 0
++ -- 9
+- -- 6
+* -- 35
+:= -- 158
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 27
+empty$ -- 124
+format.name$ -- 6
+if$ -- 283
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 42
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 0
+skip$ -- 84
+stack$ -- 0
+substring$ -- 15
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 6
+width$ -- 4
+write$ -- 32
