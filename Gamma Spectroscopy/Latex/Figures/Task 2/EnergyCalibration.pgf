@@ -1053,16 +1053,16 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetstrokeopacity{0.800000}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{3.436580in}{0.717111in}}%
+\pgfpathmoveto{\pgfqpoint{2.947003in}{0.717111in}}%
 \pgfpathlineto{\pgfqpoint{5.732176in}{0.717111in}}%
 \pgfpathquadraticcurveto{\pgfqpoint{5.771065in}{0.717111in}}{\pgfqpoint{5.771065in}{0.756000in}}%
 \pgfpathlineto{\pgfqpoint{5.771065in}{1.475988in}}%
 \pgfpathquadraticcurveto{\pgfqpoint{5.771065in}{1.514877in}}{\pgfqpoint{5.732176in}{1.514877in}}%
-\pgfpathlineto{\pgfqpoint{3.436580in}{1.514877in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{3.397692in}{1.514877in}}{\pgfqpoint{3.397692in}{1.475988in}}%
-\pgfpathlineto{\pgfqpoint{3.397692in}{0.756000in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{3.397692in}{0.717111in}}{\pgfqpoint{3.436580in}{0.717111in}}%
-\pgfpathlineto{\pgfqpoint{3.436580in}{0.717111in}}%
+\pgfpathlineto{\pgfqpoint{2.947003in}{1.514877in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{2.908114in}{1.514877in}}{\pgfqpoint{2.908114in}{1.475988in}}%
+\pgfpathlineto{\pgfqpoint{2.908114in}{0.756000in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{2.908114in}{0.717111in}}{\pgfqpoint{2.947003in}{0.717111in}}%
+\pgfpathlineto{\pgfqpoint{2.947003in}{0.717111in}}%
 \pgfpathclose%
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%
@@ -1070,7 +1070,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=4.458767in,y=1.302155in,left,base]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont Fit}%
+\pgftext[x=4.213979in,y=1.302155in,left,base]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont Fit}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -1079,22 +1079,22 @@
 \definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{{5.550000pt}{2.400000pt}}{0.000000pt}%
-\pgfpathmoveto{\pgfqpoint{3.475469in}{0.981633in}}%
-\pgfpathlineto{\pgfqpoint{3.669914in}{0.981633in}}%
-\pgfpathlineto{\pgfqpoint{3.864358in}{0.981633in}}%
+\pgfpathmoveto{\pgfqpoint{2.985892in}{0.981633in}}%
+\pgfpathlineto{\pgfqpoint{3.180337in}{0.981633in}}%
+\pgfpathlineto{\pgfqpoint{3.374781in}{0.981633in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=4.019914in, y=1.032266in, left, base]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont \(\displaystyle E = 0.323C + 1.13\) }%
+\pgftext[x=3.530337in, y=1.032266in, left, base]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont \(\displaystyle E = 0.32282C + 1.12552\) }%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=4.019914in, y=0.832611in, left, base]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont  \(\displaystyle R^2 = 0.9999993\)}%
+\pgftext[x=3.530337in, y=0.832611in, left, base]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont  \(\displaystyle R^2 = 0.9999993\)}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%

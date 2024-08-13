@@ -231,8 +231,7 @@ However, this is not the case in semiconductors since there exists a gap between
 \end{figure}
 
 \subsubsection{Radiation sources}
-The calibration substances—$^{137}$Cs, $^{22}$Na, and $^{60}$Co— are well-suited for our experiment because there is a high likelihood that they will frequently produce the same decay events with known emission energies. Additionally, we anticipate detecting the 1461 keV peak from $^{40}$K, which is commonly found in biological materials, as well as the 511 keV peak from positron annihilation in $\beta^+$ decay.
-
+The calibration substances —  $^{22}$Na, $^{60}$Co, $^{133}$Ba and $^{137}$Cs, — are well-suited for our experiment because there is a high likelihood that they will frequently produce the same decay events with known emission energies. Additionally, we anticipate detecting the 1461 keV peak from $^{40}$K, which is commonly found in biological materials, as well as the 511 keV peak from positron annihilation in $\beta^+$ decay.
 
 \pagebreak{}
 
@@ -307,7 +306,7 @@ Then, the known peak energies found in \cite{plotzki_2024_highresolution} were u
 The resolution $R$ of the detector can be found via
 
 \begin{equation}
-	R = \frac{E_{\text{max}}}{\text{FWHM}}
+	R = \frac{\text{FWHM}}{E_{\text{max}}}
 \end{equation}
 
 where $E_{\text{max}}$ is the energy of a specified peak. According to \cite{plotzki_2024_highresolution}, the 1332.5 keV peak of $^{60}$Co is the standard for determining the resolution of Ge-semiconductor detectors. 
@@ -334,12 +333,12 @@ where $E_{\text{max}}$ is the energy of a specified peak. According to \cite{plo
 Since the FWHM of the peak is $2.240$ keV, the resolution is 
 \[R = \frac{2.240}{1332.5} \approx \boxed{0.00168}\]
 
-The peak-to-Compton ratio is found by dividing the maximum count rate of the peak by the average count rate in the range 1024 - 1096 keV. 
+The peak-to-Compton ratio is found by dividing the maximum count rate of the peak by the average count rate in the range 1040 - 1096 keV. 
 
 \begin{figure}[h!]
 	\centering
 	\scalebox{1}{\input{Figures/Task 2/AvgCountRate.pgf}}
-	\caption{Average count rate in the range 1024 - 1096 keV.}
+	\caption{Average count rate in the range 1040 - 1096 keV.}
 	\label{fig:AvgCountRate}
 \end{figure}
 
@@ -415,7 +414,7 @@ This background spectrum was then used to correct the measured spectra of the sa
 
 \subsection{Task 4: \textit{Known Samples}}
 
-In this task, A rock sample from a uranium mine, a dirt sample from Chernobyl, and a soil sample from the Leipzig University main campus are measured.
+In this task, A rock sample from a uranium mine, a dirt sample from a high rise building at Augustplatz, and a soil sample are measured.
 
 \subsubsection{Rock Sample: \textit{Ronneb 1}}
 
@@ -460,7 +459,7 @@ The following table shows the in-depth values and origin of the peaks found in F
 	\label{tab:Rock}
 \end{table}
 
-This was the most active sample, with the highest count rate. This is likely due to the fact that its recently acquired.
+This was the most active sample, with the highest count rate. This is due to it having alot of primordial Uranium.
 
 Once again, The $^{214}$Bi peak at 609.32 keV is a secondary peak due to a single escape event of the primary peak at 1120.67 keV.
 

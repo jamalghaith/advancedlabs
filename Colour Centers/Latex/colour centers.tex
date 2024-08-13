@@ -2,6 +2,8 @@
 
 \usepackage{amsmath}
 
+\usepackage{tikz}
+
 \usepackage{graphicx}
 
 \usepackage{hyperref}
@@ -29,6 +31,8 @@
 \usepackage{tabularx}
 
 \usepackage{booktabs}
+
+\usepackage{pgfplots}
 
 \newcommand{\pvec}[1]{\vec{#1}\mkern2mu\vphantom{#1}}
 
@@ -71,20 +75,738 @@
 
 \section{Introduction}
 
+\subsection{Iodine Molecule Spectra}
+\subsubsection{Electronic Transitions}
+
+Electronic transitions in molecules occur when electrons are elevated to higher energy levels. In systems with multiple electrons, only those in non-closed shells are taken into account because their orbital angular momentum does not cancel out, unlike in closed shells. 
+The orbital angular momentum of these electrons in non-closed shells contributes to the total orbital angular momentum of the electron shell, resulting in values that are integer multiples of $\hbar$. These are denoted by Greek letters $\Sigma$, $\Pi$, $\Delta$, $\Phi$ instead of numbers. Quantum mechanics imposes a selection rule that governs these electronic transitions:
+
+\begin{equation*}
+	\Delta \Lambda = 0, \pm 1
+\end{equation*}
+
+The same principle applies to the total spin $S$, which is determined by the spins of the electrons in partially filled shells. Due to the interaction between spin and orbital angular momentum, the energy levels associated with the orbital angular momentum are split into $2S + 1$ values, referred to as multiplicity $M$. 
+When considering diatomic molecules, symmetry must also be considered, unlike in atoms. It is essential to determine whether a state function, when inverted at the center of symmetry, is symmetric or antisymmetric relative to its initial form. If a phase shift occurs at the boundary, the function is labeled as odd "u"; otherwise, it is labeled as even "g". 
+Additionally, a mirror-symmetric function is denoted with a "$+$", while an antisymmetric function is indicated with a "$-$". This leads to the following format for the complete description of the electronic state of a molecule:
+
+\begin{equation*}
+	\label{eq:state}
+	^{M}\Lambda_{g,u}^{\pm}
+\end{equation*}
+
+\subsubsection{Vibrational Transitions}
+
+In addition, the interactions between the atoms within a molecule must be considered.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Figures/Introduction/Oscillator.jpg}
+	\caption{From \cite{riede_optical}}
+\end{figure}
+
+
+To do this, the harmonic oscillator model is employed, and the equations of motion for a diatomic molecule are derived by considering the forces involved. These forces can be transformed using $x = x_1 - x_2$ into the following equations:
+
+\begin{equation*}
+m_1 \ddot{x}_1 = -k(x_1 - x_2) 
+\end{equation*}
+\begin{equation*}
+m_2 \ddot{x}_2 = -k(x_2 - x_1) 
+\end{equation*}
+\begin{equation*}
+\ddot{x} = -\frac{k}{\mu}x 
+\end{equation*}
+
+The resonance wavenumber of such a harmonic oscillator is then given by:
+
+\begin{equation*}
+\bar{\nu}_s = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}} 
+\end{equation*}
+
+To calculate the energy levels, one solves the Schrödinger equation for the potential
+
+\begin{equation*}
+U = 2\pi^2c^2\bar{\nu}^2\mu x^2
+\end{equation*}
+
+which is derived from the restoring force using the relation
+
+\begin{equation*}
+-\frac{dU}{dx} = F = -\frac{k}{x} 
+\end{equation*}
+
+and the solution
+
+\begin{equation*}
+x = x_0 \sin(2\pi c\bar{\nu}_s t) 
+\end{equation*}
+
+yields discrete energy levels
+
+\begin{equation*}
+E(n) = h c \bar{\nu}_s \left(n + \frac{1}{2}\right); \quad n = 0, 1, 2, \ldots
+\end{equation*}
+
+with the selection rule
+
+\begin{equation*}
+\Delta n = \pm 1. 
+\end{equation*}
+
+Experimentally, however, the spacings between vibrational energy levels are not constant, decreasing at higher $n$. Additionally, it is known that a molecule will dissociate at sufficiently large bond lengths, and the strong nuclear force must be considered at very short distances. Therefore, it is advisable to transition from the harmonic oscillator model to the Morse potential.
+
+\begin{equation*}
+U = E_D a^2 x^2
+\end{equation*}
+
+this is valid for small $x$, $E_D$ is the dissociation energy and 
+
+\begin{equation*}
+a = 2\pi \bar{\nu}_s c \sqrt{\frac{\mu}{2E_D}} = \omega_s \sqrt{\frac{\mu}{E_D}}
+\end{equation*}
+
+The constant $a$ is a characteristic parameter of the molecule. Solving the Schrödinger equation with this potential yields the approximate energy eigenvalues:
+
+\begin{equation*}
+E(n) = h c \bar{\nu} \left[ \left(n + \frac{1}{2}\right) - \gamma_e \left(n + \frac{1}{2}\right)^2\right]
+\end{equation*}
+
+where $\gamma_e$ is the anharmonicity constant. This leads to the following diagram for the anharmonic oscillator.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Figures/Introduction/Anharmonic.jpg}
+	\caption{From \cite{riede_optical}}
+\end{figure}
+
+\pagebreak{}
+
+\subsubsection{Combined Transitions}
+
+When combining the results of the isolated observations of electronic and vibrational transitions, it is important to also consider the coupling effect between them. The equilibrium bond length for vibrations depends on the electronic state, which can lead to different scenarios: the binding energy may remain constant with respect to distance (a), increase (b), or decrease (c) in the excited state. The Franck-Condon principle is also applicable, stating that electronic transitions occur much faster than molecular vibrations, which is why the transitions are depicted as vertical lines in the diagram.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Figures/Introduction/Combined.jpg}
+	\caption{From \cite{riede_optical}}
+\end{figure}
+
+For the transition energy between two levels $n'$ and $n''$ this results in
+
+\begin{align*}
+	\Delta E(n', n'') = E(n') - E(n'') &= E_{\text{elektr}} + hc\bar{\nu}_s' \left(n' + \frac{1}{2}\right) 
+	- hc\bar{\nu}_s'' \left(n'' + \frac{1}{2}\right) \nonumber \\
+	&\quad - hc\bar{\nu}_s'\gamma'_e \left(n' + \frac{1}{2}\right)^2 
+	+ hc\bar{\nu}_s''\gamma''_e \left(n'' + \frac{1}{2}\right)^2
+\end{align*}
+	
+However, to dissociate the molecule, it is not sufficient to provide it with the energy $E_D$, as transitions with large $\Delta n$ are very unlikely.
+	
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Figures/Introduction/Energies.png}
+	\caption{Definiton of transition energies. \cite{riede_optical}}
+	\label{fig:Dissociation}
+\end{figure}
+
+However, if an electron is excited, the transition probability increases, and the transition energy between states with $n'$ and $n''$ results in
+
+\begin{equation}
+	\label{eq:Iodinefit}
+	\Delta E = E_{electronic} + E'_S \left(n' + \frac{1}{2}\right) - E'_S y'_e\left(n' + \frac{1}{2}\right)^2
+\end{equation}
+
+For high $n'$, the values converge towards $E_K$, and two lines with a quantum difference of $N$ differ by
+
+\begin{equation*}
+\Delta(\Delta E) = E_S' \left(n' + \frac{1}{2} + N\right) - E_S' \left(n' + \frac{1}{2}\right) - E_S' \gamma_e' \left(n' + \frac{1}{2} + N\right)^2 + E_S' \gamma_e' \left(n' + \frac{1}{2}\right)^2
+\end{equation*}
+
+which simplifies to:
+
+\begin{equation*}
+\Delta(\Delta E) = E_S' N - E_S' \gamma_e' N(2n' + N + 1) = E_S' \left(1 - \gamma_e' (n + 1)\right)
+\end{equation*}
+
+for $N = 1$, where the distance between two neighboring line spacings depends linearly on $n'$ and therefore
+
+\begin{equation*}
+\Delta(\Delta E)(n') - \Delta(\Delta E)(n' + 1) = -2E_S' \gamma_e' = \text{const.}
+\end{equation*}
+
+As this distance approaches zero for $E = E_K$, the following also results in
+
+\begin{equation}
+	\label{eq:ne}
+	n'_E = \frac{1}{2y'_e} -1
+\end{equation}
+
+which can be used to find $n'_E$.
+
+if in Equation \ref{eq:Iodinefit} $n' = n'_E$, then:
+
+\begin{equation}
+	\label{eq:convergence}
+	\Delta E = E_K = E_{electronic} + E'_S \left(n'_E + \frac{1}{2}\right) - E'_S y'_e\left(n'_E + \frac{1}{2}\right)^2
+\end{equation}
+
+This can be used to calculate $E_{\text{electronic}}$, where $E_A$ and $E'_S$ are assumed to be known. The following values apply: $E'_S = 0.0159$ eV and $E_A = 0.94$ eV.
+
+\pagebreak{}
+
+\subsection{Color Centers}
+
+\subsubsection{General}
+
+In ionic crystals, particularly alkaline halides, electrons are strongly localized. These materials exhibit a wide energy gap between the valence and conduction bands, typically ranging from 5 to 12 eV. As a result, visible light, which has an energy range of about 1.5 to 3.5 eV, is insufficient to excite an electron from the valence band to the conduction band. As a result, pure ionic crystals are transparent and electrically insulating. However, thermal or chemical treatment, as well as exposure to x-rays or ultraviolet light, can induce point defects in these alkaline halides. These defects, such as ion vacancies, interstitials, or impurity atoms, become incorporated into the crystal lattice. They can trap electrons in bound states that are less localized than in the unperturbed lattice. These bound states fall within the forbidden energy gap, often within the visible spectral range for alkaline halides. This causes the crystals to exhibit a characteristic color—NaCl appears red, KBr appears blue—and these defects are known as color centers. There is a variety of color centers, each with different designations for historical reasons, as illustrated in Fig. \ref{fig:colour centres} \cite{riede_optical}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/Introduction/1.png}
+    \caption{The defect structure in alkaline halides: (a) Halogen ion vacancy with a
+trapped electron, F-centre (b) two neighbouring colour centres, (c) self-trapped hole, (d)
+halogen ion on a interstitial site, Frenkel pair}
+    \label{fig:colour centres}
+\end{figure}
+
+A colour centre (F-centre) is an anion vacancy (halogen vacancy) with a trapped electron (see Fig. \ref{fig:colour centres}). To create F-centres, gamma rays, X-rays, electron beams, or ultraviolet irradiation, as well as annealing the crystal in alkali vapor can be used. The energy from these radiations excites an electron from a halogen ion across the band gap, forming an exciton with a hole in the valence band. The neutral halogen atom is no longer firmly bound to its lattice site; it moves and creates a molecule-like state with a neighboring halogen ion, where the hole attaches. This configuration is known as the $V_K$ centre. The energy released during the exciton recombination is sufficient to generate a Frenkel pair (H-centre) from the $V_K$ centre, meaning the halogen ion vacancy moves to an interstitial site, leaving behind a vacancy at the original halogen ion site. Consequently, both an F-centre and an H-centre are formed, with the electron attaching to the F-centre. This process is energetically more efficient than directly shifting the halogen ion to an interstitial site. EPR experiments have indicated that the F-centre has a spin of 1/2, supporting the presence of a trapped electron at the halogen vacancy. Optical transmission studies of F-centres revealed a broad absorption band in the visible spectrum, associated with the electronic transition from the ground state to the first excited state. This absorption band is illustrated schematically in Fig. \ref{fig:peak}. The full width at half maximum (FWHM) of this band is represented as $\Delta E_H$. The transition energy, denoted as $E_m$, is related to the wavelength $\lambda_m$ as follows:
+
+\begin{equation*}
+    E = \frac{hc}{\lambda}
+\end{equation*}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/Introduction/2.png}
+    \caption{Schematic absorption line of an F-centre.}
+    \label{fig:peak}
+\end{figure}
+
+\pagebreak{}
+
+\subsubsection{F-centres classically}
+The traditional model of the F-centre, such as in NaCl, assumes that the Cl$^-$  vacancy leads to a positive charge on the surrounding Na$^+$ ions. This positive charge, denoted as $e^+$, is conceptualized as being spread uniformly over the surface of a sphere with the same volume as a cube with edge length $d'$. According to Fig. \ref{fig:classical}, the radius $R$ of this sphere is determined by:
+
+\begin{equation*}
+    d'^3 = \frac{4\pi}{3} R^3
+\end{equation*}
+
+with 
+
+\begin{equation*}
+    d' = \sqrt{2}d = \frac{\sqrt{2}}{2}a
+\end{equation*}
+
+Hence we get: 
+
+\begin{equation*}
+    R^3 = \frac{3\sqrt{2}}{16\pi}a^3
+\end{equation*}
+
+The electron trapped at the F-centre, carrying a charge of $e^-$, is now situated within the uniformly distributed charge density $\rho$ at position $r$. The electron experiences a radial electric field $E = Er$, which is generated by the uniformly charged sphere. Due to the symmetry of the charge distribution, this electric field has only a radial component. The total positive charge is represented by: 
+
+\begin{equation*}
+    e^{+}=\int \rho \mathrm{d} V=\rho \frac{4 \pi}{3} R^3
+\end{equation*}
+
+and the Maxwell's equation: 
+
+\begin{equation*}
+    \nabla D = \rho
+\end{equation*}
+
+we get the $E_r$ field: 
+
+\begin{equation*}
+    E_r = \frac{\rho}{3\epsilon \epsilon_0} r = \frac{e^+}{4\pi \epsilon \epsilon_0}\frac{r}{R^3}
+\end{equation*}
+
+yielding the Coulomb force: 
+
+\begin{equation*}
+    F_r = m \ddot{r}=-\frac{e^2}{4 \pi \epsilon \epsilon_0} \frac{r}{R^3} 
+\end{equation*}
+
+and by transforming it into an oscillation equation we also get the angular frequency: 
+
+\begin{equation*}
+    \omega=\frac{e^2}{4 \pi \epsilon \epsilon_0 m R^3}
+\end{equation*}
+
+And finally the excitation energy: 
+
+\begin{equation*}
+    E=\frac{\hbar e}{\left(4 \pi \epsilon \epsilon_0\right)^{1/2} R^{3/2}}
+\end{equation*}
+
+Replacing $R$ by the lattice constant $a$ one finally obtains:
+
+\begin{equation*}
+    E=\frac{h e}{\pi\left(3 \sqrt{2} \epsilon \epsilon_0 a^3\right)^{1 / 2}} .
+\end{equation*}
+
+The excitation energy of the oscillator, which determines the peak of the absorption line, corresponds to the transition energy $E_m$. Therefore, the classical model of the F-centre can be described as a harmonic oscillation of the trapped electron within the electric potential of a uniformly positively charged sphere.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.3\linewidth]{Figures/Introduction/3.png}
+    \caption{Classical model of the F-centre}
+    \label{fig:classical}
+\end{figure}
+
+\pagebreak{}
+
+\subsubsection{Quantum Mechanical Description}
+
+For the quantum mechanical consideration of color centers, a three-dimensional box potential with edge lengths $a$, $b$, and $c$ and infinitely high walls is assumed. Within this box, the following results:
+
+\begin{equation*}
+-\frac{\hbar^2}{2m} \Delta \Psi = E \Psi, 
+\end{equation*}
+
+where
+
+\begin{equation*}
+\Delta \Psi = -\alpha \Psi, 
+\end{equation*}
+
+and
+
+\begin{equation*}
+\alpha = \frac{2mE}{\hbar^2}.
+\end{equation*}
+
+Since the Laplacian operator is a sum of second derivatives in the three spatial directions, the product function
+
+\begin{equation*}
+\Psi = \Psi_1(x) \Psi_2(y) \Psi_3(z), 
+\end{equation*}
+
+is used. Applying the Laplacian operator results in
+
+\begin{equation*}
+	\Delta \left( \Psi_1(x) \Psi_2(y) \Psi_3(z) \right) = -\alpha \Psi_1(x) \Psi_2(y) \Psi_3(z).
+\end{equation*}
+	
+
+Dividing by the product function gives:
+
+\begin{equation*}
+\frac{1}{\Psi_1(x)} \frac{\partial^2 \Psi_1(x)}{\partial x^2} + \frac{1}{\Psi_2(y)} \frac{\partial^2 \Psi_2(y)}{\partial y^2} + \frac{1}{\Psi_3(z)} \frac{\partial^2 \Psi_3(z)}{\partial z^2} = -\alpha. 
+\end{equation*}
+
+With $x$, $y$, and $z$ as independent variables and $\alpha$ as a constant, each term must be a constant:
+
+\begin{equation*}
+\frac{1}{\Psi_1(x)} \frac{\partial^2 \Psi_1(x)}{\partial x^2} = -\alpha_1, 
+\end{equation*}
+\begin{equation*}
+\frac{1}{\Psi_2(y)} \frac{\partial^2 \Psi_2(y)}{\partial y^2} = -\alpha_2, 
+\end{equation*}
+\begin{equation*}
+\frac{1}{\Psi_3(z)} \frac{\partial^2 \Psi_3(z)}{\partial z^2} = -\alpha_3. 
+\end{equation*}
+
+Thus,
+
+\begin{equation*}
+\alpha = \alpha_1 + \alpha_2 + \alpha_3. 
+\end{equation*}
+
+This decouples the coordinates, allowing the differential equations to be solved separately using the harmonic approach:
+
+\begin{equation*}
+\Psi_1(x) = A_1 \sin(\beta_1 x), 
+\end{equation*}
+\begin{equation*}
+\Psi_2(y) = A_2 \sin(\beta_2 y), 
+\end{equation*}
+\begin{equation*}
+\Psi_3(z) = A_3 \sin(\beta_3 z). 
+\end{equation*}
+
+By inserting these wave functions into the equation, we get:
+
+\begin{equation*}
+	\alpha_i = \frac{2m \beta_i^2}{\hbar^2}, \quad i = 1, 2, 3.
+\end{equation*}
+	
+
+Thus, the boundary conditions are $\Psi_1(x = 0) = \Psi_1(x = a) = 0$ (analogous for the other two directions),
+
+\begin{equation*}
+\beta_1 = \frac{n_1 \pi}{a}, \quad \beta_2 = \frac{n_2 \pi}{b}, \quad \beta_3 = \frac{n_3 \pi}{c}, 
+\end{equation*}
+
+where $n_1$, $n_2$, and $n_3$ are positive integers.
+
+The energy eigenvalues are then:
+
+\begin{equation*}
+E = \frac{\hbar^2 \pi^2}{2m} \left( \frac{n_1^2}{a^2} + \frac{n_2^2}{b^2} + \frac{n_3^2}{c^2} \right). 
+\end{equation*}
+
+Finally, the normalization condition:
+
+\begin{equation*}
+\int_0^a \int_0^b \int_0^c |\Psi(x, y, z)|^2 \, dx \, dy \, dz = 1 
+\end{equation*}
+
+leads to the final wave function:
+
+\begin{equation*}
+\Psi = \frac{8}{abc} \sin \left( \frac{n_1 \pi x}{a} \right) \sin \left( \frac{n_2 \pi y}{b} \right) \sin \left( \frac{n_3 \pi z}{c} \right). 
+\end{equation*}
+
+The associated energy is:
+
+\begin{equation*}
+	E_{n_1, \ n_2, \ n_3} = E_0 \left( \frac{n_1^2}{a^2} + \frac{n_2^2}{b^2} + \frac{n_3^2}{c^2} \right),
+\end{equation*}
+
+which agrees well with experimental results. For the transition from the ground state to the first excited state, the following result is obtained:
+
+\begin{equation*}
+\Delta E = \frac{3h^2}{8ma^2}. 
+\end{equation*}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Figures/Introduction/Quantum.jpg} % Replace 'figure_path' with the actual path to your figure file
+    \caption{Energies in the three-dimensional box potential \cite{riede_optical}}
+    \label{fig:box_potential}
+\end{figure}
+
+\pagebreak{}
+
+\subsubsection{Line Width}
+
+Although one would theoretically expect very narrow absorption bands due to the discrete energy levels, these bands are relatively broad. The reason for this broadening is the interaction of the electron with the surrounding lattice vibrations. To account for this interaction, the configuration coordinate $R$ is introduced, which describes the distance of the surrounding cations from the center of the color center. In the excited states, the electron occupies a larger spatial extent, resulting in $R$ being minimal for the 1s state.
+
+The parabolas representing the energy shift for different values of $R$ and various excited states of the electron, in conjunction with the Franck-Condon principle—which explains the vertical transitions—lead to the observation of relatively broad emission and absorption bands.
+
+\subsubsection{Concentration of Color Centers}
+
+To determine the concentration $N$ of the color centers in the examined lattice, integral absorption is used due to its proportionality. With the approximation by a Lorentz curve and the Drude dispersion theory, the integral absorption is given by:
+
+\begin{equation}
+\label{eq:concentration}
+\int \alpha \, d\nu = \frac{e^2 N}{4c^2 \epsilon_0 n m_e} \left( \frac{n^2 + 2}{3} \right)^2,
+\end{equation}
+
+where $n$ is the refractive index and $m_e$ is the mass of the electron. The absorption coefficient $\alpha$ is obtained via the transmission, i.e., the ratio of the intensities in front of and behind the sample, with:
+
+\begin{equation*}
+T = \frac{I_t}{I_0} = \frac{(1 - R) e^{- \alpha d}}{1 - R^2 e^{-2 \alpha d}},
+\end{equation*}
+
+where 
+
+\begin{equation*}
+R = \frac{(n - 1)^2}{(n + 1)^2}.
+\end{equation*}
+
+If $R \ll 1$, Lambert-Beer's law is obtained:
+
+\begin{equation*}
+I = I_0 e^{- \alpha d}.
+\end{equation*}
+
+\pagebreak{}
+
+\subsection{Experimental Setup}
+
+The Lambda 365 spectrometer used is a dual-beam spectrometer with the following beam path.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Figures/Introduction/Path.jpg} % Replace 'figure_path' with the actual path to your figure file
+    \caption{Beam path of the spectrometer. From \cite{riede_optical}}
+    \label{fig:beam_path}
+\end{figure}
+
+The wavelength range of the spectrometer extends from 200 $nm$ to 1100 $nm$. This is achieved using two different lamps, which are switched between at 400 $nm$. A beam splitter divides the light into a measurement beam and a reference beam, allowing for immediate recording of a transmission spectrum without the need for a separate reference measurement. A reflection grating enables precise setting of the wavelength that reaches the sample. By rotating this grating, the entire wavelength range can be covered.
+
+The resolution of the spectrum can be adjusted using two settings: Firstly, the slit width can be adjusted via a selectable slit. Secondly, the speed at which the wavelength range is scanned—known as the registration speed—can be set.
+
+After inserting a sample into the spectrometer, the measurement is initiated electronically, and the transmission spectrum is immediately displayed in the associated software.
+
+\pagebreak{}
+
 \section{Analysis}
+
+\subsection{Task 1}
+
+\textit{By means of absorption bands of a holmium oxide filter determine the wavelength
+accuracy of the spectrometer Lambda 365. Investigate the influence of slit width and
+scanning speed on the spectrum}
+
+\subsubsection{Optimal Scanning Speed}
+
+To determine the optimal slit width and scanning speed of the lambda 365 spectrometer for our experiment, we first tried to find an optimal scanning speed. This was done by selecting a slit width of 0.5 mm, and varying the scanning speed to find the best one. The results are shown below
+
+\begin{figure}[h]
+	\centering
+	\scalebox{0.75}{\input{Figures/Task 1/ScanningSpeeds.pgf}}
+	\caption{Holmium oxide spectra at a slit width of 0.5 mm and varying scanning speeds. The inset plot shows a zoomed in view of a dip with a logarithmic scale.}
+	\label{fig:ScanningSpeeds}
+\end{figure}
+
+It is difficult to discern the difference in spectra at the different scanning speeds. This resulted in a significant zoom and the use of a logarthmic scale.
+The dip we decided to zoom into showed the best difference in the scanning speed. One can see that the 240 $nm$/min scanning speed is the most accurate as the dip is more pronounced than the others. The lines representing 480 $nm$/min and 960 nm/min are very slightly different, with 480 $nm$/min showing the dip more clearly.
+
+We decided to use the 480 $nm$/min scanning speed and not the 240 $nm$/min scanning speed as the latter is too slow and would take too long, and the difference in the quality of the spectra is not significant enough to warrant the extra time.
+
+\pagebreak{}
+
+\subsubsection{Optimal Slit Width}
+
+Then, we varied slit width at a constant scanning speed of 480 $nm$/min. The results are shown below.
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{0.70}{\input{Figures/Task 1/SlitWidths.pgf}}
+	\caption{Holmium oxide spectra at a scanning speed of 480 $nm$/min and varying slit widths. The inset plot shows a zoomed in view of a dip with a logarithmic scale.}
+	\label{fig:SlitWidths}
+\end{figure}
+
+Here it was a bit easier to discern the difference in spectra at the different slit widths. The dip we decided to zoom into showed the best difference in the slit width. It is clear that the line corresponding to the 0.5 mm slit width is the most accurate as the dip is the most pronounced compared to the others. Therefore, we decided to use the 0.5 mm slit width for our experiment.
+
+\subsubsection{Wavelength Accuracy}
+
+Now that we have selected a scanning speed of 480 $nm$/min and a slit width of 0.5 mm, we can determine the wavelength accuracy of the spectrometer. This is done using the known absorption bands of the holmium oxide filter. The results are shown below.
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{0.70}{\input{Figures/Task 1/Accuracy.pgf}}
+	\caption{Holmium oxide spectrum at a scanning speed of 480 $nm$/min and a slit width of 0.5 mm. The absorption bands are shown as red dots on the dip.}
+	\label{fig:WavelengthAccuracy}
+\end{figure}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|c|}
+	\hline
+	Theoretical Wavelength {[}$nm${]} & Experimental Wavelength {[}$nm${]} & \% Error \\ \hline
+	279.3                           & 279.0                            & -0.11    \\ \hline
+	360.8                           & 361.0                            & 0.055    \\ \hline
+	536.4                           & 537.0                            & 0.11     \\ \hline
+	\end{tabular}%
+	\caption{Comparison of theoretical and experimental values of absorption bands for the holmium oxide filter.}
+	\label{tab:WavelengthAccuracy}
+\end{table}
+
+The error here is very small, with low percentage errors across the board. Most of the error is probably due to the fact that the spectrometer did not output decimal values for the wavelength, and so the closest integer value was chosen. This could mean that the actual error is even smaller. However, there is still some more error of atleast 0.1 $nm$, as we should have gotten an experimental wavelength of 536.0 $nm$ for the third absorption band instead of 537.0 $nm$. 
+
+\pagebreak{}
+
+\subsection{Task 2}
+
+\textit{Record and interpret the transmission spectra of glass and quartz glass cuvettes
+filled with both air and water. Furthermore, record and discuss the transmission
+spectrum of an interference filter in dependence of the angle of incidence. In addition,
+determine the visible spectral range of the eye. Moreover, transmission curves of
+colour filters may be measured.}
+
+\subsubsection{Transmission Spectra of Glass and Quartz Glass Cuvettes}
+
+First, the transmission spectra of glass and quartz glass cuvettes filled with both air and water were recorded in the wavelength range 200 -- 1100 $nm$. The results are shown below.
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 2/Glass.pgf}}
+		\caption{Glass cuvette}
+		\label{fig:Glass}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 2/Quartz.pgf}}
+		\caption{Quartz glass cuvette}
+		\label{fig:Quartz}
+	\end{subfigure}
+	\caption{Transmission spectra of glass and quartz glass cuvettes filled with both air and water.}
+	\label{fig:GlassQuartz}
+\end{figure}
+
+It can be seen that glass blocks a greater portion of the spectrum compared to quartz. Glass blocks between 200 and 300 $nm$, while quartz transmits all the way down to 200 $nm$, and probably more.
+A dip can be seen for both cuvettes filled with water, at 975.0 $nm$. Moreover, we see that water generally has greater transmittance compared to air; this is expected as water has a higher refractive index than air ($n_{\text{water}} \approx 1.33$ and $n_{\text{air}} \approx 1.00$). 
+The quarts/ glass cuvettes have a refractive index of $n \approx 1.5$, which is closer to water than air; causing the water cuvettes to refract less light.
+
+\pagebreak{}
+
+\subsubsection{Transmission Spectrum of an Interference Filter}
+
+Next, the transmission spectrum of an interference filter was recorded in the wavelength range 200 -- 1100 $nm$. The results are shown below.
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{0.70}{\input{Figures/Task 2/Interference.pgf}}
+	\caption{Transmission spectrum of an interference filter. The empty parts of the spectrum are omitted. All transmission maxima are marked in red.}
+	\label{fig:Interference}
+\end{figure}
+
+The interference filter allows only a narrow range of wavelengths to pass through, while reflecting or destructively interfering with all other wavelengths, resulting in a broad blocking range. By adjusting the angle of the filter relative to the measurement beam, the effective layer thickness of the filter changes, altering the interference pattern and allowing a different wavelength to interfere constructively and be transmitted.
+This effect is quite dramatic for the 30$^{\circ}$ angle specifically, where the second peak is almost at twice the first peak. 
+
+\pagebreak{}
+
+\subsubsection{Color Filters}
+
+Finally, the transmission spectra of color filters were recorded in the wavelength range 200 -- 1100 $nm$. The results are shown below.
+
+\begin{figure}[h!]
+	\centering
+	\input{Figures/Task 2/Filter.pgf}
+	\caption{Transmission spectra of color filters.}
+	\label{fig:ColorFilters}
+\end{figure}
+
+The labels are according to what we visibly saw when doing the experiment. 
+
+The "Red" filter shows wavelength in the 400 $nm$ range, in addition to wavelengths above 600 $nm$. The Red range is around 600 to 700 $nm$, so this filter should appear as a light red due to the inclusion of the part of the spectrum near 400 $nm$. This is what we saw.
+
+The "Blue" filter shows wavelengths mainly between 300 and 600. Since the Blue range is between 400 to 500 $nm$, this filter will have a light blue appearance due to the other parts of the spectrum being included. This is what we saw.
+
+The "White" filter barely blocks any light above 300$nm$, with some small dips in the 500 to 700 $nm$ range. This filter appeared whitish grey which makes sense as it let all colors above 300 $nm$ pass through.
+
+From this, one can infer that the visible spectral range of the eye is between 400 -- 700 $nm$. We are not able to detect any blocking below 300 $nm$, as the "White" filter appeared whitish. We are able to detect color around the 400 $nm$ range as the "Red" filter appeared light red. We cannot detect any color above 700 $nm$, as the Blue filter was not affected by higher, red wavelengths. 
+
+\pagebreak{}
+
+\subsection{Task 3}
+
+\textit{Measure the transmission spectrum of iodine vapour. Determine the convergence
+energy, the energy of dissociation of the ground and excited state, and the energy
+of the electronic transition.}
+
+The following transmission spectrum of iodine vapour was recorded in the wavelength range 200 -- 1100 $nm$. The results are shown below.
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{0.75}{\input{Figures/Task 3/Iodine.pgf}}
+	\caption{Transmission spectrum of iodine vapour. The inset plot shows a zoomed in view of the iodine spectrum dips. The arrows indicating $n''$ are for the excited states of iodine, and $n'$ are for ground states. Values were acquired from \cite{King2010AbsorptionAF}}
+	\label{fig:Iodine}
+\end{figure}
+
+By using reference values from \cite{King2010AbsorptionAF}, we can then plot $n'$ against energy, for dips corresponding to $n''=0$. Then, we can fit \ref{eq:Iodinefit} to the data to determine $E_{electronic}$, $E_S$, and $y_e$. The results are shown below.
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{0.75}{\input{Figures/Task 3/IodineFit.pgf}}
+	\caption{Plot of $n'$ against energy for dips corresponding to $n''=0$. The fit is shown in red.}
+	\label{fig:IodineFit}
+\end{figure}
+
+Since $y'_e = 6.8 \times 10^{-3}$, it immediately follows from Equation \ref{eq:ne} that $n_E \approx 72.04$. Now, using Equation \ref{eq:convergence} and $\boxed{E_{electronic} \approx 1.94 \ eV}$, $\boxed{E_K \approx 2.52 \ eV}$. Finally, using Figure \ref{fig:Dissociation} and $E_A = 0.94 \ eV$, $\boxed{E'_D \approx 0.58 \ eV}$ and $\boxed{E''_D \approx 1.58 \ eV}$.
+
+\pagebreak{}
+
+\subsection{Task 4}
+When exposed to UV radiation, KBr crystals develop F-centers, whose concentration diminishes over time in the absence of UV. This change in concentration impacts the crystal's transmission profile. The transmission spectra of KBr are shown in Figure \ref{transmissionKbr} immediately, 10 and 20 minutes after irradiation with UV light. Note that no reference spectrum (i.e. the transmission spectrum of the crystal before UV exposure) was recorded. 
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 4/KBr.pgf}}
+		\caption{Spectra}
+		\label{transmissionKbr}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 4/KBr2.pgf}}
+		\caption{Difference to reference}
+		\label{changeInTransmission}
+	\end{subfigure}
+	\caption{KBr crystal}
+	\label{KBr}
+\end{figure}
+
+Hence, the transmission spectrum 20 minutes after irradiation was used as the reference spectrum, which gives reasonable results as the effects produces by the UV light have almost faded away after 20 minutes. The transmission spectra of the crystal immediately and 10 minutes after irradiation were then compared to this reference spectrum to determine the change in transmission. The change in transmission was then plotted against the wavelength of the light, as shown in Figure \ref{changeInTransmission}. The peaks are centered around $\SI{630}{\nm}$ which corresponds to an excitation energy of $\SI{1.97}{eV}$. Additionally, we calculated the FWHM of the two peaks in Figure \ref{transmissionKbr} and the F-center concentrations. For the latter, we used Equation \ref{eq:concentration}. Note that the integration was performed over the range of the peaks, with respect to wavenumbers. The results are shown in Table \ref{table:concentration}.
+
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|ll}
+    \cline{1-3}
+                           & 0 mins   & 10 mins  &  &  \\ \cline{1-3}
+    FWHM                   & \SI{196.2195}{\nm} & \SI{188.0092}{\nm} &  &  \\ \cline{1-3}
+    F-Center concentration & \SI{6.4545e14}{\cm^{-1}}         &  \SI{5.781e14}{\cm^{-1}}        &  &  \\ \cline{1-3}
+\end{tabular}
+    \caption{FWHM and F-center concentration}
+    \label{table:concentration}
+\end{table}
+
+We notice that the concentration of F-centers decreases over time, which is consistent with the fact that the F-centers are unstable and disappear over time in the absence of UV radiation. 
+
+\subsection{Task 5}
+
+
+An NaCl crystal was irradiated with X-rays, which caused the formation of F-centers. A reference measurement was done without X-ray irradiation. 
+
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 5/NaCl.pgf}}
+		\caption{Spectra}
+		
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 5/NaCl2.pgf}}
+		\caption{Difference to reference}
+		
+	\end{subfigure}
+	\caption{NaCl crystal}
+	\label{NaCl}
+\end{figure}
+
+It is harder to tell here where the color centers had an influence. The peak with the highest amplitude is marked, which corresponds to an excitation energy of $\SI{2.6}{eV}$. The F-center concentration was calculated the same way as in Task 4 and it was found to be $N = \SI{1.4317e14}{\cm^{-1}}$. The FWHM of the peak was found to be $\SI{250.8787}{\nm}$.
+
+\pagebreak{}
+
+\subsection{Task 6}
+
+The energy of excitation in the classical model $E_c$ and the quantum mechanical model $E_q$ are given by:
+
+\begin{equation}
+    E_c=\frac{h e}{\pi\left(3 \sqrt{2} m \epsilon \epsilon_0 a^3\right)^{1 / 2}}
+\end{equation}
+
+\begin{equation}
+    E_q=\frac{3 h^2}{8 m a^2} \propto 1 / a^2
+\end{equation}
+
+
+Knowing the actual lattice constants $a$ for KBr and NaCl as well as the relative permittivity $\epsilon$, we can use these models to get the energy. For KBr with $\epsilon=5.65$ : the classical energy is $E_c \sim 10^{-15} \text{eV}$, and the quantum mechanical energy is $E_q=\SI{2.6}{eV}$. While we experimentally obtained the value: $E= \SI{1.97}{eV}$. For NaCl with $\epsilon=5.9$ : classical energy is $E_c \sim 10^{-15} \text{eV}$, and quantum mechanical energy is $E_q= \SI{3.6}{eV}$. While we experimentally obtained value: $E= \SI{2.6}{eV}$.
+Using the experimentally obtained F-centers energy, we can estimate the lattice constants $a_{\text{KBr}}=\SI{5.078}{\angstrom} $, and $a_{\text{NaCl}}=\SI{4.384}{\angstrom}$. Actual values are $a_{\text{KBr}}=\SI{6.6}{\angstrom} $, and $a_{\text{NaCl}}=\SI{5.62}{\angstrom}$. The classical model is not accurate at all, as it gives energies that are too low. The quantum mechanical model is much more accurate. However, a better quantum model can be built with a more suitable potential, which would be even more accurate.
+
+\pagebreak{}
 
 \section{Conclusion}
 
+In Task 1, the optimal settings for the Lambda 365 spectrometer were determined to be a scanning speed of 480 nm/min and a slit width of 0.5 mm. The wavelength accuracy of the spectrometer was found to be within 0.11 \% of the theoretical values for the absorption bands of a holmium oxide filter.
+
+In Task 2, quartz glass cuvettes transmitted a broader spectrum than glass, and water-filled cuvettes exhibited higher transmittance compared to air-filled ones. The interference filter’s transmission spectrum varied with the angle of incidence, demonstrating wavelength-selective properties. The visible spectrum range of the human eye was found to be approximately 400 to 700 nm.
+
+In Task 3, the analysis of iodine vapor provided accurate values for electronic transition energy (\( \approx 1.94 \text{ eV} \)), ground state dissociation energy (\( \approx 0.58 \text{ eV} \)), and excited state dissociation energy (\( \approx 1.58 \text{ eV} \)).
+
+In Task 4, transmission spectra of KBr crystals showed F-center formation and decay, with a peak at 630 nm corresponding to an excitation energy of 1.97 eV. The concentration of F-centers decreased over time, consistent with their instability.
+
+In Task 5, X-ray irradiation of NaCl crystals produced F-centers with a peak excitation energy of 2.6 eV. The F-center concentration and FWHM were calculated, although the spectral features were less distinct compared to KBr.
+
+In Task 6, the quantum mechanical model provided a more accurate estimate of excitation energy compared to the classical model, which significantly underestimated the energy. Experimental data for lattice constants and F-center energies were better aligned with quantum mechanical predictions.
+
 \pagebreak{}
 
-\begin{appendices}
-
-
-\end{appendices}
-
-\pagebreak{}
-
-\bibliographystyle{ieeetr} 
-\bibliography{epr} 
+\bibliographystyle{plainurl} 
+\bibliography{colourcenters} 
 
 \end{document}
