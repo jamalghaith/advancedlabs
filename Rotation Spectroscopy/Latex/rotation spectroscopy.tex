@@ -2,6 +2,8 @@
 
 \usepackage{amsmath}
 
+\usepackage{mathrsfs}
+
 \usepackage{graphicx}
 
 \usepackage{hyperref}
@@ -29,6 +31,16 @@
 \usepackage{tabularx}
 
 \usepackage{booktabs}
+
+\usepackage{pgfplots}
+
+\usepackage{adjustbox}
+
+\usepackage{lmodern}
+
+\usepackage{subcaption}
+
+\usepackage{tikz}
 
 \newcommand{\pvec}[1]{\vec{#1}\mkern2mu\vphantom{#1}}
 
@@ -71,13 +83,72 @@
 
 \section{Introduction}
 
+\pagebreak{}
+
 \section{Analysis}
+
+\pagebreak{}
 
 \section{Conclusion}
 
 \pagebreak{}
 
 \begin{appendices}
+
+\section{Task 1 Tables}
+
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|lll|}
+	\hline
+	\multicolumn{3}{|c|}{Polystyrene}                                       \\ \hline
+	\multicolumn{1}{|c|}{Theoretical} & \multicolumn{1}{c|}{Experimental} & \multicolumn{1}{c|}{$\%$ Change} \\ \hline
+	\multicolumn{1}{|l|}{699.45}  & \multicolumn{1}{l|}{699.125}  & -0.0465 \\ \hline
+	\multicolumn{1}{|l|}{756.58}  & \multicolumn{1}{l|}{756.625}  & 0.00595 \\ \hline
+	\multicolumn{1}{|l|}{842.00}  & \multicolumn{1}{l|}{841.375}  & -0.0742 \\ \hline
+	\multicolumn{1}{|l|}{906.80}  & \multicolumn{1}{l|}{907.75}   & 0.105   \\ \hline
+	\multicolumn{1}{|l|}{965.70}  & \multicolumn{1}{l|}{965.875}  & 0.0181  \\ \hline
+	\multicolumn{1}{|l|}{1028.30} & \multicolumn{1}{l|}{1028.875} & 0.0559  \\ \hline
+	\multicolumn{1}{|l|}{1069.10} & \multicolumn{1}{l|}{1069.375} & 0.0257  \\ \hline
+	\multicolumn{1}{|l|}{1154.60} & \multicolumn{1}{l|}{1155.75}  & 0.0996  \\ \hline
+	\multicolumn{1}{|l|}{1368.50} & \multicolumn{1}{l|}{1367.75}  & -0.0548 \\ \hline
+	\multicolumn{1}{|l|}{1449.70} & \multicolumn{1}{l|}{1449.375} & -0.0224 \\ \hline
+	\multicolumn{1}{|l|}{1542.20} & \multicolumn{1}{l|}{1541.75}  & -0.0292 \\ \hline
+	\multicolumn{1}{|l|}{1583.10} & \multicolumn{1}{l|}{1584.125} & 0.0647  \\ \hline
+	\multicolumn{1}{|l|}{1601.40} & \multicolumn{1}{l|}{1602.75}  & 0.0843  \\ \hline
+	\multicolumn{1}{|l|}{1803.80} & \multicolumn{1}{l|}{1804.25}  & 0.0249  \\ \hline
+	\multicolumn{1}{|l|}{1945.20} & \multicolumn{1}{l|}{1944.5}   & -0.0360 \\ \hline
+	\multicolumn{1}{|l|}{2850.00} & \multicolumn{1}{l|}{2853.00}  & 0.105   \\ \hline
+	\multicolumn{1}{|l|}{2920.90} & \multicolumn{1}{l|}{2921.25}  & 0.0120  \\ \hline
+	\multicolumn{1}{|l|}{3001.40} & \multicolumn{1}{l|}{3003.875} & 0.0825  \\ \hline
+	\multicolumn{1}{|l|}{3026.40} & \multicolumn{1}{l|}{3027.125} & 0.0240  \\ \hline
+	\multicolumn{1}{|l|}{3060.00} & \multicolumn{1}{l|}{3063.00}  & 0.0980  \\ \hline
+	\multicolumn{1}{|l|}{3082.20} & \multicolumn{1}{l|}{3084.875} & 0.0868  \\ \hline
+	\end{tabular}
+	\caption{}
+	\label{tab:polystyrene}
+\end{table}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|ccc|}
+	\hline
+	\multicolumn{3}{|c|}{Water Vapour}                                                  \\ \hline
+	\multicolumn{1}{|c|}{Theoretical} & \multicolumn{1}{c|}{Experimental} & $\%$ Change \\ \hline
+	\multicolumn{1}{|c|}{1416.08}     & \multicolumn{1}{c|}{1417.50}      & 0.100       \\ \hline
+	\multicolumn{1}{|c|}{1601.20}     & \multicolumn{1}{c|}{1602.875}     & 0.105       \\ \hline
+	\multicolumn{1}{|c|}{1792.65}     & \multicolumn{1}{c|}{1792.75}      & 0.006       \\ \hline
+	\multicolumn{1}{|c|}{1799.61}     & \multicolumn{1}{c|}{1801.375}     & 0.098       \\ \hline
+	\multicolumn{1}{|c|}{1802.47}     & \multicolumn{1}{c|}{1803.125}     & 0.036       \\ \hline
+	\multicolumn{1}{|c|}{1807.7}      & \multicolumn{1}{c|}{1806.875}     & -0.046      \\ \hline
+	\multicolumn{1}{|c|}{1810.62}     & \multicolumn{1}{c|}{1809.50}      & -0.062      \\ \hline
+	\multicolumn{1}{|c|}{2018.32}     & \multicolumn{1}{c|}{2018.75}      & 0.021       \\ \hline
+	\multicolumn{1}{|c|}{2041.3}      & \multicolumn{1}{c|}{2043.375}     & 0.102       \\ \hline
+	\end{tabular}
+	\caption{}
+	\label{tab:watervapour}
+\end{table}
 
 
 \end{appendices}
