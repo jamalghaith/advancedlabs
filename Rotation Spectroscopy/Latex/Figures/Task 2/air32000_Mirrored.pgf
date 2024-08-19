@@ -242,7 +242,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=3.563539in,y=0.294444in,,top]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont Intensity [a.u.]}%
+\pgftext[x=3.563539in,y=0.294444in,,top]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont Position [a.u]}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -398,7 +398,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.294444in,y=2.164033in,,bottom,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont Position [a.u]}%
+\pgftext[x=0.294444in,y=2.164033in,,bottom,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{14.000000}{16.800000}\selectfont Intensity [a.u.]}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{1.048837in}{0.619888in}}{\pgfqpoint{5.029404in}{3.088289in}}%
