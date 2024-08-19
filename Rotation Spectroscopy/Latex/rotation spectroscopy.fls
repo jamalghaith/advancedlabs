@@ -17,6 +17,8 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
@@ -547,6 +549,34 @@ INPUT Figures\Task 3\Glass.pgf
 INPUT .\Figures\Task 3\NaCl.pgf
 INPUT .\Figures\Task 3\NaCl.pgf
 INPUT Figures\Task 3\NaCl.pgf
+INPUT .\Figures\Task 4\Cuvette_dips.pgf
+INPUT .\Figures\Task 4\Cuvette_dips.pgf
+INPUT Figures\Task 4\Cuvette_dips.pgf
+INPUT .\Figures\Task 4\Cuvette_fit.pgf
+INPUT .\Figures\Task 4\Cuvette_fit.pgf
+INPUT Figures\Task 4\Cuvette_fit.pgf
+INPUT .\Figures\Task 5\spectrum.pgf
+INPUT .\Figures\Task 5\spectrum.pgf
+INPUT Figures\Task 5\spectrum.pgf
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
+INPUT .\Figures\Task 5\Quadratic_fit_Cl35.pgf
+INPUT .\Figures\Task 5\Quadratic_fit_Cl35.pgf
+INPUT Figures\Task 5\Quadratic_fit_Cl35.pgf
+INPUT .\Figures\Task 5\Quadratic_fit_Cl37.pgf
+INPUT .\Figures\Task 5\Quadratic_fit_Cl37.pgf
+INPUT Figures\Task 5\Quadratic_fit_Cl37.pgf
+INPUT .\Figures\Task 6\original_interpolated_data_p_branch.pgf
+INPUT .\Figures\Task 6\original_interpolated_data_p_branch.pgf
+INPUT Figures\Task 6\original_interpolated_data_p_branch.pgf
+INPUT .\Figures\Task 6\intensity_p_branch.pgf
+INPUT .\Figures\Task 6\intensity_p_branch.pgf
+INPUT Figures\Task 6\intensity_p_branch.pgf
+INPUT .\Figures\Task 6\Cl35_fit.pgf
+INPUT .\Figures\Task 6\Cl35_fit.pgf
+INPUT Figures\Task 6\Cl35_fit.pgf
+INPUT .\Figures\Task 6\Cl37_fit.pgf
+INPUT .\Figures\Task 6\Cl37_fit.pgf
+INPUT Figures\Task 6\Cl37_fit.pgf
 INPUT .\Figures\Task 1\Water Vapour_full.pgf
 INPUT .\Figures\Task 1\Water Vapour_full.pgf
 INPUT Figures\Task 1\Water Vapour_full.pgf
@@ -592,10 +622,14 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr5.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr5.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr7.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr9.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr9.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb

@@ -14,10 +14,13 @@
 \contentsline {subsubsection}{\numberline {2.2.4}Comparison}{11}{subsubsection.2.2.4}%
 \contentsline {subsubsection}{\numberline {2.2.5}Step Size and Theoretical Spectral Resolution}{12}{subsubsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.3}Task 3}{13}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Conclusion}{14}{section.3}%
-\contentsline {section}{Appendices}{15}{section*.17}%
-\contentsline {section}{\numberline {A}Task 1}{15}{appendix.1.A}%
-\contentsline {subsection}{\numberline {A.1}Plots}{15}{subsection.1.A.1}%
-\contentsline {subsection}{\numberline {A.2}Tables}{15}{subsection.1.A.2}%
-\contentsline {section}{\numberline {B}Task 2}{16}{appendix.1.B}%
-\contentsline {section}{Bibliography}{17}{section*.22}%
+\contentsline {subsection}{\numberline {2.4}Task 4}{14}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Task 5}{14}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Task 6}{17}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Conclusion}{18}{section.3}%
+\contentsline {section}{Appendices}{19}{section*.27}%
+\contentsline {section}{\numberline {A}Task 1}{19}{appendix.1.A}%
+\contentsline {subsection}{\numberline {A.1}Plots}{19}{subsection.1.A.1}%
+\contentsline {subsection}{\numberline {A.2}Tables}{19}{subsection.1.A.2}%
+\contentsline {section}{\numberline {B}Task 2}{20}{appendix.1.B}%
+\contentsline {section}{Bibliography}{21}{section*.32}%

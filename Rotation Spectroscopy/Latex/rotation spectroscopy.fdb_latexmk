@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex rotation spectroscopy"] 1724103269.92391 "rotation spectroscopy.aux" "rotation spectroscopy.bbl" "rotation spectroscopy" 1724103495.0903 0
+["bibtex rotation spectroscopy"] 1724109439.67193 "rotation spectroscopy.aux" "rotation spectroscopy.bbl" "rotation spectroscopy" 1724109617.8218 0
   "./rotationspectroscopy.bib" 1724098616 1067 de5006bbd6e0ae161895014535eb335c ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/bibtex/bst/urlbst/plainurl.bst" 1675594511 33495 46cfb45e24a877059f9f7e142c7fc61c ""
-  "rotation spectroscopy.aux" 1724103493 14732 152a01a41efa37186eaeae86bb406418 "pdflatex"
+  "rotation spectroscopy.aux" 1724109616 18681 d5f13bbdf7c569534a23895e3b371f35 "pdflatex"
   (generated)
   "rotation spectroscopy.bbl"
   "rotation spectroscopy.blg"
   (rewritten before read)
-["pdflatex"] 1724103485.41415 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rotation Spectroscopy/Latex/rotation spectroscopy.tex" "rotation spectroscopy.pdf" "rotation spectroscopy" 1724103495.09116 0
+["pdflatex"] 1724109607.9993 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rotation Spectroscopy/Latex/rotation spectroscopy.tex" "rotation spectroscopy.pdf" "rotation spectroscopy" 1724109617.82265 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1722215226 279613 fe62a258ff6d99cc2243c3a2d16aa767 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1718642578 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1718642580 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -64,8 +64,10 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256929440 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256929440 113634 9384aebdf26f9881e046a4b5574566db ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb" 1256929440 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
+  "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb" 1256929440 120387 4904c2679a7b90fe9e17171d6c7c9dd0 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb" 1256929440 123394 992f5e87d698d9e94717394c62580ea6 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb" 1256929440 121145 00b210fbe9efd7ce850c04e64670de9a ""
+  "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb" 1256929440 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb" 1256929440 121065 ba8daf2228d9e511988917831f1e22e9 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb" 1256929440 112593 fda2373ba4420af33949610de4c28fe8 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb" 1256929440 27863 09ce3735688ffde955e72da27c95b61a ""
@@ -217,6 +219,7 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/collectbox/collectbox.sty" 1667300686 9124 59c3b56f1a073de66e3eea35f9c173c8 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -297,12 +300,21 @@
   "Figures/Task 2/air8000_Comparison_Useful.pgf" 1724077186 47382 86ceed67f52f78ad6263567cf9407127 ""
   "Figures/Task 3/Glass.pgf" 1724077188 775316 8760810b9abf847b30b2a2b84a67a070 ""
   "Figures/Task 3/NaCl.pgf" 1724077188 556472 7b7ccee648faeb9260cd224ae54410ad ""
-  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rotation Spectroscopy/Latex/rotation spectroscopy.tex" 1724103484 30922 595b0e33f47aa3408e86558f6b7263d2 ""
-  "rotation spectroscopy.aux" 1724103493 14732 152a01a41efa37186eaeae86bb406418 "pdflatex"
-  "rotation spectroscopy.bbl" 1724103270 1008 cb4c091de242e9e9e0fa1617a6f8d271 "bibtex rotation spectroscopy"
-  "rotation spectroscopy.out" 1724103493 2929 73708559b00c970ba8c4a0031e74c1ce "pdflatex"
-  "rotation spectroscopy.tex" 1724103484 30922 595b0e33f47aa3408e86558f6b7263d2 ""
-  "rotation spectroscopy.toc" 1724103493 1784 804b1bb3eb06ced1f9712107a917b073 "pdflatex"
+  "Figures/Task 4/Cuvette_dips.pgf" 1724103607 227288 6987d6e4db1bac036fe97ec793cc45f9 ""
+  "Figures/Task 4/Cuvette_fit.pgf" 1724103605 22292 0bfb426fc582145aa54d7abe52fe00c3 ""
+  "Figures/Task 5/Quadratic_fit_Cl35.pgf" 1724103613 26576 0a1bc1a0f5408b096a4e2b712a66a976 ""
+  "Figures/Task 5/Quadratic_fit_Cl37.pgf" 1724103622 26576 2649a08b83cac920c7597b6695dbab49 ""
+  "Figures/Task 5/spectrum.pgf" 1724103619 123533 6668dcb93fc21a0895652f5a6504ad04 ""
+  "Figures/Task 6/Cl35_fit.pgf" 1724103762 30305 c31d8ce600bb88cf422dd88bcfd71737 ""
+  "Figures/Task 6/Cl37_fit.pgf" 1724103763 27205 bf130c115e5cd075686c1f1e4a8f59b9 ""
+  "Figures/Task 6/intensity_p_branch.pgf" 1724092994 83697 6b7c7c4f4e050bd7814a5af16c8d8de5 ""
+  "Figures/Task 6/original_interpolated_data_p_branch.pgf" 1724092994 85016 5dad6c824a9677eca1d185e91ab0a845 ""
+  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rotation Spectroscopy/Latex/rotation spectroscopy.tex" 1724109607 42205 fb3093a568b2d42e18c078d8d8d68479 ""
+  "rotation spectroscopy.aux" 1724109616 18681 d5f13bbdf7c569534a23895e3b371f35 "pdflatex"
+  "rotation spectroscopy.bbl" 1724109439 1008 cb4c091de242e9e9e0fa1617a6f8d271 "bibtex rotation spectroscopy"
+  "rotation spectroscopy.out" 1724109616 3202 59ac233ae024ef8492f8ef391936fe12 "pdflatex"
+  "rotation spectroscopy.tex" 1724109607 42205 fb3093a568b2d42e18c078d8d8d68479 ""
+  "rotation spectroscopy.toc" 1724109616 2003 edf9a880800eb5e2d4f80a848f0b72d5 "pdflatex"
   (generated)
   "rotation spectroscopy.aux"
   "rotation spectroscopy.log"

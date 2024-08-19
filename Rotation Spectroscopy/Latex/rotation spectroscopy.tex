@@ -2,6 +2,8 @@
 
 \usepackage{amsmath}
 
+\usepackage{float}
+
 \usepackage{amsfonts}
 
 \usepackage{mathrsfs}
@@ -344,9 +346,10 @@ For the absorption coefficient, which is critical for determining the intensity 
 
 where \( c_3 \) is a constant. According to Lambert-Beer's law, the relative intensities are:
 
-\[
+\begin{equation}
 I(J) = I_0 \exp \left( -\alpha d \right) = I_0 \exp \left( -c_4 \bar{\nu} (2J + 1) \exp \left( - \frac{hcB J (J + 1)}{kT} \right) \right)
-\]
+\label{eq:Lambert-Beer}
+\end{equation}
 
 where \( \bar{\nu} \) is found using \ref{eq:Wavenumber}
 
@@ -392,7 +395,6 @@ For the measurement, the sample is placed in the cuvette holder of the spectrome
 
 
 \pagebreak{}
-
 
 \section{Analysis}
 
@@ -597,7 +599,246 @@ Further adding to the noise problem is that both spectra can have low values nea
 
 \pagebreak{}
 
+\subsection{Task 4}
+
+In this task, the gap width of a cuvette was determined using the interference method. From Fig. \ref{fig:Cuvette dips}, 10 points of interference dips were extracted and plotted against over the corresponding wavelength. Linear regression was performed on the data points to determine the slope of the line which is twice the gap width of the cuvette. Eq. \ref{eq:thickness} was used. The gap width was found to be $d = 47.52 \pm 0.15 \ \mu$m.
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 4/Cuvette_dips.pgf}}
+		\caption{Cuvette dips}
+		\label{fig:Cuvette dips}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 4/Cuvette_fit.pgf}}
+		\caption{Cuvette fit}
+		\label{fig:Cuvette_fit}
+	\end{subfigure}
+\end{figure}
+
+\subsection{Task 5}
+
+This task analyzes the rotation-vibration spectrum of HCl. The data in this task was provided by our supervisor. The relevant part of the spectrum (after considering the background effects) is shown in Fig. \ref{fig:HCl}. The dips corresponding to absorption of the two Chlorine isotopes $^{35}$Cl and $^{37}$Cl were identified. The left dip corresponds to $^{37}$Cl and the right dip corresponds to $^{35}$Cl.
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{0.50}{\input{Figures/Task 5/spectrum.pgf}}
+	\caption{HCl spectrum}
+	\label{fig:HCl}
+\end{figure}
+
+We can clearly see the R- and P-branches in the spectrum. The R-branch is the one with the higher wavenumbers, while the P-branch is the one with the lower wavenumbers. The wavenumbers of the R- and P-branches were determined. The results are shown in Tables \ref{table:wavenumbersP} \& \ref{table:wavenumbersR}. The gap between the two branches is due to $\Delta J = -1$ in the P-branch. The symbol $P(J)$ means an initial state with $J$ with $\Delta J = -1$ as the transition happens. Hence, we see that the P-branch must start at $J = 1$. 
+
+\begin{table}[H]
+    \centering
+    \[
+    \begin{array}{|c|c|c|c|}
+    \hline \text{Minimum} & \text{Index } i & \bar{\nu}\left({ }^{35} \mathrm{Cl}\right)\left[\mathrm{cm}^{-1}\right] & \bar{\nu}\left({ }^{37} \mathrm{Cl}\right)\left[\mathrm{cm}^{-1}\right] \\
+    \hline \mathrm{P}(8) & -8 & 2705.75 & 2703.875 \\
+    \hline \mathrm{P}(7) & -7 & 2730.5 & 2728.625 \\
+    \hline \mathrm{P}(6) & -6 & 2754.75 & 2752.875 \\
+    \hline \mathrm{P}(5) & -5 & 2778.5 & 2776.5 \\
+    \hline \mathrm{P}(4) & -4 & 2801.75 & 2799.75 \\
+    \hline \mathrm{P}(3) & -3 & 2824.375 & 2822.375 \\
+    \hline \mathrm{P}(2) & -2 & 2846.375 & 2844.375 \\
+    \hline \mathrm{P}(1) & -1 & 2867.875 & 2865.875 \\
+    \hline
+    \end{array}
+    \]
+    \caption{P-branch wavenumbers}
+    \label{table:wavenumbersP}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \[
+    \begin{array}{|c|c|c|c|}
+    \hline \text{Minimum} & \text{Index } i & \bar{\nu}\left({ }^{35} \mathrm{Cl}\right)\left[\mathrm{cm}^{-1}\right] & \bar{\nu}\left({ }^{37} \mathrm{Cl}\right)\left[\mathrm{cm}^{-1}\right] \\
+    \hline \text{R(0)} & 1 & 2909.125 & 2907 \\
+    \hline \text{R(1)} & 2 & 2928.75 & 2926.625 \\
+    \hline \text{R(2)} & 3 & 2947.875 & 2945.625 \\
+    \hline \text{R(3)} & 4 & 2966.25 & 2964 \\
+    \hline \text{R(4)} & 5 & 2984 & 2981.75 \\
+    \hline \text{R(5)} & 6 & 3001 & 2998.75 \\
+    \hline \text{R(6)} & 7 & 3017.375 & 3015.125 \\
+    \hline \text{R(7)} & 8 & 3033.125 & 3030.75 \\
+    \hline
+    \end{array}
+    \]
+    \caption{R-branch wavenumbers}
+    \label{table:wavenumbersR}
+\end{table}
+
+The data can be used to find the wavenumber of the purely vibrational transition $\nu_s$, the force constant $k$, the rotation constant $B$, the distance of the two atoms in the molecule $r_0$ and the moment of inertia $I$. The results are shown in Table \ref{table:parameters}. The following equations were used:
+
+\begin{equation}
+	\nu_s = \frac{\nu_R(0) + \nu_P(1)}{2}
+\end{equation}
+
+\begin{equation}
+	B = \frac{\nu_R(1) - \nu_P(1)}{4}
+\end{equation}
+
+\begin{table}[H]
+    \centering
+    \[
+    \begin{array}{|c|c|c|}
+    \hline \text{Parameter} & { }^{35} \mathrm{Cl} & { }^{37} \mathrm{Cl} \\
+    \hline \bar{\nu}_s\left[\mathrm{cm}^{-1}\right] & 2888.50 \pm 1.37 & 2886.44 \pm 1.37 \\
+    \hline B\left[\mathrm{cm}^{-1}\right] & 10.31 \pm 0.69 & 10.28 \pm 0.69 \\
+    \hline \mu[\mathrm{u}] & 0.9796 & 0.9811 \\
+    \hline k\left[\mathrm{Nm}^{-1}\right] & 481.55 \pm 0.46 & 481.60 \pm 0.46 \\
+    \hline I\left[\mathrm{kg} \mathrm{m}^2\right] & 2.71 \cdot 10^{-47} \pm 1.82 \cdot 10^{-48} & 2.72 \cdot 10^{-47} \pm 1.83 \cdot 10^{-48} \\
+    \hline r_0[\mathrm{m}] & 1.29 \cdot 10^{-10} \pm 6.12 \cdot 10^{-12} & 1.29 \cdot 10^{-10} \pm 6.15 \cdot 10^{-12} \\
+    \hline
+    \end{array}
+    \]
+    \caption{Parameters for isotopes of Chlorine}
+    \label{table:parameters}
+\end{table}
+
+To determine the parameters $B_0$ , $B_1$ and $D$, the first order difference of the wavenumbers is plotted for the two isotopes (we used $D \approx D_0 \approx D_1$) against the peak indicies. A quadratic curve fit was performed using Eq. \ref{eq:Quadratic} for each isotope.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 5/Quadratic_fit_Cl35.pgf}}
+		\caption{$^{35}$Cl}
+		\label{fig:Quadratic_fit_Cl35}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 5/Quadratic_fit_Cl37.pgf}}
+		\caption{$^{37}$Cl}
+		\label{fig:Quadratic_fit_Cl37}
+	\end{subfigure}
+	\caption{Quadratic fits for isotopes of Chlorine}
+\end{figure}
+
+The resulting parameters are shown in Table \ref{table:parameters_HCl}.
+
+\begin{table}[h!]
+    \centering
+    \[
+    \begin{array}{|c|c|c|}
+    \hline \text{Parameter} &^{35} \mathrm{Cl} & ^{37} \mathrm{Cl} \\
+    \hline B_0\left[\mathrm{cm}^{-1}\right] & 10.143 \pm 0.012 & 10.135 \pm 0.011 \\
+    \hline B_1\left[\mathrm{cm}^{-1}\right] & 10.445 \pm 0.011 & 10.439 \pm 0.011 \\
+    \hline D\left[\mathrm{cm}^{-1}\right] & 0.00052 \pm 6.09 \times 10^{-5} &  0.00056 \pm 5.47 \times 10^{-5} \\
+    \hline
+    \end{array}
+    \]
+    \caption{Parameters for $^{35} \mathrm{Cl}$ and $^{37} \mathrm{Cl}$}
+    \label{table:parameters_HCl}
+\end{table}
+
+\pagebreak{}
+
+The spectral splitting is found to be: 
+
+\begin{table}[H]
+    \centering
+    \[
+    \begin{array}{|c|c|}
+    \hline \text{Index} & \text{Value} \\
+    \hline -8 & 2.375 \\
+    \hline -7 & 2.25 \\
+    \hline -6 & 2.25 \\
+    \hline -5 & 2.25 \\
+    \hline -4 & 2.25 \\
+    \hline -3 & 2.25 \\
+    \hline -2 & 2.125 \\
+    \hline -1 & 2.125 \\
+    \hline 1 & 2.0 \\
+    \hline 2 & 2.0 \\
+    \hline 3 & 2.0 \\
+    \hline 4 & 2.0 \\
+    \hline 5 & 2.0 \\
+    \hline 6 & 1.875 \\
+    \hline 7 & 1.875 \\
+    \hline 8 & 1.875 \\
+    \hline
+    \end{array}
+    \]
+    \caption{Values of the splitting between the two isotopes}
+    \label{table:splitting_values}
+\end{table}
+
+To find the ratio between the two isotopes, we had to adjust the spectrum to eliminate other sources of absorption. The minima were masked and the remaining data was interpolated using the cubic spline method. The interpolated data was then renormalized using this cubic spline to obtain the intensity. This process is shown in Fig. \ref{fig:Interpolation}.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 6/original_interpolated_data_p_branch.pgf}}
+		\label{fig:original_interpolated_data_p_branch}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 6/intensity_p_branch.pgf}}
+		\label{fig:intensity_p_branch}
+	\end{subfigure}
+	\caption{Interpolating the data}
+	\label{fig:Interpolation}
+\end{figure}
+
+Using Lambert-Beer's law \ref{eq:Lambert-Beer}, we find out that $^{35} \mathrm{Cl}$ makes up about 68\% of the atoms with the remaining 32\% being $^{37} \mathrm{Cl}$, since these are the only stable isotopes, which is a decent approximation to the actual value of 75\%.
+
+\pagebreak{}
+
+\subsection{Task 6}
+
+Using the same interpolated data, the intensities of the minima was plotted against the rotational quantum number $J$. A curve fit was carried out using Lambert-Beer's law \ref{eq:Lambert-Beer} for each isotope. The results are shown in Fig.~\ref{fig:ClFits}.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 6/Cl35_fit.pgf}}
+		\caption{$^{35}$Cl}
+		\label{fig:Cl35_intensities}
+	\end{subfigure}	
+	\hspace{0.5cm}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\scalebox{0.50}{\input{Figures/Task 6/Cl37_fit.pgf}}
+		\caption{$^{37}$Cl}
+		\label{fig:Cl37_intensities}
+	\end{subfigure}
+	\caption{Fitting the intensities to determine the temperature}
+	\label{fig:ClFits}
+\end{figure}
+
+The temperatures obtained from the fits are: 
+
+\begin{align*}
+	T_{^{35} \mathrm{Cl}} =& 356.95 \pm 8.46 \ \text{K}
+	\\
+	T_{^{37} \mathrm{Cl}} =& 372.34 \pm 23.59 \ \text{K}
+\end{align*}
+
+Which is 20\% and 25\% off from room temperature of 293.15 K for $^{35} \mathrm{Cl}$ and $^{37} \mathrm{Cl}$, respectively.
+
+This error is unexpectedly high, and could be due to the difficulty of fitting the data, which took some effort to get right. Also, the interpolation method used also probably introduced some error.
+
+\pagebreak{}
+
 \section{Conclusion}
+
+In this report, we have verified the calibration of the wavenumber scale of the infrared spectrometer Spectrum 100 using the spectra of water vapor and polystyrene. The deviations from the theoretical wavenumbers were minimal, with an average deviation of 0.92 cm$^{-1}$ and a standard deviation of 1.04 cm$^{-1}$, confirming that the device is well-calibrated.
+
+We explored the impact of mirror range, zerofilling, and apodization on the spectral resolution and noise levels. The calibration of the wavenumber scale was successfully achieved by correlating the known wavenumbers of water vapor bands with the frequencies obtained from the Fourier transform of the interferograms. The effect of zerofilling was observed to enhance the appearance of spectral features without improving resolution, while apodization reduced noise but slightly diminished the prominence of spectral dips.
+
+In the examination of the blocking filters, it was evident that glass and NaCl filters effectively block certain ranges of wavenumbers, though some signal leakage was observed, particularly at lower wavenumbers. The glass filter exhibited stronger blocking capabilities compared to the NaCl filter.
+
+The analysis of the rotation-vibration spectrum of HCl allowed us to identify the isotopic contributions of $^{35}$Cl and $^{37}$Cl, and calculate key molecular parameters such as the vibrational transition wavenumber ($\nu_s$), rotational constant ($B$), bond length ($r_0$), and force constant ($k$). The results were consistent with theoretical expectations, confirming the accuracy of the measurements.
 
 \pagebreak{}
 
