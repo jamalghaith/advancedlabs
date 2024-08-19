@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  16 AUG 2024 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  19 AUG 2024 05:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -798,7 +798,29 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 
 [1
 
-{C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (rotation spectroscopy.toc)
+{C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (rotation spectroscopy.toc
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
 \tf@toc=\write5
 \openout5 = `"rotation spectroscopy.toc"'.
 
@@ -811,59 +833,79 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.86 \pagebreak{
-                } [1]
-
-[2]
-
-[3]
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 103.
- (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 103.
- (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 103.
- (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+                } [1] (Figures/Task 1/Water Vapour.pgf
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 89.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14> on input line 89.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.79996> on input line 89.
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 103.
+(Font)              <9> on input line 104.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 103.
+(Font)              <6> on input line 104.
+ (Figures/Task 1/Polystyrene.pgf) (Figures/Task 1/Deviations.pgf)
+
+[2{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] (Figures/Task 2/air32000_Mirrored.pgf
+LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 14306.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 103.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 103.
- (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
+(Font)              <16.8> on input line 14306.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <11.75995> on input line 14306.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8.4> on input line 14306.
 
-[4]
 
-Package caption Warning: Unused \captionsetup[sub] on input line 42.
-See the caption package documentation for explanation.
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <16.8> not available
+(Font)              size <17.28> substituted on input line 14306.
 
-(rotation spectroscopy.aux)
+) (Figures/Task 2/air32000_Fourier.pgf) (Figures/Task 2/air32000_Fourier_dips.pgf) (Figures/Task 2/Calibration.pgf)
+
+[3] (Figures/Task 2/1000_Zerofilling.pgf)
+
+[4] (Figures/Task 2/air8000.asc_Apodization.pgf) (Figures/Task 2/air32000_Comparison_Useful.pgf) (Figures/Task 2/air8000_Comparison_Useful.pgf)
+
+[5]
+
+[6] (Figures/Task 3/Glass.pgf) (Figures/Task 3/NaCl.pgf)
+
+[7]
+
+[8] (Figures/Task 1/Water Vapour_full.pgf) (Figures/Task 1/Polystyrene_full.pgf) (Figures/Task 2/air32000_Comparison.pgf) (Figures/Task 2/air8000_Comparison.pgf)
+
+[9]
+
+[10] (rotation spectroscopy.bbl
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 8.
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+
+[11{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}] (rotation spectroscopy.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.48pt have occurred.
+
 Package rerunfilecheck Info: File `"rotation spectroscopy".out' has not changed.
-(rerunfilecheck)             Checksum: 37F41B35DF6CBD12C0B3DB4A7389B8F3;490.
+(rerunfilecheck)             Checksum: 8FC5D8F51100F04E5CF3D0CC0B27E774;1884.
  ) 
 Here is how much of TeX's memory you used:
- 38269 strings out of 473920
- 918704 string characters out of 5726502
- 1941908 words of memory out of 5000000
- 60525 multiletter control sequences out of 15000+600000
- 589819 words of font info for 56 fonts, out of 8000000 for 9000
+ 38643 strings out of 473920
+ 928989 string characters out of 5726502
+ 2562452 words of memory out of 5000000
+ 60790 multiletter control sequences out of 15000+600000
+ 626476 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,107p,790b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-Output written on "rotation spectroscopy.pdf" (6 pages, 145221 bytes).
+ 99i,11n,107p,790b,989s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on "rotation spectroscopy.pdf" (13 pages, 1222965 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

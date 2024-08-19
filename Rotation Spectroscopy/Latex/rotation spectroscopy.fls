@@ -366,7 +366,6 @@ INPUT .\rotation spectroscopy.toc
 INPUT .\rotation spectroscopy.toc
 INPUT rotation spectroscopy.toc
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx10.tfm
-OUTPUT rotation spectroscopy.toc
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr5.tfm
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\lm\omllmm.fd
@@ -391,6 +390,98 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
 INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
 INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+OUTPUT rotation spectroscopy.toc
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx12.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmri10.tfm
+INPUT .\Figures\Task 1\Water Vapour.pgf
+INPUT .\Figures\Task 1\Water Vapour.pgf
+INPUT Figures\Task 1\Water Vapour.pgf
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr17.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr9.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi9.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy9.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT .\Figures\Task 1\Polystyrene.pgf
+INPUT .\Figures\Task 1\Polystyrene.pgf
+INPUT Figures\Task 1\Polystyrene.pgf
+INPUT .\Figures\Task 1\Deviations.pgf
+INPUT .\Figures\Task 1\Deviations.pgf
+INPUT Figures\Task 1\Deviations.pgf
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT .\Figures\Task 2\air32000_Mirrored.pgf
+INPUT .\Figures\Task 2\air32000_Mirrored.pgf
+INPUT Figures\Task 2\air32000_Mirrored.pgf
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT .\Figures\Task 2\air32000_Fourier.pgf
+INPUT .\Figures\Task 2\air32000_Fourier.pgf
+INPUT Figures\Task 2\air32000_Fourier.pgf
+INPUT .\Figures\Task 2\air32000_Fourier_dips.pgf
+INPUT .\Figures\Task 2\air32000_Fourier_dips.pgf
+INPUT Figures\Task 2\air32000_Fourier_dips.pgf
+INPUT .\Figures\Task 2\Calibration.pgf
+INPUT .\Figures\Task 2\Calibration.pgf
+INPUT Figures\Task 2\Calibration.pgf
+INPUT .\Figures\Task 2\1000_Zerofilling.pgf
+INPUT .\Figures\Task 2\1000_Zerofilling.pgf
+INPUT Figures\Task 2\1000_Zerofilling.pgf
+INPUT .\Figures\Task 2\air8000.asc_Apodization.pgf
+INPUT .\Figures\Task 2\air8000.asc_Apodization.pgf
+INPUT Figures\Task 2\air8000.asc_Apodization.pgf
+INPUT .\Figures\Task 2\air32000_Comparison_Useful.pgf
+INPUT .\Figures\Task 2\air32000_Comparison_Useful.pgf
+INPUT Figures\Task 2\air32000_Comparison_Useful.pgf
+INPUT .\Figures\Task 2\air8000_Comparison_Useful.pgf
+INPUT .\Figures\Task 2\air8000_Comparison_Useful.pgf
+INPUT Figures\Task 2\air8000_Comparison_Useful.pgf
+INPUT .\Figures\Task 3\Glass.pgf
+INPUT .\Figures\Task 3\Glass.pgf
+INPUT Figures\Task 3\Glass.pgf
+INPUT .\Figures\Task 3\NaCl.pgf
+INPUT .\Figures\Task 3\NaCl.pgf
+INPUT Figures\Task 3\NaCl.pgf
+INPUT .\Figures\Task 1\Water Vapour_full.pgf
+INPUT .\Figures\Task 1\Water Vapour_full.pgf
+INPUT Figures\Task 1\Water Vapour_full.pgf
+INPUT .\Figures\Task 1\Polystyrene_full.pgf
+INPUT .\Figures\Task 1\Polystyrene_full.pgf
+INPUT Figures\Task 1\Polystyrene_full.pgf
+INPUT .\Figures\Task 2\air32000_Comparison.pgf
+INPUT .\Figures\Task 2\air32000_Comparison.pgf
+INPUT Figures\Task 2\air32000_Comparison.pgf
+INPUT .\Figures\Task 2\air8000_Comparison.pgf
+INPUT .\Figures\Task 2\air8000_Comparison.pgf
+INPUT Figures\Task 2\air8000_Comparison.pgf
+INPUT .\rotation spectroscopy.bbl
+INPUT .\rotation spectroscopy.bbl
+INPUT rotation spectroscopy.bbl
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt10.tfm
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rmtt.enc
 INPUT rotation spectroscopy.aux
 INPUT .\rotation spectroscopy.out
 INPUT .\rotation spectroscopy.out
@@ -400,7 +491,35 @@ INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi9.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi9.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr9.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr9.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy7.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy9.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy9.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb

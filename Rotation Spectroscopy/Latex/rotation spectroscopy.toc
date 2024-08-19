@@ -1,6 +1,18 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Analysis}{2}{section.2}%
-\contentsline {section}{\numberline {3}Conclusion}{3}{section.3}%
-\contentsline {section}{Appendices}{4}{section*.2}%
-\contentsline {section}{\numberline {A}Task 1 Tables}{4}{appendix.1.A}%
+\contentsline {subsection}{\numberline {2.1}Task 1}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Task 2}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Calibration}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Zerofilling}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Apodization}{5}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Comparison}{5}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Step Size and Theoretical Spectral Resolution}{6}{subsubsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.3}Task 3}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Conclusion}{8}{section.3}%
+\contentsline {section}{Appendices}{9}{section*.10}%
+\contentsline {section}{\numberline {A}Task 1}{9}{appendix.1.A}%
+\contentsline {subsection}{\numberline {A.1}Plots}{9}{subsection.1.A.1}%
+\contentsline {subsection}{\numberline {A.2}Tables}{9}{subsection.1.A.2}%
+\contentsline {section}{\numberline {B}Task 2}{10}{appendix.1.B}%
+\contentsline {section}{Bibliography}{11}{section*.15}%

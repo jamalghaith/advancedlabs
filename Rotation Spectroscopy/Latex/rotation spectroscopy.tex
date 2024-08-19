@@ -87,6 +87,205 @@
 
 \section{Analysis}
 
+\subsection{Task 1}
+
+\textit{Verify the calibration of the wavenumber scale of the infrared spectrometer Spectrum 100 using
+water vapor and polystyrene calibration bands. Plot the experimentally determined deviations and
+discuss them.}
+
+When measuring the spectrum of "water vapour", what we are actually measuring is the empty cuvette holder with air inside it, as a background spectrum that will prove useful later. The following plots show the spectra for water vapour and polystyrene:
+
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \scalebox{0.5}{\input{Figures/Task 1/Water Vapour.pgf}}
+        \caption{Water Vapour Spectrum, with the dips marked by red dots. Only the useful parts of the graph are shown; with ranges of $\bar{\nu} = 1410-1420, \ 1595-1605, \ 1790-1815,\ 2015-2045 \, \text{cm}^{-1}$.}
+        \label{fig:water_vapour}
+    \end{subfigure} \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \scalebox{0.5}{\input{Figures/Task 1/Polystyrene.pgf}}
+        \caption{Polystyrene Spectrum, with the dips marked by red dots. Only the useful parts of the graph are shown; with ranges of $\bar{\nu} = 680-1170, \ 1300-1950, \ 2830-3200 \, \text{cm}^{-1}$.}
+        \label{fig:polystyrene}
+    \end{subfigure}
+	\caption{Useful parts of the water vapour and polystyrene spectra. Full plots found in Appendix~\ref{app:task1_plots}}
+	\label{fig:water_polystyrene}
+\end{figure}
+
+The tables in Appendix~\ref{app:task1_tables} show the comparison between the experimentally found dip wavenumbers and the ones provided in \cite{riede_rotationvibration}. The following plot show the deviations from the theoretical values:
+
+\begin{figure}[h]
+	\centering
+	\input{Figures/Task 1/Deviations.pgf}
+	\caption{Deviations of the experimentally found wavenumbers from the theoretical ones for both water vapour and polystyrene.}
+	\label{fig:deviations}
+\end{figure}
+
+Since the deviations should be device-dependent rather than sample-dependent, they can be plotted together for a better average. The average percentage change was around $0.05\%$ with a standard deviation of $0.06\%$. In wavenumbers, this amounts to an average of $0.92 \text{cm}^{-1}$ and a standard deviation of $1.04 \text{cm}^{-1}$  This shows that the device is well-calibrated as the deviations are well-within acceptable an acceptable range.
+
+\pagebreak{}
+
+\subsection{Task 2}
+
+\textit{Acquire interferograms of the water vapor spectrum using different mirror ranges of the
+interferometer. Obtain the spectra by a applying a Fourier transformation to these interferograms.
+Calibrate the wavenumber scale of the thereby obtained spectra using the values for the water
+vapor bands. Determine step size of the optical path from the band width of the spectrum.
+Discuss the influence of the interferogram length and the applied zerofilling and apodisation on
+the spectral resolution based on the spectra. Based on the calculated step size, give the
+theoretical spectral resolution in dependence on the recorded data point count.}
+
+\subsubsection{Calibration}
+
+When converting the raw interferograms to spectra, the $x$-axis needs to be calibrated. As the raw data has a scale of mirror position, and the fourier transform is just a frequency of those, rather than a wavenumber. The following figure shows the raw and fourier transformed data for the maximum mirror range:
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/air32000_Mirrored.pgf}}
+		\caption{Raw Spectrum.}
+		\label{fig:air32000mirrored}
+	\end{subfigure} \hfill
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/air32000_Fourier.pgf}}
+		\caption{Fourier Transformed Spectrum. No apodisation or zerofilling.}
+		\label{fig:air32000fourier}
+	\end{subfigure}
+	\caption{Raw and Fourier Transformed data}
+	\label{fig:air32000}
+\end{figure}
+
+To calibrate the wavenumber scale, the wavenumbers of the water vapour bands are used, in a fashion similar to Figure~\ref{fig:water_vapour}. The following figure shows the calibration of the wavenumber scale for the maximum mirror range:
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/air32000_Fourier_dips.pgf}}
+		\caption{Fourier Transformed spectrum with the dips marked by red dots. Only useful parts of the spectrum are shown.}
+		\label{fig:air32000dips}
+	\end{subfigure} \hfill
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/Calibration.pgf}}
+		\caption{Linear fit between dip `frequencies' in Figure~\ref{fig:air32000dips} and calibration bands in \cite{riede_rotationvibration}.}
+		\label{fig:linearfit_calibration}
+	\end{subfigure}
+	\caption{Calibration of the frequency scale}
+	\label{fig:calibration}
+\end{figure}
+
+This linear function can now be used to convert from the frequency scale to the wavenumber scale. Since all known dips were used, and we have a high $R^2$ value, this equation is very reliable.  
+
+\pagebreak{}
+
+\subsubsection{Zerofilling}
+
+Zerofilling is a technique used to increase the quality (but not resolution) of the spectrum by adding zeros to the end of the interferogram before fourier transforming, increasing the number of data points in the spectrum. The following figure shows the effect of zerofilling on a spectrum with a lower resolution:
+
+ \begin{figure}[h!]
+	\centering
+	\scalebox{0.7}{\input{Figures/Task 2/1000_Zerofilling.pgf}}
+	\caption{Spe5ctrum with various factors of zerofilling. Inset axes show a zoomed in part of the spectrum where the effect is shown, and lines are dashed for better legibility.}
+	\label{fig:zerofilling}
+\end{figure}
+
+Here the low resolution spectrum benefits from zerofilling, as the minima near $1670 \ \text{cm}^{-1}$ are more pronounced.
+
+\pagebreak{}
+
+\subsubsection{Apodization}
+
+Apodization is the process of applying a window function before the fourier transform is performed, reducing the ``leakage effect'' of a fourier transform. This happens due to the fact that fourier transforms need to be infinite, meaning you require a periodic signal to perform a fourier transform. If the signal is not periodic, there will be jumps in whatever is being transformed which can manifest as small amplitude modulations. A windowing/ apodization function will make the ends of what is being transformed close to zero such that the signal now looks periodic. The following figure shows the effect of apodization on a fourier transform:
+
+\begin{figure}[h!]
+	\centering
+	\scalebox{0.75}{\input{Figures/Task 2/air8000.asc_Apodization.pgf}}
+	\caption{Spectrum with various apodization functions. Inset axes show a zoomed in part of the spectrum where the effect is shown, and lines are dashed for better legibility.}
+	\label{fig:apodization}
+\end{figure}
+
+The square apodization function is just the default way an FFT is performed, so it is considered as ``no apodization''. The 3 Term Blackman-Harris and Triangular apodization functions show a decrease in noise between the dips, but the dips themselves are less pronounced. 
+
+
+
+\subsubsection{Comparison}
+
+Here, the difference between the spectrum at the maximum mirror range, with Blackman-Harris apodization and no zerofilling is compared to the spectrum with a lower mirror range, a zero-filling factor of 8 and no apodization. The following figure shows the two plots in the ranges used in Figure~\ref{fig:water_vapour}:
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/air32000_Comparison_Useful.pgf}}
+		\caption{Maximum Mirror Range, no Zerofilling, Blackman-Harris Apodization.}
+		\label{fig:air32000Comparison}
+	\end{subfigure} \hfill
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/air8000_Comparison_Useful.pgf}}
+		\caption{Lower Mirror Range, Zerofilling factor of 8, no Apodization.}
+		\label{fig:air8000Comparison}
+	\end{subfigure}
+	\caption{Comparison of the two spectra}
+	\label{fig:comparison}
+\end{figure}
+
+We chose this range as it is a good benchmark to compare to. Full figures are shown in Appendix~\ref{app:task2}.
+
+Figure~\ref{fig:air32000Comparison} shows more pronounced dips compared to Figure~\ref{fig:water_vapour}, but the noise is also more pronounced. Compared to Figure~\ref{fig:air8000Comparison}, it shows more dips but this is only due to the higher resolution of the measurement. \ref{fig:air8000Comparison} shows less pronounced dips (and sometimes no dips due to the lower resolution), but they are much smoother and clearer to identify.
+
+\subsubsection{Step Size and Theoretical Spectral Resolution}
+
+The spectrometer operates in the mid-infrared range, so the wavelengths are between $2.5 \mu \text{m}$ and $50  \mu \text{m}$, meaning the maximum wavenumber is $\bar{\nu} = 4000 \ \text{cm}^{-1}$. The step size is therefore
+
+\begin{equation*}
+	\Delta x = \frac{1}{2 \bar{\nu_{max}}} = \frac{1}{2 \times 4000} = \boxed{1.25 \cdot 10^{-4} \ \text{cm}}
+\end{equation*}
+
+So the theoretical spectral resolution given a number of measuring points $n$ is
+
+\begin{equation*}
+	\Delta \nu = \frac{1}{n \Delta x} = \boxed{\frac{8000}{n} \ \text{cm}^{-1}}
+\end{equation*}
+
+\pagebreak{}
+
+\subsection{Task 3}
+
+\textit{Determine the detected signal strength in the blocking range of a glass and a NaCl blocking filter.}
+
+The following figure shows the spectra of the glass and NaCl blocking filters:
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 3/Glass.pgf}}
+		\caption{Glass Blocking Filter.}
+		\label{fig:glass}
+	\end{subfigure} \hfill
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 3/NaCl.pgf}}
+		\caption{NaCl Blocking Filter.}
+		\label{fig:nacl}
+	\end{subfigure}
+	\caption{Spectra of the glass and NaCl blocking filters. Inset axes show a zoomed in part of the spectrum where the filter blocks the signal}
+	\label{fig:glass_nacl}
+\end{figure}
+
+It is clear that Glass blocks wavenumbers below $\approx 2100 \ \text{cm}^{-1}$, while NaCl blocks wavenumbers below $\approx 500 \ \text{cm}^{-1}$. However, the signal strength is not zero there, as the filters are not perfect.
+Moreover, our data for water vapour in Task 2 is oddly noisey in the lower wavenumbers, so the signal strength is not as clear as it should be.  
+
+It is still somewhat reasonable to assume that glass blocks the signal 10 times better than the NaCl filter, as seen by their signal strengths.
+
+Further adding to the noise problem is that both spectra can have low values near low wavenumbers, and since we are normalizing with respect to the water vapour spectrum, small fluctations cause large changes.
+
 \pagebreak{}
 
 \section{Conclusion}
@@ -95,67 +294,118 @@
 
 \begin{appendices}
 
-\section{Task 1 Tables}
+\section{Task 1}
+\label{app:task1}
 
+\subsection{Plots}
+\label{app:task1_plots}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \scalebox{0.5}{\input{Figures/Task 1/Water Vapour_full.pgf}}
+        \caption{Full Water Vapour Spectrum. Dips are marked by red dots.}
+        \label{fig:water_vapour_full}
+    \end{subfigure} \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \scalebox{0.5}{\input{Figures/Task 1/Polystyrene_full.pgf}}
+        \caption{Full Polystyrene Spectrum. Dips are marked by red dots.}
+        \label{fig:polystyrene_full}
+    \end{subfigure}
+	\caption{}
+	\label{fig:water_polystyrene_full}
+\end{figure}
+
+\subsection{Tables}
+\label{app:task1_tables}
 
 \begin{table}[h!]
 	\centering
-	\begin{tabular}{|lll|}
+	\begin{tabular}{|cccc|}
 	\hline
-	\multicolumn{3}{|c|}{Polystyrene}                                       \\ \hline
-	\multicolumn{1}{|c|}{Theoretical} & \multicolumn{1}{c|}{Experimental} & \multicolumn{1}{c|}{$\%$ Change} \\ \hline
-	\multicolumn{1}{|l|}{699.45}  & \multicolumn{1}{l|}{699.125}  & -0.0465 \\ \hline
-	\multicolumn{1}{|l|}{756.58}  & \multicolumn{1}{l|}{756.625}  & 0.00595 \\ \hline
-	\multicolumn{1}{|l|}{842.00}  & \multicolumn{1}{l|}{841.375}  & -0.0742 \\ \hline
-	\multicolumn{1}{|l|}{906.80}  & \multicolumn{1}{l|}{907.75}   & 0.105   \\ \hline
-	\multicolumn{1}{|l|}{965.70}  & \multicolumn{1}{l|}{965.875}  & 0.0181  \\ \hline
-	\multicolumn{1}{|l|}{1028.30} & \multicolumn{1}{l|}{1028.875} & 0.0559  \\ \hline
-	\multicolumn{1}{|l|}{1069.10} & \multicolumn{1}{l|}{1069.375} & 0.0257  \\ \hline
-	\multicolumn{1}{|l|}{1154.60} & \multicolumn{1}{l|}{1155.75}  & 0.0996  \\ \hline
-	\multicolumn{1}{|l|}{1368.50} & \multicolumn{1}{l|}{1367.75}  & -0.0548 \\ \hline
-	\multicolumn{1}{|l|}{1449.70} & \multicolumn{1}{l|}{1449.375} & -0.0224 \\ \hline
-	\multicolumn{1}{|l|}{1542.20} & \multicolumn{1}{l|}{1541.75}  & -0.0292 \\ \hline
-	\multicolumn{1}{|l|}{1583.10} & \multicolumn{1}{l|}{1584.125} & 0.0647  \\ \hline
-	\multicolumn{1}{|l|}{1601.40} & \multicolumn{1}{l|}{1602.75}  & 0.0843  \\ \hline
-	\multicolumn{1}{|l|}{1803.80} & \multicolumn{1}{l|}{1804.25}  & 0.0249  \\ \hline
-	\multicolumn{1}{|l|}{1945.20} & \multicolumn{1}{l|}{1944.5}   & -0.0360 \\ \hline
-	\multicolumn{1}{|l|}{2850.00} & \multicolumn{1}{l|}{2853.00}  & 0.105   \\ \hline
-	\multicolumn{1}{|l|}{2920.90} & \multicolumn{1}{l|}{2921.25}  & 0.0120  \\ \hline
-	\multicolumn{1}{|l|}{3001.40} & \multicolumn{1}{l|}{3003.875} & 0.0825  \\ \hline
-	\multicolumn{1}{|l|}{3026.40} & \multicolumn{1}{l|}{3027.125} & 0.0240  \\ \hline
-	\multicolumn{1}{|l|}{3060.00} & \multicolumn{1}{l|}{3063.00}  & 0.0980  \\ \hline
-	\multicolumn{1}{|l|}{3082.20} & \multicolumn{1}{l|}{3084.875} & 0.0868  \\ \hline
+	\multicolumn{4}{|c|}{Polystyrene}                                                                     \\ \hline
+	\multicolumn{1}{|c|}{Theoretical {[}cm$^{-1}${]}} &
+	  \multicolumn{1}{c|}{Experimental {[}cm$^{-1}${]}} &
+	  \multicolumn{1}{c|}{$\Delta \bar{\nu}$ {[}cm$^{-1}${]}} &
+	  $\%$ Error \\ \hline
+	\multicolumn{1}{|c|}{699.450}  & \multicolumn{1}{c|}{699.250}  & \multicolumn{1}{c|}{-0.200} & -0.029 \\ \hline
+	\multicolumn{1}{|c|}{756.580}  & \multicolumn{1}{c|}{756.875}  & \multicolumn{1}{c|}{0.295}  & 0.039  \\ \hline
+	\multicolumn{1}{|c|}{842.000}  & \multicolumn{1}{c|}{842.125}  & \multicolumn{1}{c|}{0.125}  & 0.015  \\ \hline
+	\multicolumn{1}{|c|}{906.800}  & \multicolumn{1}{c|}{906.875}  & \multicolumn{1}{c|}{0.075}  & 0.008  \\ \hline
+	\multicolumn{1}{|c|}{965.700}  & \multicolumn{1}{c|}{965.750}  & \multicolumn{1}{c|}{0.050}  & 0.005  \\ \hline
+	\multicolumn{1}{|c|}{1028.300} & \multicolumn{1}{c|}{1028.875} & \multicolumn{1}{c|}{0.575}  & 0.056  \\ \hline
+	\multicolumn{1}{|c|}{1069.100} & \multicolumn{1}{c|}{1069.375} & \multicolumn{1}{c|}{0.275}  & 0.026  \\ \hline
+	\multicolumn{1}{|c|}{1154.600} & \multicolumn{1}{c|}{1155.750} & \multicolumn{1}{c|}{1.150}  & 0.100  \\ \hline
+	\multicolumn{1}{|c|}{1449.700} & \multicolumn{1}{c|}{1452.500} & \multicolumn{1}{c|}{2.800}  & 0.193  \\ \hline
+	\multicolumn{1}{|c|}{1368.500} & \multicolumn{1}{c|}{1370.250} & \multicolumn{1}{c|}{1.750}  & 0.128  \\ \hline
+	\multicolumn{1}{|c|}{1542.200} & \multicolumn{1}{c|}{1542.000} & \multicolumn{1}{c|}{-0.200} & -0.013 \\ \hline
+	\multicolumn{1}{|c|}{1583.100} & \multicolumn{1}{c|}{1584.625} & \multicolumn{1}{c|}{1.525}  & 0.096  \\ \hline
+	\multicolumn{1}{|c|}{1601.400} & \multicolumn{1}{c|}{1602.750} & \multicolumn{1}{c|}{1.350}  & 0.084  \\ \hline
+	\multicolumn{1}{|c|}{1803.800} & \multicolumn{1}{c|}{1804.375} & \multicolumn{1}{c|}{0.575}  & 0.032  \\ \hline
+	\multicolumn{1}{|c|}{1945.200} & \multicolumn{1}{c|}{1945.375} & \multicolumn{1}{c|}{0.175}  & 0.009  \\ \hline
+	\multicolumn{1}{|c|}{2850.000} & \multicolumn{1}{c|}{2852.250} & \multicolumn{1}{c|}{2.250}  & 0.079  \\ \hline
+	\multicolumn{1}{|c|}{2920.900} & \multicolumn{1}{c|}{2921.250} & \multicolumn{1}{c|}{0.350}  & 0.012  \\ \hline
+	\multicolumn{1}{|c|}{3001.400} & \multicolumn{1}{c|}{3003.875} & \multicolumn{1}{c|}{2.475}  & 0.082  \\ \hline
+	\multicolumn{1}{|c|}{3026.400} & \multicolumn{1}{c|}{3027.125} & \multicolumn{1}{c|}{0.725}  & 0.024  \\ \hline
+	\multicolumn{1}{|c|}{3060.000} & \multicolumn{1}{c|}{3062.500} & \multicolumn{1}{c|}{2.500}  & 0.082  \\ \hline
+	\multicolumn{1}{|c|}{3082.200} & \multicolumn{1}{c|}{3084.875} & \multicolumn{1}{c|}{2.675}  & 0.087  \\ \hline
 	\end{tabular}
 	\caption{}
 	\label{tab:polystyrene}
 \end{table}
 
+
 \begin{table}[h!]
 	\centering
-	\begin{tabular}{|ccc|}
+	\begin{tabular}{|cccc|}
 	\hline
-	\multicolumn{3}{|c|}{Water Vapour}                                                  \\ \hline
-	\multicolumn{1}{|c|}{Theoretical} & \multicolumn{1}{c|}{Experimental} & $\%$ Change \\ \hline
-	\multicolumn{1}{|c|}{1416.08}     & \multicolumn{1}{c|}{1417.50}      & 0.100       \\ \hline
-	\multicolumn{1}{|c|}{1601.20}     & \multicolumn{1}{c|}{1602.875}     & 0.105       \\ \hline
-	\multicolumn{1}{|c|}{1792.65}     & \multicolumn{1}{c|}{1792.75}      & 0.006       \\ \hline
-	\multicolumn{1}{|c|}{1799.61}     & \multicolumn{1}{c|}{1801.375}     & 0.098       \\ \hline
-	\multicolumn{1}{|c|}{1802.47}     & \multicolumn{1}{c|}{1803.125}     & 0.036       \\ \hline
-	\multicolumn{1}{|c|}{1807.7}      & \multicolumn{1}{c|}{1806.875}     & -0.046      \\ \hline
-	\multicolumn{1}{|c|}{1810.62}     & \multicolumn{1}{c|}{1809.50}      & -0.062      \\ \hline
-	\multicolumn{1}{|c|}{2018.32}     & \multicolumn{1}{c|}{2018.75}      & 0.021       \\ \hline
-	\multicolumn{1}{|c|}{2041.3}      & \multicolumn{1}{c|}{2043.375}     & 0.102       \\ \hline
+	\multicolumn{4}{|c|}{Water Vapour}                                                                  \\ \hline
+	\multicolumn{1}{|c|}{Theoretical {[}cm$^{-1}${]}} &
+	  \multicolumn{1}{c|}{Experimental {[}cm$^{-1}${]}} &
+	  \multicolumn{1}{c|}{$\Delta \bar{\nu}$ {[}cm$^{-1}${]}} &
+	  $\%$ Error \\ \hline
+	\multicolumn{1}{|c|}{1416.08} & \multicolumn{1}{c|}{1417.50} & \multicolumn{1}{c|}{1.420}  & 0.100  \\ \hline
+	\multicolumn{1}{|c|}{1601.20} & \multicolumn{1}{c|}{1602.88} & \multicolumn{1}{c|}{1.675}  & 0.105  \\ \hline
+	\multicolumn{1}{|c|}{1792.65} & \multicolumn{1}{c|}{1792.75} & \multicolumn{1}{c|}{0.100}  & 0.006  \\ \hline
+	\multicolumn{1}{|c|}{1799.61} & \multicolumn{1}{c|}{1801.38} & \multicolumn{1}{c|}{1.765}  & 0.098  \\ \hline
+	\multicolumn{1}{|c|}{1802.47} & \multicolumn{1}{c|}{1803.13} & \multicolumn{1}{c|}{0.655}  & 0.036  \\ \hline
+	\multicolumn{1}{|c|}{1807.70} & \multicolumn{1}{c|}{1806.88} & \multicolumn{1}{c|}{-0.825} & -0.046 \\ \hline
+	\multicolumn{1}{|c|}{1810.62} & \multicolumn{1}{c|}{1809.50} & \multicolumn{1}{c|}{-1.120} & -0.062 \\ \hline
+	\multicolumn{1}{|c|}{2018.32} & \multicolumn{1}{c|}{2018.75} & \multicolumn{1}{c|}{0.430}  & 0.021  \\ \hline
+	\multicolumn{1}{|c|}{2041.30} & \multicolumn{1}{c|}{2043.38} & \multicolumn{1}{c|}{2.075}  & 0.102  \\ \hline
 	\end{tabular}
 	\caption{}
 	\label{tab:watervapour}
 \end{table}
 
+\section{Task 2}
+\label{app:task2}
+
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/air32000_Comparison.pgf}}
+		\caption{Maximum Mirror Range, no Zerofilling, Blackman-Harris Apodization.}
+		\label{fig:air32000ComparisonFull}
+	\end{subfigure} \hfill
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\scalebox{0.5}{\input{Figures/Task 2/air8000_Comparison.pgf}}
+		\caption{Lower Mirror Range, Zerofilling factor of 8, no Apodization.}
+		\label{fig:air8000ComparisonFull}
+	\end{subfigure}
+	\caption{Comparison of the two full spectra}
+	\label{fig:comparisonfull}
+\end{figure}
 
 \end{appendices}
 
 \pagebreak{}
 
-%\bibliographystyle{ieeetr} 
-%\bibliography{} 
+\bibliographystyle{plainurl} 
+\bibliography{rotationspectroscopy} 
 
 \end{document}
