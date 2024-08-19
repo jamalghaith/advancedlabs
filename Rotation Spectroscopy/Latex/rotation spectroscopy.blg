@@ -10,44 +10,44 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: rotationspectroscopy.bib
-You've used 1 entry,
+You've used 4 entries,
             2943 wiz_defined-function locations,
-            638 strings with 5376 characters,
-and the built_in function-call counts, 394 in all, are:
-= -- 33
-> -- 14
+            654 strings with 5807 characters,
+and the built_in function-call counts, 1486 in all, are:
+= -- 144
+> -- 45
 < -- 0
-+ -- 5
-- -- 4
-* -- 14
-:= -- 78
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 5
++ -- 17
+- -- 12
+* -- 59
+:= -- 223
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 9
-empty$ -- 41
-format.name$ -- 4
-if$ -- 98
+cite$ -- 4
+duplicate$ -- 38
+empty$ -- 163
+format.name$ -- 12
+if$ -- 398
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 14
+int.to.str$ -- 4
+missing$ -- 1
+newline$ -- 24
+num.names$ -- 8
+pop$ -- 48
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 14
 quote$ -- 0
-skip$ -- 29
+skip$ -- 118
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 38
+swap$ -- 6
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 16
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 11
+while$ -- 9
+width$ -- 5
+write$ -- 42

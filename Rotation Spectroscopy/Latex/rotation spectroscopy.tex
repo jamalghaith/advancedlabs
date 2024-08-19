@@ -2,6 +2,8 @@
 
 \usepackage{amsmath}
 
+\usepackage{amsfonts}
+
 \usepackage{mathrsfs}
 
 \usepackage{graphicx}
@@ -83,7 +85,314 @@
 
 \section{Introduction}
 
+\subsection{FTIR Spectroscopy}
+
+FTIR spectroscopy is used to investigate various physical properties of substances or to identify unknown substances through their characteristic spectra. The Spectrum 100 spectrometer operates on the principle of a Michelson interferometer.
+
+A blackbody radiator is used in the spectrometer, emitting a beam of light that strikes a semi-transparent mirror functioning as a beam splitter. The first partial beam follows a fixed path, being reflected by a mirror, then passing through the sample before reaching the detector. However, interference with the second partial beam, which is reflected by a moving mirror and therefore has a variable path difference compared to the first partial beam, occurs prior to the sample. The spectrometer records the intensity of the transmitted light as a function of the mirror apparatus's travel distance. This recording is called an interferogram, which must be transformed into a spectrum via Fourier transformation. FTIR spectrometers show high wavenumber accuracy, typically within a few cm\(^{-1}\).
+
+To enhance the quality of the spectrum display, several methods are employed:
+\begin{enumerate}
+    \item \textbf{Apodization}: Apodization smooths the abrupt truncation of the interferogram by multiplying it with an apodization function, resulting in a gradual decline. This reduces spectral disturbances, known as the leakage effect. Depending on the function used for multiplication, the decline may be more or less steep. However, a stronger apodization function results in lower spectral resolution.
+    \item \textbf{Zerofilling}: Zerofilling involves supplementing the measured data with additional zeros, resulting in more data points, increasing the quality of the plot. It also mitigates the picket fence effect, where transmission minima may be less discernible or entirely missed due to excessive spacing between data points. However, it is important to note that zerofilling does not enhance the actual information content of the measurement; it merely increases the number of points displayed in the spectrum.
+	\item \textbf{Phase Correction}: Initially, the Fourier transformation converts the unidirectional interferogram into a complex spectrum. Phase correction is then applied to convert this complex spectrum back into a real spectrum.
+\end{enumerate}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Figures/Introduction/Apodization.png}
+	\caption{Various Apodization functions and their Fourier Transforms. \cite{article}}
+	\label{fig:apdoization}
+\end{figure}
+
+Once the spectrum has been generated, it must be divided by a reference spectrum to obtain accurate measurement values for the sample.
+
 \pagebreak{}
+
+\subsection{Rotation-Vibration Spectra of diatomic molecules}
+
+In diatomic molecules, there is a along the axis connecting the two atoms. Absorption in the infrared range is caused by the various rotations and vibrations of the molecules, which alter the electric dipole moment. In a highly simplified model, the molecule can be represented by a dumbbell, where the masses of the atoms are treated as point masses that rotate at a fixed distance around a fixed axis through the center of gravity.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Figures/Introduction/Dumbbell.png}
+	\caption{Dumbbell model of a diatomic molecule. \cite{nave_rotational}}
+	\label{fig:dumbbell}
+\end{figure}
+
+The moment of inertia of the dumbbell is given by
+
+\[
+I = \mu r^2,
+\]
+
+where the reduced mass \(\mu\) is
+
+\[
+\mu = \frac{m_1 m_2}{m_1 + m_2}.
+\]
+
+Solving the Schrödinger equation in polar coordinates with a vanishing potential yields discrete energy values:
+
+\[
+E_m = \frac{m^2 h^2}{8 \pi^2 \mu r^2}.
+\]
+
+Next, this dumbbell model can be considered in the context of rotation around a space-free axis, so we transition to spherical coordinates. In this scenario, the energy is given by
+
+\[
+E(J) = hcBJ(J + 1) \quad \text{for} \quad J \in \mathbb{N}_0,
+\]
+
+with the rotation constant
+
+\[
+B = \frac{h}{8\pi^2cI}.
+\]
+
+The rotational term thus becomes
+
+\[
+F(J) = \frac{E}{hc} = BJ(J + 1) \quad \text{for} \quad J \in \mathbb{N}_0,
+\]
+
+subject to the selection rule
+
+\[
+\Delta J = \pm1.
+\]
+
+\pagebreak{}
+
+In addition, the harmonic oscillator can be considered, initially in isolation.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Figures/Introduction/qhar.png}
+	\caption{Harmonic Oscillator model of a diatomic molecule. \cite{nave_quantum}}
+	\label{fig:harmonic_oscillator}
+\end{figure}
+
+Here, the equations of motion are obtained by considering the forces:
+
+\[
+m_1 \ddot{x}_1 = -k(x_1 - x_2),
+\]
+\[
+m_2 \ddot{x}_2 = -k(x_2 - x_1).
+\]
+
+By introducing the substitution \( x = x_1 - x_2 \), these equations can be combined into:
+
+\[
+\ddot{x} = -\frac{k}{\mu} x,
+\]
+
+where the reduced mass \(\mu\) is defined as:
+
+\[
+\mu = \frac{m_1 m_2}{m_1 + m_2}.
+\]
+
+The resonance wavenumber of such a harmonic oscillator is then given by:
+
+\[
+\bar{\nu}_s = \frac{1}{2\pi c} \sqrt{\frac{k}{\mu}}.
+\]
+
+To calculate the energy values, we solve the Schrödinger equation for the potential:
+
+\[
+U = 2\pi^2 c^2 \bar{\nu}_s^2 \mu x^2,
+\]
+
+which is derived from the restoring force:
+
+\[
+- \frac{dU}{dx} = F = -k x.
+\]
+
+Assuming a solution of the form:
+
+\[
+x = x_0 \sin (2\pi c \bar{\nu}_s t),
+\]
+
+we obtain discrete energy levels:
+
+\[
+E(n) = hc \bar{\nu} \left( n + \frac{1}{2} \right), \quad n \in \mathbb{N}_0,
+\]
+
+with the selection rule:
+
+\[
+\Delta n = \pm 1.
+\]
+
+\pagebreak{}
+
+These energy levels in turn yield the oscillation term:
+
+\[
+G(n) = \bar{\nu}_s \left( n + \frac{1}{2} \right).
+\]
+
+Both effects can now be combined to obtain the rotational-vibrational spectra. If interactions are initially neglected, the rotational and vibrational energy can be summed up as:
+
+\[
+E(n, J) = hcBJ(J + 1) + hc\bar{\nu}_s \left( n + \frac{1}{2} \right),
+\]
+
+resulting in the rotational oscillation term:
+
+\[
+T(n, J) = BJ(J + 1) + \bar{\nu}_s \left( n + \frac{1}{2} \right).
+\]
+
+Transitions are allowed for:
+
+\[
+\Delta J = \pm 1 \quad \text{and} \quad \Delta n = 0, \pm 1.
+\]
+
+The transitions can be categorized into the R branch, where \(J\) increases, and the P branch, where \(J\) decreases. A pure rotational spectrum is obtained for transitions with \(n = \text{const}\). To account for the interactions between oscillation and rotation, one must transition from the dumbbell model to the non-rigid rotator model, resulting in the oscillation term as a function of the quantum number:
+
+\[
+F_n(J) = B_n J(J + 1) - D_n J^2 (J + 1)^2,
+\]
+
+where \(D_n\) is the respective strain constant. The \(n\)-dependence arises from changes in the mean distance between the atoms. If each transition is indexed by \(i\) (where \(i = \Delta J\)), a relationship between the respective wavenumber of the minimum and the quantum number-dependent rotation and strain constants can be expressed as:
+
+\begin{equation}
+	\bar{\nu}_i = \bar{\nu}_s + (B_1 + B_0)i + (B_1 - B_0)i^2 - 2(D_1 + D_0)i^3
+	\label{eq:Wavenumber}
+\end{equation}
+
+
+If we calculate the difference between two neighboring wavenumber minima and then the difference between these differences, we obtain the following equations:
+
+\begin{equation}
+	\Delta \bar{\nu}(i) = 2B_1 - 2(D_1 + D_0) + 2i(B_1 - B_0 - 3(D_1 + D_0)) - 6i^2 (D_1 + D_0),
+	\label{eq:Quadratic}
+\end{equation}
+
+If a quadratic fit is performed on \ref{eq:Quadratic}, one can figure out the values of $D_1 + D_0$, $B_1$ and $B_0$. 
+
+\pagebreak{}
+
+\subsection{Interference Method}
+
+When a light beam passes through an empty cuvette, multiple reflections occur, leading to interference. These interferences depend on the wavelength of the light, the thickness and refractive index of the cavity, and the angle of incidence. In the spectrum, they manifest as a periodic modulation of the intensity. The following sections outline the theoretical principles that describe the wavelengths corresponding to the transmission maxima and minima.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Figures/Introduction/Interference.png}
+	\label{fig:interference}
+	\caption{Interference in a thin film. The labels from top to bottom are cuvette window 1, air gap, cuvette window 2.  \cite{riede_rotationvibration}}
+\end{figure}
+
+Whether this interference is constructive or destructive depends on the path difference between the waves. This path difference is given by:
+
+\[
+\Delta = n_0 (\text{AB} + \text{BC}) - n_1 \text{AD},
+\]
+
+and can be calculated using trigonometric relationships and Snell's law of refraction:
+
+\[
+n_0 \sin \beta = n_1 \sin \alpha,
+\]
+
+which leads to:
+
+\[
+\Delta = 2n_0 d \cos \beta.
+\]
+
+Destructive interference occurs when the path difference is a half-integer multiple of the wavelength, and constructive interference occurs for integer multiples. The difference between the ordinal numbers of the maxima is given by:
+
+\[
+N_1 - N_2 = 2dn_0 (\bar{\nu}_1 - \bar{\nu}_2),
+\]
+
+which results in the film thickness for an air-filled cell (\(n_0 \approx 1\)) being
+
+\begin{equation}
+	d = \frac{N_1 - N_2}{2(\bar{\nu}_1 - \bar{\nu}_2)}.
+	\label{eq:thickness}
+\end{equation}
+
+\pagebreak{}
+
+\subsection{Intensity of rotational-vibrational spectra}
+
+Consider the number of molecules \( N \) in the state with \( n = 0 \). The expression for \( N(J, n = 0) \) is given by:
+
+\[
+N(J, n = 0) = \frac{N_{\text{gas}}}{Q_r}(2J + 1) \exp \left( - \frac{hcBJ(J+1)}{kT} \right) \exp \left( - \frac{hc \bar{\nu}_s (n + \frac{1}{2})}{kT} \right) 
+\]
+
+where \( Q_r \) represents the sum of the states. 
+
+For the absorption coefficient, which is critical for determining the intensity of the minima, we have:
+
+\[
+\alpha = c_3 \bar{\nu} (2J + 1) \exp \left( - \frac{hcB J (J + 1)}{kT} \right)
+\]
+
+where \( c_3 \) is a constant. According to Lambert-Beer's law, the relative intensities are:
+
+\[
+I(J) = I_0 \exp \left( -\alpha d \right) = I_0 \exp \left( -c_4 \bar{\nu} (2J + 1) \exp \left( - \frac{hcB J (J + 1)}{kT} \right) \right)
+\]
+
+where \( \bar{\nu} \) is found using \ref{eq:Wavenumber}
+
+\pagebreak{}
+
+\subsection{Experimental Setup}
+
+We used the Perkin Elmer Spectrum 100 FTIR spectrometer. This instrument operates using a modified Michelson interferometer. In this configuration, the path difference between the two light beams is adjusted by rotating an additional pair of mirrors around a common axis.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Figures/Introduction/Pathdifference.png}
+    \caption{Path difference via a rotatable mirror apparatus. \cite{riede_rotationvibration}}
+    \label{fig:path_difference}
+\end{figure}
+
+The light source for the spectrometer is a `Norton Source' which is a silicon carbide crystal through which a current flows. The current heats the crystal, causing it to emit an almost perfect blackbody spectrum with its peak in the mid-infrared range.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Figures/Introduction/Spectrum100Interior.png}
+    \caption{Structure inside the Spectrum 100 spectrometer. \cite{riede_rotationvibration}}
+    \label{fig:spectrum_100_structure}
+\end{figure}
+
+For the measurement, the sample is placed in the cuvette holder of the spectrometer. Once the lid is closed and the measurement is initiated, the spectrometer records an interferogram. The travel distance of the mirror apparatus can be adjusted according to the requirements of the measurement. Depending on the selected measurement mode, the spectrum can either be directly generated by the device or calculated manually using a Fourier transform. 
+
+\begin{figure}[h]
+	\begin{subfigure}[t]{0.48\textwidth}
+    	\centering
+    	\includegraphics[width=0.7\textwidth]{Figures/Introduction/Schematic1.png}
+    	\caption{Schematic of the optics inside the spectrometer. \cite{riede_rotationvibration}}
+    	\label{fig:spectrometer_optics}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\includegraphics[width=0.7\textwidth]{Figures/Introduction/Schematic2.png}
+		\caption{Norton Source.}
+		\label{fig:nortonsource}
+	\end{subfigure}
+	\caption{}
+\end{figure}
+
+
+\pagebreak{}
+
 
 \section{Analysis}
 

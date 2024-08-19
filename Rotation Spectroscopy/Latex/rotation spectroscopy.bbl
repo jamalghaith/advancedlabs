@@ -1,5 +1,25 @@
 \begin{thebibliography}{1}
 
+\bibitem{article}
+Víctor Lórenz-Fonfría and Esteve Padrós.
+\newblock The role and selection of the filter function in fourier
+  self-deconvolution revisited.
+\newblock {\em Applied spectroscopy}, 63:791--9, 08 2009.
+\newblock \href {https://doi.org/10.1366/000370209788701161}
+  {\path{doi:10.1366/000370209788701161}}.
+
+\bibitem{nave_quantum}
+R~Nave.
+\newblock Quantum harmonic oscillator.
+\newblock URL:
+  \url{http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/hosc.html}.
+
+\bibitem{nave_rotational}
+R~Nave.
+\newblock Rotational spectra of rigid rotor molecules.
+\newblock URL:
+  \url{http://hyperphysics.phy-astr.gsu.edu/hbase/molecule/rotrig.html#c3}.
+
 \bibitem{riede_rotationvibration}
 Volker Riede and Christian Kranert.
 \newblock Rotation-vibration spectra of molecules experiment for the advanced

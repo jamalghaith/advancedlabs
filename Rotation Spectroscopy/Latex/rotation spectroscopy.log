@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  19 AUG 2024 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  19 AUG 2024 23:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -87,9 +87,16 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup4
+\symrsfs=\mathgroup6
 ) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
@@ -696,7 +703,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 58.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 60.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -706,24 +713,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (rotation spectroscopy.aux)
 \openout1 = `"rotation spectroscopy.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count357
@@ -743,7 +750,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 60.
  (rotation spectroscopy.out) (rotation spectroscopy.out)
 \@outlinefile=\write4
 \openout4 = `"rotation spectroscopy.out"'.
@@ -788,36 +795,44 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 58.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 60.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 58.
+ on input line 60.
 
 
 
 [1
 
 {C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (rotation spectroscopy.toc
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 4.
+(Font)              <10> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
+(Font)              <5> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
@@ -827,13 +842,70 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 [1]
+<Figures/Introduction/Apodization.png, id=131, 853.1875pt x 684.5575pt>
+File: Figures/Introduction/Apodization.png Graphic file (type png)
+<use Figures/Introduction/Apodization.png>
+Package pdftex.def Info: Figures/Introduction/Apodization.png  used on input line 103.
+(pdftex.def)             Requested size: 234.8775pt x 188.45758pt.
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86 \pagebreak{
-                } [1] (Figures/Task 1/Water Vapour.pgf
+l.110 \pagebreak{
+                 } [1{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./Figures/Introduction/Apodization.png>]
+<Figures/Introduction/Dumbbell.png, id=145, 84.0741pt x 55.8888pt>
+File: Figures/Introduction/Dumbbell.png Graphic file (type png)
+<use Figures/Introduction/Dumbbell.png>
+Package pdftex.def Info: Figures/Introduction/Dumbbell.png  used on input line 118.
+(pdftex.def)             Requested size: 234.8775pt x 156.15662pt.
+
+
+[2{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc} <./Figures/Introduction/Dumbbell.png>]
+<Figures/Introduction/qhar.png, id=160, 351.3125pt x 322.20375pt>
+File: Figures/Introduction/qhar.png Graphic file (type png)
+<use Figures/Introduction/qhar.png>
+Package pdftex.def Info: Figures/Introduction/qhar.png  used on input line 171.
+(pdftex.def)             Requested size: 234.8775pt x 215.42307pt.
+
+
+[3{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./Figures/Introduction/qhar.png>]
+
+[4]
+<Figures/Introduction/Interference.png, id=178, 449.96246pt x 319.9491pt>
+File: Figures/Introduction/Interference.png Graphic file (type png)
+<use Figures/Introduction/Interference.png>
+Package pdftex.def Info: Figures/Introduction/Interference.png  used on input line 291.
+(pdftex.def)             Requested size: 234.8775pt x 167.01402pt.
+
+
+[5 <./Figures/Introduction/Interference.png (PNG copy)>]
+
+[6]
+<Figures/Introduction/Pathdifference.png, id=194, 468.72256pt x 124.23557pt>
+File: Figures/Introduction/Pathdifference.png Graphic file (type png)
+<use Figures/Introduction/Pathdifference.png>
+Package pdftex.def Info: Figures/Introduction/Pathdifference.png  used on input line 361.
+(pdftex.def)             Requested size: 328.82707pt x 87.15575pt.
+<Figures/Introduction/Spectrum100Interior.png, id=197, 411.82428pt x 309.72858pt>
+File: Figures/Introduction/Spectrum100Interior.png Graphic file (type png)
+<use Figures/Introduction/Spectrum100Interior.png>
+Package pdftex.def Info: Figures/Introduction/Spectrum100Interior.png  used on input line 370.
+(pdftex.def)             Requested size: 328.82707pt x 247.31058pt.
+<Figures/Introduction/Schematic1.png, id=200, 417.88379pt x 302.48492pt>
+File: Figures/Introduction/Schematic1.png Graphic file (type png)
+<use Figures/Introduction/Schematic1.png>
+Package pdftex.def Info: Figures/Introduction/Schematic1.png  used on input line 380.
+(pdftex.def)             Requested size: 157.83559pt x 114.2485pt.
+<Figures/Introduction/Schematic2.png, id=203, 417.88379pt x 308.89597pt>
+File: Figures/Introduction/Schematic2.png Graphic file (type png)
+<use Figures/Introduction/Schematic2.png>
+Package pdftex.def Info: Figures/Introduction/Schematic2.png  used on input line 386.
+(pdftex.def)             Requested size: 157.83559pt x 116.66995pt.
+
+
+[7 <./Figures/Introduction/Pathdifference.png> <./Figures/Introduction/Spectrum100Interior.png> <./Figures/Introduction/Schematic1.png> <./Figures/Introduction/Schematic2.png>] (Figures/Task 1/Water Vapour.pgf
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 89.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14> on input line 89.
@@ -841,12 +913,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9.79996> on input line 89.
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 104.
+(Font)              <9> on input line 413.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 104.
+(Font)              <6> on input line 413.
  (Figures/Task 1/Polystyrene.pgf) (Figures/Task 1/Deviations.pgf)
 
-[2{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] (Figures/Task 2/air32000_Mirrored.pgf
+[8] (Figures/Task 2/air32000_Mirrored.pgf
 LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 14306.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <16.8> on input line 14306.
@@ -861,27 +933,27 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <16.8> not available
 
 ) (Figures/Task 2/air32000_Fourier.pgf) (Figures/Task 2/air32000_Fourier_dips.pgf) (Figures/Task 2/Calibration.pgf)
 
-[3] (Figures/Task 2/1000_Zerofilling.pgf)
+[9] (Figures/Task 2/1000_Zerofilling.pgf)
 
-[4] (Figures/Task 2/air8000.asc_Apodization.pgf) (Figures/Task 2/air32000_Comparison_Useful.pgf) (Figures/Task 2/air8000_Comparison_Useful.pgf)
+[10] (Figures/Task 2/air8000.asc_Apodization.pgf) (Figures/Task 2/air32000_Comparison_Useful.pgf) (Figures/Task 2/air8000_Comparison_Useful.pgf)
 
-[5]
+[11]
 
-[6] (Figures/Task 3/Glass.pgf) (Figures/Task 3/NaCl.pgf)
+[12] (Figures/Task 3/Glass.pgf) (Figures/Task 3/NaCl.pgf)
 
-[7]
+[13]
 
-[8] (Figures/Task 1/Water Vapour_full.pgf) (Figures/Task 1/Polystyrene_full.pgf) (Figures/Task 2/air32000_Comparison.pgf) (Figures/Task 2/air8000_Comparison.pgf)
+[14] (Figures/Task 1/Water Vapour_full.pgf) (Figures/Task 1/Polystyrene_full.pgf) (Figures/Task 2/air32000_Comparison.pgf) (Figures/Task 2/air8000_Comparison.pgf)
 
-[9]
+[15]
 
-[10] (rotation spectroscopy.bbl
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 8.
+[16] (rotation spectroscopy.bbl
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 9.
  (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 
-[11{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}] (rotation spectroscopy.aux)
+[17{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}] (rotation spectroscopy.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -892,20 +964,20 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.48pt have occurred.
 
 Package rerunfilecheck Info: File `"rotation spectroscopy".out' has not changed.
-(rerunfilecheck)             Checksum: 8FC5D8F51100F04E5CF3D0CC0B27E774;1884.
+(rerunfilecheck)             Checksum: 73708559B00C970BA8C4A0031E74C1CE;2929.
  ) 
 Here is how much of TeX's memory you used:
- 38643 strings out of 473920
- 928989 string characters out of 5726502
- 2562453 words of memory out of 5000000
- 60790 multiletter control sequences out of 15000+600000
- 626476 words of font info for 87 fonts, out of 8000000 for 9000
+ 38882 strings out of 473920
+ 934385 string characters out of 5726502
+ 2564648 words of memory out of 5000000
+ 60985 multiletter control sequences out of 15000+600000
+ 630588 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,107p,790b,989s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "rotation spectroscopy.pdf" (13 pages, 1164231 bytes).
+ 99i,11n,107p,920b,989s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "rotation spectroscopy.pdf" (19 pages, 2468930 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
