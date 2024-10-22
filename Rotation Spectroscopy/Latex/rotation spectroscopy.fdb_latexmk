@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex rotation spectroscopy"] 1724109439.67193 "rotation spectroscopy.aux" "rotation spectroscopy.bbl" "rotation spectroscopy" 1724110269.61543 0
+["bibtex rotation spectroscopy"] 1729616613.59981 "rotation spectroscopy.aux" "rotation spectroscopy.bbl" "rotation spectroscopy" 1729616624.39618 0
   "./rotationspectroscopy.bib" 1724098616 1067 de5006bbd6e0ae161895014535eb335c ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/bibtex/bst/urlbst/plainurl.bst" 1675594511 33495 46cfb45e24a877059f9f7e142c7fc61c ""
-  "rotation spectroscopy.aux" 1724110268 18681 d5f13bbdf7c569534a23895e3b371f35 "pdflatex"
+  "rotation spectroscopy.aux" 1729616623 18681 a5a7c81d530def42e198093332afd7f4 "pdflatex"
   (generated)
   "rotation spectroscopy.bbl"
   "rotation spectroscopy.blg"
   (rewritten before read)
-["pdflatex"] 1724110259.52596 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rotation Spectroscopy/Latex/rotation spectroscopy.tex" "rotation spectroscopy.pdf" "rotation spectroscopy" 1724110269.61619 0
+["pdflatex"] 1729616614.02715 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rotation Spectroscopy/Latex/rotation spectroscopy.tex" "rotation spectroscopy.pdf" "rotation spectroscopy" 1729616624.39727 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1722215226 279613 fe62a258ff6d99cc2243c3a2d16aa767 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1718642578 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1718642580 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -309,12 +309,12 @@
   "Figures/Task 6/Cl37_fit.pgf" 1724103763 27205 bf130c115e5cd075686c1f1e4a8f59b9 ""
   "Figures/Task 6/intensity_p_branch.pgf" 1724092994 83697 6b7c7c4f4e050bd7814a5af16c8d8de5 ""
   "Figures/Task 6/original_interpolated_data_p_branch.pgf" 1724092994 85016 5dad6c824a9677eca1d185e91ab0a845 ""
-  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rotation Spectroscopy/Latex/rotation spectroscopy.tex" 1724110258 42216 df50dbb862f470d2ec8184fa17f13664 ""
-  "rotation spectroscopy.aux" 1724110268 18681 d5f13bbdf7c569534a23895e3b371f35 "pdflatex"
-  "rotation spectroscopy.bbl" 1724109439 1008 cb4c091de242e9e9e0fa1617a6f8d271 "bibtex rotation spectroscopy"
-  "rotation spectroscopy.out" 1724110268 3202 59ac233ae024ef8492f8ef391936fe12 "pdflatex"
-  "rotation spectroscopy.tex" 1724110258 42216 df50dbb862f470d2ec8184fa17f13664 ""
-  "rotation spectroscopy.toc" 1724110268 2003 edf9a880800eb5e2d4f80a848f0b72d5 "pdflatex"
+  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Rotation Spectroscopy/Latex/rotation spectroscopy.tex" 1729616601 42252 72c283e949aa851d9d97ea2848f1f771 ""
+  "rotation spectroscopy.aux" 1729616623 18681 a5a7c81d530def42e198093332afd7f4 "pdflatex"
+  "rotation spectroscopy.bbl" 1729616613 1008 cb4c091de242e9e9e0fa1617a6f8d271 "bibtex rotation spectroscopy"
+  "rotation spectroscopy.out" 1729616623 3202 d5165509cf98ec07493904565e16355d "pdflatex"
+  "rotation spectroscopy.tex" 1729616601 42252 72c283e949aa851d9d97ea2848f1f771 ""
+  "rotation spectroscopy.toc" 1729616623 2003 6221d6eedc055f70220d03ec9449d97f "pdflatex"
   (generated)
   "rotation spectroscopy.aux"
   "rotation spectroscopy.log"

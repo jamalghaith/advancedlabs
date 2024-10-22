@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex gamma spectroscopy"] 1723224853.05236 "gamma spectroscopy.aux" "gamma spectroscopy.bbl" "gamma spectroscopy" 1723224860.16062 0
+["bibtex gamma spectroscopy"] 1723224853.05236 "gamma spectroscopy.aux" "gamma spectroscopy.bbl" "gamma spectroscopy" 1724302322.77697 0
   "./gammaspectroscopy.bib" 1722285119 851 eeebcb6c454b16547c7d15e1dcc895d8 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/bibtex/bst/urlbst/plainurl.bst" 1675594511 33495 46cfb45e24a877059f9f7e142c7fc61c ""
-  "gamma spectroscopy.aux" 1723224859 15962 bf19ad7eb5546531684e2759cb8906f6 "pdflatex"
+  "gamma spectroscopy.aux" 1724302321 15962 bf19ad7eb5546531684e2759cb8906f6 "pdflatex"
   (generated)
   "gamma spectroscopy.bbl"
   "gamma spectroscopy.blg"
   (rewritten before read)
-["pdflatex"] 1723224853.5583 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Gamma Spectroscopy/Latex/gamma spectroscopy.tex" "gamma spectroscopy.pdf" "gamma spectroscopy" 1723224860.16141 0
+["pdflatex"] 1724302313.5786 "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Gamma Spectroscopy/Latex/gamma spectroscopy.tex" "gamma spectroscopy.pdf" "gamma spectroscopy" 1724302322.77816 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1722215226 279613 fe62a258ff6d99cc2243c3a2d16aa767 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1718642567 24264499 ea39e99011a57b36e9b63f595cf6628d ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -263,12 +263,12 @@
   "Figures/Task 4/Soil.pgf" 1723223737 328062 b3aa6d70b246322a7363859417d01bde ""
   "Figures/Task 5/V.pgf" 1723223737 285486 9fccdc14e9a2afa8ac822f0422c988ee ""
   "Figures/Task 5/W.pgf" 1723223737 300183 8c1d529c1a8a5c7fdab5b1233b935101 ""
-  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Gamma Spectroscopy/Latex/gamma spectroscopy.tex" 1723224845 38999 7482516c5df025f276dd82a0062822c4 ""
-  "gamma spectroscopy.aux" 1723224859 15962 bf19ad7eb5546531684e2759cb8906f6 "pdflatex"
+  "c:/Users/Lenovo/Desktop/Code/Advanced Labs/Gamma Spectroscopy/Latex/gamma spectroscopy.tex" 1724302311 38983 6613dd6dab6685fafaf6bf667d9370cb ""
+  "gamma spectroscopy.aux" 1724302321 15962 bf19ad7eb5546531684e2759cb8906f6 "pdflatex"
   "gamma spectroscopy.bbl" 1723224853 665 947a1f0b7194fa623284fa6e9a4d2db0 "bibtex gamma spectroscopy"
-  "gamma spectroscopy.out" 1723224859 4864 626b1d89aa4b14371f74a5dbaf42ee91 "pdflatex"
-  "gamma spectroscopy.tex" 1723224845 38999 7482516c5df025f276dd82a0062822c4 ""
-  "gamma spectroscopy.toc" 1723224859 2772 7726387e2980d91e92b72929a47f52ab "pdflatex"
+  "gamma spectroscopy.out" 1724302321 4864 626b1d89aa4b14371f74a5dbaf42ee91 "pdflatex"
+  "gamma spectroscopy.tex" 1724302311 38983 6613dd6dab6685fafaf6bf667d9370cb ""
+  "gamma spectroscopy.toc" 1724302321 2772 7726387e2980d91e92b72929a47f52ab "pdflatex"
   (generated)
   "gamma spectroscopy.aux"
   "gamma spectroscopy.log"

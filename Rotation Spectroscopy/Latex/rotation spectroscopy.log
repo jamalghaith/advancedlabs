@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  20 AUG 2024 01:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.17)  22 OCT 2024 19:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -959,24 +959,24 @@ Overfull \hbox (2.70338pt too wide) in paragraph at lines 610--611
 [14] (Figures/Task 5/Quadratic_fit_Cl35.pgf) (Figures/Task 5/Quadratic_fit_Cl37.pgf)
 
 [15] (Figures/Task 6/original_interpolated_data_p_branch.pgf)
-Overfull \hbox (4.73135pt too wide) in paragraph at lines 779--781
+Overfull \hbox (4.73135pt too wide) in paragraph at lines 766--768
  [][] 
  []
 
 (Figures/Task 6/intensity_p_branch.pgf)
-Overfull \hbox (3.94453pt too wide) in paragraph at lines 785--787
+Overfull \hbox (3.94453pt too wide) in paragraph at lines 772--774
  [][] 
  []
 
 
 
 [16] (Figures/Task 6/Cl35_fit.pgf)
-Overfull \hbox (5.45421pt too wide) in paragraph at lines 804--805
+Overfull \hbox (5.45421pt too wide) in paragraph at lines 791--792
  [][] 
  []
 
 (Figures/Task 6/Cl37_fit.pgf)
-Overfull \hbox (1.91602pt too wide) in paragraph at lines 811--812
+Overfull \hbox (1.91602pt too wide) in paragraph at lines 798--799
  [][] 
  []
 
@@ -1005,20 +1005,20 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.48pt have occurred.
 
 Package rerunfilecheck Info: File `"rotation spectroscopy".out' has not changed.
-(rerunfilecheck)             Checksum: 59AC233AE024EF8492F8EF391936FE12;3202.
+(rerunfilecheck)             Checksum: D5165509CF98EC07493904565E16355D;3202.
  ) 
 Here is how much of TeX's memory you used:
- 39055 strings out of 473920
- 939247 string characters out of 5726502
- 2569596 words of memory out of 5000000
- 61101 multiletter control sequences out of 15000+600000
+ 39056 strings out of 473920
+ 939291 string characters out of 5726502
+ 2566597 words of memory out of 5000000
+ 61103 multiletter control sequences out of 15000+600000
  633530 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,107p,920b,991s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,14n,107p,920b,991s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "rotation spectroscopy.pdf" (23 pages, 2626928 bytes).
+Output written on "rotation spectroscopy.pdf" (23 pages, 2626205 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
+ 476 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
  253 words of extra memory for PDF output out of 10000 (max. 10000000)
 

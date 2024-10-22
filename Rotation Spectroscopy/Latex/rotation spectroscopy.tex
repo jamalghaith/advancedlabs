@@ -71,8 +71,8 @@
 	\vspace{2cm}
 	{\huge\bfseries Rotation-Vibration Spectra of Molecules\par}
 	\vspace{2cm}
-	{\Large Jamal Ghaith 3792970\par}
-    {\Large Anas Roumieh 3766647\par}
+	{\Large Jamal Ghaith\par}
+    {\Large Anas Roumieh\par}
 	\vfill
 
     {\Large Conducted on: 09.07.2024 \par}
@@ -626,52 +626,55 @@ This task analyzes the rotation-vibration spectrum of HCl. The data in this task
 
 \begin{figure}[h!]
 	\centering
-	\scalebox{0.50}{\input{Figures/Task 5/spectrum.pgf}}
+	\input{Figures/Task 5/spectrum.pgf}
 	\caption{HCl spectrum}
 	\label{fig:HCl}
 \end{figure}
 
 We can clearly see the R- and P-branches in the spectrum. The R-branch is the one with the higher wavenumbers, while the P-branch is the one with the lower wavenumbers. The wavenumbers of the R- and P-branches were determined. The results are shown in Tables \ref{table:wavenumbersP} \& \ref{table:wavenumbersR}. The gap between the two branches is due to $\Delta J = -1$ in the P-branch. The symbol $P(J)$ means an initial state with $J$ with $\Delta J = -1$ as the transition happens. Hence, we see that the P-branch must start at $J = 1$. 
 
-\begin{table}[H]
+\begin{table}[h!]
     \centering
-    \[
-    \begin{array}{|c|c|c|c|}
-    \hline \text{Minimum} & \text{Index } i & \bar{\nu}\left({ }^{35} \mathrm{Cl}\right)\left[\mathrm{cm}^{-1}\right] & \bar{\nu}\left({ }^{37} \mathrm{Cl}\right)\left[\mathrm{cm}^{-1}\right] \\
-    \hline \mathrm{P}(8) & -8 & 2705.75 & 2703.875 \\
-    \hline \mathrm{P}(7) & -7 & 2730.5 & 2728.625 \\
-    \hline \mathrm{P}(6) & -6 & 2754.75 & 2752.875 \\
-    \hline \mathrm{P}(5) & -5 & 2778.5 & 2776.5 \\
-    \hline \mathrm{P}(4) & -4 & 2801.75 & 2799.75 \\
-    \hline \mathrm{P}(3) & -3 & 2824.375 & 2822.375 \\
-    \hline \mathrm{P}(2) & -2 & 2846.375 & 2844.375 \\
-    \hline \mathrm{P}(1) & -1 & 2867.875 & 2865.875 \\
-    \hline
-    \end{array}
-    \]
-    \caption{P-branch wavenumbers}
-    \label{table:wavenumbersP}
+    \begin{minipage}{0.47\textwidth}
+        \centering
+		\resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|}
+        \hline \text{Minimum} & \text{Index } $i$ & $\bar{\nu}\left({ }^{35} \mathrm{Cl}\right)$ [cm$^{-1}$] & $\bar{\nu}\left({ }^{37} \mathrm{Cl}\right)$ [cm$^{-1}$] \\
+        \hline \text{P(8)} & -8 & 2705.75 & 2703.875 \\
+        \hline \text{P(7)} & -7 & 2730.5 & 2728.625 \\
+        \hline \text{P(6)} & -6 & 2754.75 & 2752.875 \\
+        \hline \text{P(5)} & -5 & 2778.5 & 2776.5 \\
+        \hline \text{P(4)} & -4 & 2801.75 & 2799.75 \\
+        \hline \text{P(3)} & -3 & 2824.375 & 2822.375 \\
+        \hline \text{P(2)} & -2 & 2846.375 & 2844.375 \\
+        \hline \text{P(1)} & -1 & 2867.875 & 2865.875 \\
+        \hline
+        \end{tabular}}
+        \caption{P-branch wavenumbers}
+        \label{table:wavenumbersP}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.47\textwidth}
+        \centering
+		\resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|}
+        \hline \text{Minimum} & \text{Index } $i$ & $\bar{\nu}\left({ }^{35} \mathrm{Cl}\right)$ [cm$^{-1}$] & $\bar{\nu}\left({ }^{37} \mathrm{Cl}\right)$ [cm$^{-1}$] \\
+        \hline \text{R(0)} & 1 & 2909.125 & 2907 \\
+        \hline \text{R(1)} & 2 & 2928.75 & 2926.625 \\
+        \hline \text{R(2)} & 3 & 2947.875 & 2945.625 \\
+        \hline \text{R(3)} & 4 & 2966.25 & 2964 \\
+        \hline \text{R(4)} & 5 & 2984 & 2981.75 \\
+        \hline \text{R(5)} & 6 & 3001 & 2998.75 \\
+        \hline \text{R(6)} & 7 & 3017.375 & 3015.125 \\
+        \hline \text{R(7)} & 8 & 3033.125 & 3030.75 \\
+        \hline
+        \end{tabular}}
+        \caption{R-branch wavenumbers}
+        \label{table:wavenumbersR}
+    \end{minipage}
 \end{table}
 
-\begin{table}[H]
-    \centering
-    \[
-    \begin{array}{|c|c|c|c|}
-    \hline \text{Minimum} & \text{Index } i & \bar{\nu}\left({ }^{35} \mathrm{Cl}\right)\left[\mathrm{cm}^{-1}\right] & \bar{\nu}\left({ }^{37} \mathrm{Cl}\right)\left[\mathrm{cm}^{-1}\right] \\
-    \hline \text{R(0)} & 1 & 2909.125 & 2907 \\
-    \hline \text{R(1)} & 2 & 2928.75 & 2926.625 \\
-    \hline \text{R(2)} & 3 & 2947.875 & 2945.625 \\
-    \hline \text{R(3)} & 4 & 2966.25 & 2964 \\
-    \hline \text{R(4)} & 5 & 2984 & 2981.75 \\
-    \hline \text{R(5)} & 6 & 3001 & 2998.75 \\
-    \hline \text{R(6)} & 7 & 3017.375 & 3015.125 \\
-    \hline \text{R(7)} & 8 & 3033.125 & 3030.75 \\
-    \hline
-    \end{array}
-    \]
-    \caption{R-branch wavenumbers}
-    \label{table:wavenumbersR}
-\end{table}
+\pagebreak{}
 
 The data can be used to find the wavenumber of the purely vibrational transition $\nu_s$, the force constant $k$, the rotation constant $B$, the distance of the two atoms in the molecule $r_0$ and the moment of inertia $I$. The results are shown in Table \ref{table:parameters}. The following equations were used:
 
@@ -738,37 +741,21 @@ The resulting parameters are shown in Table \ref{table:parameters_HCl}.
     \label{table:parameters_HCl}
 \end{table}
 
-\pagebreak{}
-
 The spectral splitting is found to be: 
 
-\begin{table}[H]
+\begin{table}[h!]
     \centering
-    \[
-    \begin{array}{|c|c|}
-    \hline \text{Index} & \text{Value} \\
-    \hline -8 & 2.375 \\
-    \hline -7 & 2.25 \\
-    \hline -6 & 2.25 \\
-    \hline -5 & 2.25 \\
-    \hline -4 & 2.25 \\
-    \hline -3 & 2.25 \\
-    \hline -2 & 2.125 \\
-    \hline -1 & 2.125 \\
-    \hline 1 & 2.0 \\
-    \hline 2 & 2.0 \\
-    \hline 3 & 2.0 \\
-    \hline 4 & 2.0 \\
-    \hline 5 & 2.0 \\
-    \hline 6 & 1.875 \\
-    \hline 7 & 1.875 \\
-    \hline 8 & 1.875 \\
+	\resizebox{\textwidth}{!}{
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline \text{Index} & -8 & -7 & -6 & -5 & -4 & -3 & -2 & -1 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+    \hline \text{Value} & 2.375 & 2.25 & 2.25 & 2.25 & 2.25 & 2.25 & 2.125 & 2.125 & 2.0 & 2.0 & 2.0 & 2.0 & 2.0 & 1.875 & 1.875 & 1.875 \\
     \hline
-    \end{array}
-    \]
+    \end{tabular}}
     \caption{Values of the splitting between the two isotopes}
     \label{table:splitting_values}
 \end{table}
+
+\pagebreak{}
 
 To find the ratio between the two isotopes, we had to adjust the spectrum to eliminate other sources of absorption. The minima were masked and the remaining data was interpolated using the cubic spline method. The interpolated data was then renormalized using this cubic spline to obtain the intensity. This process is shown in Fig. \ref{fig:Interpolation}.
 

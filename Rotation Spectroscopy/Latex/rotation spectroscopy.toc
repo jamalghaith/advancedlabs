@@ -18,9 +18,9 @@
 \contentsline {subsection}{\numberline {2.5}Task 5}{14}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Task 6}{17}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Conclusion}{18}{section.3}%
-\contentsline {section}{Appendices}{19}{section*.27}%
+\contentsline {section}{Appendices}{19}{section*.26}%
 \contentsline {section}{\numberline {A}Task 1}{19}{appendix.1.A}%
 \contentsline {subsection}{\numberline {A.1}Plots}{19}{subsection.1.A.1}%
 \contentsline {subsection}{\numberline {A.2}Tables}{19}{subsection.1.A.2}%
 \contentsline {section}{\numberline {B}Task 2}{20}{appendix.1.B}%
-\contentsline {section}{Bibliography}{21}{section*.32}%
+\contentsline {section}{Bibliography}{21}{section*.31}%
